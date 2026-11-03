@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DataLab | Proyecto Integrador</title>
+<style>
+:root{--navy:#142B4A;--teal:#167D9A;--pale:#E7F3F6;--bg:#F3F5F8;--green:#23866D;--amber:#D99A35;--ink:#243447;--muted:#64748b;--line:#dce3ea}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Segoe UI",Arial,sans-serif}
+header{background:linear-gradient(125deg,var(--navy),#1b4965);color:white;padding:42px max(6vw,24px)}header small{color:#b9dce5;letter-spacing:.13em;text-transform:uppercase;font-weight:bold}header h1{font-size:clamp(2rem,4vw,3.2rem);line-height:1.1;margin:12px 0}header p{max-width:850px;color:#e4eef4}
+main{max-width:1150px;margin:auto;padding:26px 20px 55px}.summary,.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px}.metric,.panel,.week{background:white;border:1px solid var(--line);border-radius:14px;box-shadow:0 8px 24px #142b4a0d}.metric{padding:17px}.metric strong{display:block;color:var(--navy);font-size:1.35rem}.metric span{color:var(--muted);font-size:.9rem}
+nav{display:flex;flex-wrap:wrap;gap:8px;margin:27px 0 18px}button{border:1px solid var(--line);background:white;color:var(--navy);padding:10px 15px;border-radius:9px;font-weight:650;cursor:pointer}button.active,button:hover{background:var(--navy);color:white}
+.panel{padding:24px;margin:17px 0}h2,h3{color:var(--navy)}h2{font-size:1.5rem;margin:0 0 12px}h3{margin:16px 0 7px}.tab{display:none}.tab.active{display:block}.note{border-left:4px solid var(--teal);background:var(--pale);padding:13px 16px;border-radius:8px;margin:15px 0}.warn{border-color:var(--amber);background:#fff7e8}.ok{border-color:var(--green);background:#edf7f3}
+.week{padding:18px;box-shadow:none}.tag{font-size:.77rem;color:var(--teal);font-weight:bold;text-transform:uppercase;letter-spacing:.06em}.version{display:inline-block;background:var(--pale);color:var(--navy);padding:3px 9px;border-radius:20px;font-size:.82rem;font-weight:bold}
+.steps{list-style:none;padding:0;counter-reset:n}.steps li{counter-increment:n;position:relative;padding:2px 0 10px 40px}.steps li:before{content:counter(n);position:absolute;left:0;top:0;background:var(--teal);color:white;width:27px;height:27px;border-radius:50%;display:grid;place-items:center;font-weight:bold}
+code{background:#edf1f5;color:#17324f;padding:2px 5px;border-radius:4px}pre{background:var(--navy);color:#eaf3f7;padding:15px;border-radius:9px;overflow:auto}.tablewrap{overflow:auto}table{border-collapse:collapse;width:100%;min-width:570px}th{background:var(--navy);color:white;text-align:left}td,th{padding:10px 12px;border-bottom:1px solid var(--line)}tbody tr:nth-child(even){background:#f7f9fb}footer{text-align:center;color:var(--muted);padding:24px;font-size:.9rem}
+</style></head><body>
+<header><small>Lógica Computacional · Ingeniería de Datos e Inteligencia Artificial</small><h1>DataLab</h1><p>Proyecto integrador progresivo · Semanas 10 a 14. Un solo producto que evoluciona a partir de la base de programación construida durante las semanas 1 a 9.</p></header>
+<main>
+<section class="panel" style="margin-top:18px">
+  <h2>Repositorio base oficial del proyecto</h2>
+  <p>Este repositorio es la <strong>línea base de DataLab</strong> y el punto de partida definido por el docente para construir progresivamente el código fuente durante el proyecto.</p>
+  <p><a href="https://github.com/jarb-santoto/proyecto_red_iot" target="_blank" rel="noopener noreferrer">https://github.com/jarb-santoto/proyecto_red_iot</a></p>
+  <div class="note"><strong>Importante:</strong> el repositorio se encuentra inicialmente vacío. El código y la estructura se construirán progresivamente junto con el docente. Los equipos crearán sus propios repositorios a partir de esta línea base cuando la plantilla esté preparada, utilizando <strong>Use this template</strong>.</div>
+</section>
+<div class="summary"><div class="metric"><strong>5 entregas</strong><span>Una evolución continua</span></div><div class="metric"><strong>DataLab 1.0 → 1.4</strong><span>Versionamiento del producto</span></div><div class="metric"><strong>3 roles permanentes</strong><span>Una responsabilidad técnica por integrante</span></div><div class="metric"><strong>40 % / 60 %</strong><span>Código funcional / sustentación</span></div></div>
+<nav><button class="active" data-tab="presentacion">Presentación</button><button data-tab="equipo">Roles y GitHub</button><button data-tab="entregas">Entregas PI1–PI5</button><button data-tab="arquitectura">Arquitectura</button><button data-tab="criterios">Evaluación</button></nav>
+<div id="presentacion" class="tab active">
+<section class="panel"><h2>1. Propósito del proyecto</h2><p>DataLab integra y aplica los conceptos de Lógica Computacional mediante el desarrollo incremental de una aplicación para procesar registros. Cada entrega incorpora los nuevos temas de la semana y conserva las funcionalidades implementadas anteriormente.</p><div class="note"><b>Principio fundamental:</b> no se empieza desde cero en la semana 10. El punto de partida es una base sólida de código que recoge los conocimientos y funcionalidades estudiados hasta la semana 9. Las semanas 10 a 14 amplían y mejoran esa misma solución.</div><h3>¿Qué se espera construir?</h3><p>Una aplicación que permita cargar y procesar registros, normalizar y validar sus campos, controlar datos incorrectos, clasificar valores y generar resultados resumidos. El trabajo se realizará paso a paso, siguiendo las versiones definidas para cada entrega.</p><h3>Enfoque de aprendizaje</h3><ul><li>Reutilizar los conceptos y el código que los estudiantes ya conocen.</li><li>Incorporar una funcionalidad o mejora central en cada entrega.</li><li>Comprender la lógica antes de ampliar la solución.</li><li>Evitar duplicar funciones y mantener el código organizado.</li><li>Garantizar que cada integrante pueda explicar individualmente el funcionamiento del proyecto.</li></ul></section>
+<section class="panel"><h2>2. Punto de partida: semanas 1 a 9</h2><p>El proyecto inicia con una base funcional preparada a partir de los contenidos estudiados hasta la semana 9. Esta base no debe introducir anticipadamente los temas que serán objeto de las entregas posteriores.</p><p>Se tendrán en cuenta los conocimientos ya trabajados: variables y tipos de datos, operadores, condicionales, ciclos, contadores, acumuladores, banderas, funciones y estructuras de datos abordadas durante el curso.</p><div class="note warn"><b>Importante:</b> la estructura y el código inicial se definirán respetando exactamente el alcance de las semanas 1–9. Las nuevas herramientas y responsabilidades se incorporarán cuando correspondan a las semanas 10–14.</div></section></div>
+
+<div id="equipo" class="tab">
+<section class="panel"><h2>3. Organización del equipo y roles permanentes</h2>
+<p>Los equipos estarán conformados por <strong>tres estudiantes</strong>. Durante las semanas 10 a 14 cada integrante conserva una responsabilidad técnica permanente. Los roles no rotan; las actividades y los archivos asignados evolucionan en cada entrega.</p>
+<div class="grid">
+<article class="week"><div class="tag">Integrante A · Calidad de datos</div><h3>Normalización, estandarización y validación</h3><p>Responsable de la calidad de los registros, independientemente de su fuente.</p><ul><li>Normalizar identificadores, tipos, unidades y valores.</li><li>Validar campos obligatorios, formatos y unidades.</li><li>Identificar registros válidos e inválidos y sus motivos.</li><li>Crear pruebas de calidad y casos límite.</li></ul><p><b>Archivos principales:</b> <code>src/validation/normalizacion.py</code>, <code>validaciones.py</code>.</p></article>
+<article class="week"><div class="tag">Integrante B · Robustez</div><h3>Manejo de errores y procesamiento</h3><p>Responsable de la continuidad y confiabilidad del procesamiento.</p><ul><li>Definir y utilizar excepciones específicas.</li><li>Controlar errores de conversión, lectura y estructura.</li><li>Registrar incidencias y evitar que un registro detenga el lote.</li><li>Integrar validación, clasificación y resumen.</li></ul><p><b>Archivos principales:</b> <code>src/exceptions/errores.py</code>, <code>src/processing/procesamiento.py</code>.</p></article>
+<article class="week"><div class="tag">Integrante C · Fuentes</div><h3>Carga e integración de datos</h3><p>Responsable de recibir datos desde memoria y archivos externos.</p><ul><li>Preparar escenarios de entrada en memoria.</li><li>Implementar lectores CSV, JSON y Excel.</li><li>Unificar la estructura de salida de los lectores.</li><li>Probar archivos válidos, vacíos y con estructuras inesperadas.</li></ul><p><b>Archivos principales:</b> <code>src/data/fuentes_memoria.py</code>, <code>lectores.py</code>, <code>carga_datos.py</code>.</p></article>
+</div>
+<div class="note ok"><b>Regla de contribución:</b> las tres ramas son complementarias. La integración de A + B + C debe completar el 100 % de la funcionalidad solicitada en cada entrega. La carga se distribuye de forma equilibrada en implementación, pruebas y documentación.</div>
+</section>
+<section class="panel"><h2>4. Creación del repositorio en GitHub</h2><p>El docente compartirá el repositorio plantilla. Cada equipo creará un repositorio independiente mediante <b>Use this template → Create a new repository</b>.</p><ol class="steps"><li>Un integrante crea el repositorio del equipo desde la plantilla.</li><li>Desde <b>Settings → Collaborators</b>, agrega a los otros dos integrantes.</li><li>Los tres clonan el repositorio del equipo y verifican permisos.</li><li>Se conserva <code>main</code> como rama estable; no se trabaja directamente sobre ella.</li><li>Al comenzar cada entrega se crea una rama de integración semanal y, desde ella, las tres ramas individuales.</li></ol><div class="note warn"><b>No trabajar directamente sobre el repositorio del docente.</b> Cada equipo trabaja en su propio repositorio derivado de la plantilla.</div></section>
+<section class="panel"><h2>5. Estrategia Git: ramas semanales</h2>
+<p>Los roles son permanentes, pero las ramas se crean nuevamente en cada semana. Esto permite que los tres integrantes partan de una misma versión y que cada entrega tenga un conjunto identificable de cambios.</p>
+<pre>main
+ └── semana-10
+      ├── s10-calidad-datos       (Integrante A)
+      ├── s10-robustez            (Integrante B)
+      └── s10-fuentes             (Integrante C)
+
+main
+ └── semana-11
+      ├── s11-calidad-datos
+      ├── s11-robustez
+      └── s11-fuentes
+
+... repetir hasta semana-14</pre>
+<h3>Flujo obligatorio de integración</h3><ol class="steps"><li>Actualizar <code>main</code> y crear la rama de integración <code>semana-XX</code>.</li><li>Cada integrante crea su rama individual desde <code>semana-XX</code>.</li><li>Trabajar únicamente en los archivos asignados al rol; coordinar cualquier cambio compartido.</li><li>Registrar commits pequeños, frecuentes y descriptivos.</li><li>Ejecutar pruebas individuales y abrir Pull Request hacia <code>semana-XX</code>.</li><li>Revisar e integrar los tres Pull Requests; resolver conflictos sin sobrescribir el trabajo de otros.</li><li>Ejecutar pruebas de integración y abrir Pull Request de <code>semana-XX</code> hacia <code>main</code>.</li><li>Verificar que <code>main</code> queda ejecutable y conserva las funcionalidades anteriores.</li></ol>
+<h3>Convención de nombres de ramas</h3>
+<div class="tablewrap"><table><thead><tr><th>Rol</th><th>Nombre de rama</th><th>Ejemplo semana 12</th></tr></thead><tbody><tr><td>A · Calidad</td><td><code>sXX-calidad-datos</code></td><td><code>s12-calidad-datos</code></td></tr><tr><td>B · Robustez</td><td><code>sXX-robustez</code></td><td><code>s12-robustez</code></td></tr><tr><td>C · Fuentes</td><td><code>sXX-fuentes</code></td><td><code>s12-fuentes</code></td></tr></tbody></table></div>
+<h3>Commits esperados por integrante y entrega</h3>
+<div class="tablewrap"><table><thead><tr><th>Momento</th><th>Convención sugerida</th><th>Ejemplo</th></tr></thead><tbody>
+<tr><td>Implementación inicial</td><td><code>feat(rol): descripción</code></td><td><code>feat(calidad): normaliza tipo y unidad</code></td></tr>
+<tr><td>Corrección</td><td><code>fix(rol): descripción</code></td><td><code>fix(robustez): controla error de conversión</code></td></tr>
+<tr><td>Pruebas</td><td><code>test(rol): descripción</code></td><td><code>test(fuentes): agrega casos de JSON vacío</code></td></tr>
+<tr><td>Documentación</td><td><code>docs(rol): descripción</code></td><td><code>docs(calidad): documenta reglas de validación</code></td></tr>
+</tbody></table></div>
+<p><b>Como mínimo, cada integrante debe evidenciar:</b> un commit de implementación, uno de pruebas y, cuando corresponda, uno de corrección o documentación. No se evalúa solo la cantidad de commits: se revisan su contenido, trazabilidad y relación con la tarea asignada.</p>
+</section></div>
+<div id="entregas" class="tab">
+
+<section class="panel"><h2>6. Entregas progresivas del proyecto</h2><p>DataLab es un único producto. Cada versión conserva lo anterior y agrega las funcionalidades de la semana. Los tres roles contribuyen en cada entrega.</p><div class="grid">
+<article class="week"><div class="tag">Semana 10 · PI1</div><h3>Normalización y validación</h3><span class="version">DataLab v1.0</span><p><b>A:</b> normalizar y validar registros. <b>B:</b> integrar estados de procesamiento válido/inválido. <b>C:</b> preparar fuentes y casos de prueba en memoria.</p><p><b>Archivos:</b> <code>normalizacion.py</code>, <code>validaciones.py</code>, <code>procesamiento.py</code>, <code>fuentes_memoria.py</code>.</p><p><b>Aceptación:</b> registros normalizados, válidos e inválidos separados con motivos; clasificación centralizada reutilizada.</p></article>
+<article class="week"><div class="tag">Semana 11 · PI2</div><h3>Manejo de errores</h3><span class="version">DataLab v1.1</span><p><b>A:</b> motivos y mensajes de validación precisos. <b>B:</b> excepciones, reporte de errores y continuidad por registro. <b>C:</b> escenarios de fuentes defectuosas.</p><p><b>Archivos:</b> `validaciones.py`, `errores.py`, `procesamiento.py`, escenarios y pruebas de entrada.</p><p><b>Aceptación:</b> un registro defectuoso no detiene el lote; los errores quedan identificados.</p></article>
+<article class="week"><div class="tag">Semana 12 · PI3</div><h3>Carga de archivos</h3><span class="version">DataLab v1.2</span><p><b>A:</b> calidad de registros provenientes de archivos. <b>B:</b> controlar errores de lectura y conversión. <b>C:</b> lectores CSV, JSON y Excel y salida homogénea.</p><p><b>Archivos:</b> `normalizacion.py`, `validaciones.py`, `errores.py`, `lectores.py`, `carga_datos.py`.</p><p><b>Aceptación:</b> los tres datasets se cargan y procesan con el contrato común.</p></article>
+<article class="week"><div class="tag">Semana 13 · PI4</div><h3>Refactorización</h3><span class="version">DataLab v1.3</span><p><b>A:</b> eliminar duplicidad en reglas de calidad. <b>B:</b> refactorizar procesamiento y trazabilidad. <b>C:</b> mejorar lectores y carga uniforme.</p><p><b>Archivos:</b> módulos de `validation/`, `exceptions/`, `processing/` y `data/` según rol.</p><p><b>Aceptación:</b> se conservan los resultados de v1.2 y mejora la mantenibilidad.</p></article>
+<article class="week"><div class="tag">Semana 14 · PI5</div><h3>Pruebas y sustentación</h3><span class="version">DataLab v1.4</span><p><b>A:</b> pruebas de calidad. <b>B:</b> pruebas de errores e integración. <b>C:</b> pruebas de lectores y fuentes.</p><p><b>Archivos:</b> `tests/test_calidad.py`, `test_errores.py`, `test_lectores.py`, `test_integracion.py` y documentación.</p><p><b>Aceptación:</b> pruebas completas, versión estable, evidencia Git y sustentación individual.</p></article></div>
+<div class="note"><b>Distribución equilibrada:</b> la carga de referencia por semana será aproximadamente A 33 %, B 33 % y C 34 %, ajustada según la complejidad de las tareas. La suma de los tres aportes debe completar el 100 % de la funcionalidad.</div>
+</section>
+<section class="panel"><h2>7. Flujo funcional</h2><pre>Fuente de datos (memoria desde el día uno; archivos desde semana 12)
+   ↓
+Normalización y estandarización (Rol A)
+   ↓
+Validación de calidad (Rol A)
+   ↓
+Manejo de errores y coordinación (Rol B)
+   ↓
+Clasificación centralizada y resumen
+   ↓
+Servicio de aplicación
+   ↓
+Interfaz Streamlit (provista por el docente)</pre>
+<p>Los lectores entregan registros con una estructura común. No normalizan, validan ni clasifican: esas responsabilidades pertenecen a los módulos correspondientes.</p></section>
+</div>
+
+<div id="arquitectura" class="tab">
+<section class="panel"><h2>8. Arquitectura modular del proyecto</h2><p>La estructura completa se entrega desde el inicio. Los módulos asignados a los estudiantes contienen contratos, firmas y puntos de implementación identificados por rol y semana. La interfaz gráfica y el servicio que la conecta con la lógica son provistos por el docente.</p>
+<pre>DataLab/
+├── src/
+│   ├── main.py
+│   ├── data/
+│   │   ├── sensores.py
+│   │   ├── fuentes_memoria.py       # Rol C
+│   │   ├── lectores.py              # Rol C · semana 12
+│   │   └── carga_datos.py           # Rol C · semana 12
+│   ├── validation/
+│   │   ├── normalizacion.py         # Rol A
+│   │   └── validaciones.py          # Rol A
+│   ├── exceptions/
+│   │   └── errores.py               # Rol B
+│   ├── processing/
+│   │   ├── clasificacion.py         # Regla centralizada
+│   │   ├── procesamiento.py         # Rol B
+│   │   └── resumen.py
+│   ├── services/
+│   │   └── datalab_service.py       # Docente
+│   └── interface/
+│       ├── consola.py
+│       └── streamlit_app.py         # Docente · 100 %
+├── data/
+│   ├── raw/                         # CSV, JSON y Excel
+│   ├── processed/
+│   └── output/
+├── tests/
+├── docs/
+├── README.md
+└── requirements.txt</pre>
+<h3>Responsabilidades y límites</h3><div class="tablewrap"><table><thead><tr><th>Componente</th><th>Responsable</th><th>Responsabilidad</th></tr></thead><tbody>
+<tr><td><code>validation/</code></td><td>Integrante A</td><td>Normalización, estandarización, validaciones y motivos de rechazo.</td></tr>
+<tr><td><code>exceptions/</code> y procesamiento</td><td>Integrante B</td><td>Excepciones, reporte, continuidad y orquestación del procesamiento.</td></tr>
+<tr><td><code>data/</code></td><td>Integrante C</td><td>Fuentes en memoria, lectores CSV/JSON/Excel y carga uniforme.</td></tr>
+<tr><td><code>clasificacion.py</code></td><td>Docente / base común</td><td>Función centralizada <code>clasificar_valor(valor, tipo)</code>; no duplicar reglas.</td></tr>
+<tr><td><code>services/</code> e <code>interface/</code></td><td>Docente</td><td>Servicio de aplicación e interfaz Streamlit completa y funcional desde el día uno.</td></tr>
+<tr><td><code>tests/</code></td><td>Los tres roles</td><td>Pruebas unitarias e integración correspondientes a cada responsabilidad.</td></tr>
+</tbody></table></div>
+<div class="note ok"><b>Interfaz gráfica:</b> Streamlit se entrega al 100 % desde la primera versión, con demostración en memoria, tablas, indicadores, gráficos y selector de archivos. La lectura real de archivos se activa al integrar los módulos de la semana 12. Los estudiantes no desarrollan ni modifican la capa gráfica.</div>
+</section>
+<section class="panel"><h2>9. Contratos de integración</h2><p>Todos los módulos intercambian registros con las claves <code>id</code>, <code>tipo</code>, <code>valor</code> y <code>unidad</code>. Los lectores entregan la estructura común; el rol A normaliza y valida; el rol B coordina el procesamiento y reporta errores.</p><pre>Resultado común:
+{
+  "registros_validos": [],
+  "registros_invalidos": [],
+  "errores": [],
+  "resumen": {}
+}</pre><ul><li>Los lectores no clasifican ni duplican validaciones.</li><li>La normalización devuelve una copia y no altera la entrada original.</li><li>La validación devuelve estado y lista de motivos.</li><li>Un error individual no debe detener el lote completo.</li><li>La interfaz consume el servicio de aplicación; no contiene reglas de negocio.</li></ul></section>
+</div>
+
+<div id="criterios" class="tab">
+<section class="panel"><h2>10. Evaluación del proyecto: código y sustentación</h2>
+<div class="grid">
+<article class="week"><div class="tag">40 % de la nota</div><h3>Código entregado y funcionando</h3><p>Se evalúa el producto integrado y ejecutable, cumplimiento de funcionalidades, pruebas, calidad del código, integración de las tres ramas, commits y trazabilidad del trabajo.</p></article>
+<article class="week"><div class="tag">60 % de la nota</div><h3>Sustentación</h3><p>Se evalúa la comprensión individual y grupal. Cada estudiante debe explicar su rol, los módulos desarrollados, decisiones técnicas, pruebas, integración y el flujo completo de DataLab.</p></article>
+</div>
+<div class="note warn"><b>Condición explícita:</b> entregar código que funciona equivale al 40 % de la nota. El 60 % restante corresponde a la sustentación. Un producto funcional no sustituye la demostración de comprensión individual.</div>
+</section>
+<section class="panel"><h2>11. Criterios de aceptación del código (40 %)</h2><ul><li><b>Funcionalidad integrada:</b> los aportes de A, B y C completan el 100 % de la funcionalidad semanal.</li><li><b>Continuidad:</b> se conservan las funcionalidades de las versiones anteriores.</li><li><b>Pruebas:</b> existen casos correctos, incorrectos y límite según el alcance semanal.</li><li><b>Calidad:</b> módulos con responsabilidades claras, sin duplicación de lógica.</li><li><b>Git:</b> ramas semanales, commits descriptivos, Pull Requests y revisión.</li><li><b>Ejecutabilidad:</b> el proyecto se instala y ejecuta siguiendo el README.</li></ul></section>
+<section class="panel"><h2>12. Criterios de sustentación (60 %)</h2><ul><li><b>Comprensión individual:</b> explica el código que desarrolló y puede justificar sus decisiones.</li><li><b>Comprensión global:</b> explica cómo se conectan los tres roles y cómo fluye la información.</li><li><b>Demostración:</b> ejecuta escenarios de funcionamiento y explica resultados.</li><li><b>Pruebas y errores:</b> interpreta casos válidos, inválidos y fallos controlados.</li><li><b>Git y colaboración:</b> explica sus ramas, commits, Pull Requests y contribución.</li><li><b>Capacidad de análisis:</b> responde preguntas y propone cómo resolver variaciones del problema.</li></ul><div class="note ok">La sustentación puede incluir preguntas individuales sobre módulos desarrollados por otros integrantes para comprobar que cada estudiante comprende el producto completo, sin desconocer su responsabilidad específica.</div></section>
+<section class="panel"><h2>13. Evidencias obligatorias</h2><ul><li>Repositorio del equipo con historial completo.</li><li>Rama semanal de integración y tres ramas individuales.</li><li>Commits de implementación, pruebas y correcciones.</li><li>Pull Requests revisados y fusionados.</li><li>Versión integrada ejecutable.</li><li>Pruebas y evidencias de resultados.</li><li>Explicación individual del aporte y del funcionamiento global.</li></ul></section>
+</div>
+</main><footer>DataLab · Proyecto Integrador de Lógica Computacional · Ingeniería de Datos e Inteligencia Artificial</footer>
+<script>
+const buttons=[...document.querySelectorAll('nav button')],tabs=[...document.querySelectorAll('.tab')];
+buttons.forEach(b=>b.addEventListener('click',()=>{buttons.forEach(x=>x.classList.toggle('active',x===b));tabs.forEach(t=>t.classList.toggle('active',t.id===b.dataset.tab));}));
+</script></body></html>

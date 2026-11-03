@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "P001",
+    "tipo": "presion",
+    "valor": "",
+    "unidad": "hPa"
+  },
+  {
+    "id": "P002",
+    "tipo": "presion",
+    "valor": "",
+    "unidad": "hPa"
+  },
+  {
+    "id": "P003",
+    "tipo": "presion",
+    "valor": "",
+    "unidad": "hPa"
+  },
+  {
+    "id": "P004",
+    "tipo": "presion",
+    "valor": "",
+    "unidad": "hPa"
+  },
+  {
+    "id": "P005",
+    "tipo": "presion",
+    "valor": "",
+    "unidad": "hPa"
+  },
+  {
+    "id": "P006",
+    "tipo": "presion",
+    "valor": "",
+    "unidad": "hPa"
+  },
+  {
+    "id": "P007",
+    "tipo": "presion",
+    "valor": "",
+    "unidad": "hPa"
+  },
+  {
+    "id": "P008",
+    "tipo": "presion",
+    "valor": "",
+    "unidad": "hPa"
+  },
+  {
+    "id": "P009",
+    "tipo": "presion",
+    "valor": 295.5,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P010",
+    "tipo": "presion",
+    "valor": 295.5,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P011",
+    "tipo": "presion",
+    "valor": 295.5,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P012",
+    "tipo": "presion",
+    "valor": 295.5,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P013",
+    "tipo": "presion",
+    "valor": 295.5,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P014",
+    "tipo": "presion",
+    "valor": 295.5,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P015",
+    "tipo": "presion",
+    "valor": 295.5,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P016",
+    "tipo": "presion",
+    "valor": 295.5,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P017",
+    "tipo": "presion",
+    "valor": "N/D",
+    "unidad": "hPa"
+  },
+  {
+    "id": "P018",
+    "tipo": "presion",
+    "valor": "ERROR",
+    "unidad": "hPa"
+  },
+  {
+    "id": "P019",
+    "tipo": "presion",
+    "valor": "sin_dato",
+    "unidad": "hPa"
+  },
+  {
+    "id": "P020",
+    "tipo": "presion",
+    "valor": "desconocido",
+    "unidad": "hPa"
+  },
+  {
+    "id": "P021",
+    "tipo": "presion",
+    "valor": "NA",
+    "unidad": "hPa"
+  },
+  {
+    "id": "P022",
+    "tipo": "presion",
+    "valor": "?",
+    "unidad": "hPa"
+  },
+  {
+    "id": "P023",
+    "tipo": "presion",
+    "valor": "pendiente",
+    "unidad": "hPa"
+  },
+  {
+    "id": "P024",
+    "tipo": "presion",
+    "valor": "sin lectura",
+    "unidad": "hPa"
+  },
+  {
+    "id": "P025",
+    "tipo": "presion",
+    "valor": 1009.88,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P026",
+    "tipo": "presion",
+    "valor": 991.94,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P027",
+    "tipo": "presion",
+    "valor": 985.06,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P028",
+    "tipo": "presion",
+    "valor": 1013.14,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P029",
+    "tipo": "presion",
+    "valor": 1018.24,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P030",
+    "tipo": "presion",
+    "valor": 1016.58,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P031",
+    "tipo": "presion",
+    "valor": 1009.69,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P032",
+    "tipo": "presion",
+    "valor": 1021.93,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P033",
+    "tipo": "presion",
+    "valor": 1030.02,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P034",
+    "tipo": "presion",
+    "valor": 1024.21,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P035",
+    "tipo": "presion",
+    "valor": 990.22,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P036",
+    "tipo": "presion",
+    "valor": 1022.76,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P037",
+    "tipo": "presion",
+    "valor": 985.06,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P038",
+    "tipo": "presion",
+    "valor": 994.88,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P039",
+    "tipo": "presion",
+    "valor": 1018.8,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P040",
+    "tipo": "presion",
+    "valor": 1017.0,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P041",
+    "tipo": "presion",
+    "valor": 986.14,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P042",
+    "tipo": "presion",
+    "valor": 1023.07,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P043",
+    "tipo": "presion",
+    "valor": 1025.53,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P044",
+    "tipo": "presion",
+    "valor": 1026.41,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P045",
+    "tipo": "presion",
+    "valor": 1019.77,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P046",
+    "tipo": "presion",
+    "valor": 1019.83,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P047",
+    "tipo": "presion",
+    "valor": 1006.55,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P048",
+    "tipo": "presion",
+    "valor": 1012.32,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P049",
+    "tipo": "presion",
+    "valor": 1028.98,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P050",
+    "tipo": "presion",
+    "valor": 1034.84,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P051",
+    "tipo": "presion",
+    "valor": 985.24,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P052",
+    "tipo": "presion",
+    "valor": 1031.9,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P053",
+    "tipo": "presion",
+    "valor": 1022.8,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P054",
+    "tipo": "presion",
+    "valor": 1032.03,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P055",
+    "tipo": "presion",
+    "valor": 998.2,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P056",
+    "tipo": "presion",
+    "valor": 1012.62,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P057",
+    "tipo": "presion",
+    "valor": 1011.24,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P058",
+    "tipo": "presion",
+    "valor": 1004.18,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P059",
+    "tipo": "presion",
+    "valor": 1006.34,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P060",
+    "tipo": "presion",
+    "valor": 1012.84,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P061",
+    "tipo": "presion",
+    "valor": 1032.72,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P062",
+    "tipo": "presion",
+    "valor": 995.05,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P063",
+    "tipo": "presion",
+    "valor": 1025.15,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P064",
+    "tipo": "presion",
+    "valor": 1025.82,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P065",
+    "tipo": "presion",
+    "valor": 1026.78,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P066",
+    "tipo": "presion",
+    "valor": 1023.26,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P067",
+    "tipo": "presion",
+    "valor": 1014.6,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P068",
+    "tipo": "presion",
+    "valor": 989.17,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P069",
+    "tipo": "presion",
+    "valor": 993.32,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P070",
+    "tipo": "presion",
+    "valor": 996.82,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P071",
+    "tipo": "presion",
+    "valor": 985.02,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P072",
+    "tipo": "presion",
+    "valor": 993.95,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P073",
+    "tipo": "presion",
+    "valor": 995.85,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P074",
+    "tipo": "presion",
+    "valor": 1003.98,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P075",
+    "tipo": "presion",
+    "valor": 997.91,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P076",
+    "tipo": "presion",
+    "valor": 1029.48,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P077",
+    "tipo": "presion",
+    "valor": 1002.59,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P078",
+    "tipo": "presion",
+    "valor": 1010.92,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P079",
+    "tipo": "presion",
+    "valor": 1020.86,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P080",
+    "tipo": "presion",
+    "valor": 1012.18,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P081",
+    "tipo": "presion",
+    "valor": 1009.03,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P082",
+    "tipo": "presion",
+    "valor": 1024.3,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P083",
+    "tipo": "presion",
+    "valor": 993.0,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P084",
+    "tipo": "presion",
+    "valor": 1002.67,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P085",
+    "tipo": "presion",
+    "valor": 1026.32,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P086",
+    "tipo": "presion",
+    "valor": 1005.57,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P087",
+    "tipo": "presion",
+    "valor": 1000.83,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P088",
+    "tipo": "presion",
+    "valor": 1022.25,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P089",
+    "tipo": "presion",
+    "valor": 995.23,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P090",
+    "tipo": "presion",
+    "valor": 1010.46,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P091",
+    "tipo": "presion",
+    "valor": 1011.02,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P092",
+    "tipo": "presion",
+    "valor": 985.78,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P093",
+    "tipo": "presion",
+    "valor": 992.6,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P094",
+    "tipo": "presion",
+    "valor": 1002.63,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P095",
+    "tipo": "presion",
+    "valor": 985.38,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P096",
+    "tipo": "presion",
+    "valor": 1001.6,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P097",
+    "tipo": "presion",
+    "valor": 1023.67,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P098",
+    "tipo": "presion",
+    "valor": 1024.92,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P099",
+    "tipo": "presion",
+    "valor": 988.91,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P100",
+    "tipo": "presion",
+    "valor": 987.53,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P101",
+    "tipo": "presion",
+    "valor": 1012.12,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P102",
+    "tipo": "presion",
+    "valor": 1029.41,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P103",
+    "tipo": "presion",
+    "valor": 1030.54,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P104",
+    "tipo": "presion",
+    "valor": 994.04,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P105",
+    "tipo": "presion",
+    "valor": 987.11,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P106",
+    "tipo": "presion",
+    "valor": 992.03,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P107",
+    "tipo": "presion",
+    "valor": 1003.16,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P108",
+    "tipo": "presion",
+    "valor": 1020.31,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P109",
+    "tipo": "presion",
+    "valor": 986.95,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P110",
+    "tipo": "presion",
+    "valor": 998.31,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P111",
+    "tipo": "presion",
+    "valor": 1003.69,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P112",
+    "tipo": "presion",
+    "valor": 1020.99,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P113",
+    "tipo": "presion",
+    "valor": 1018.83,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P114",
+    "tipo": "presion",
+    "valor": 1020.98,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P115",
+    "tipo": "presion",
+    "valor": 998.33,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P116",
+    "tipo": "presion",
+    "valor": 1015.07,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P117",
+    "tipo": "presion",
+    "valor": 1010.99,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P118",
+    "tipo": "presion",
+    "valor": 988.58,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P119",
+    "tipo": "presion",
+    "valor": 1028.81,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P120",
+    "tipo": "presion",
+    "valor": 1015.03,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P121",
+    "tipo": "presion",
+    "valor": 986.51,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P122",
+    "tipo": "presion",
+    "valor": 1031.8,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P123",
+    "tipo": "presion",
+    "valor": 992.92,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P124",
+    "tipo": "presion",
+    "valor": 997.65,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P125",
+    "tipo": "presion",
+    "valor": 991.97,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P126",
+    "tipo": "presion",
+    "valor": 1028.12,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P127",
+    "tipo": "presion",
+    "valor": 1011.54,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P128",
+    "tipo": "presion",
+    "valor": 1034.32,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P129",
+    "tipo": "presion",
+    "valor": 987.87,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P130",
+    "tipo": "presion",
+    "valor": 1006.64,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P131",
+    "tipo": "presion",
+    "valor": 996.5,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P132",
+    "tipo": "presion",
+    "valor": 1023.98,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P133",
+    "tipo": "presion",
+    "valor": 1020.38,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P134",
+    "tipo": "presion",
+    "valor": 1003.23,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P135",
+    "tipo": "presion",
+    "valor": 1006.33,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P136",
+    "tipo": "presion",
+    "valor": 1033.89,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P137",
+    "tipo": "presion",
+    "valor": 1032.33,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P138",
+    "tipo": "presion",
+    "valor": 1023.25,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P139",
+    "tipo": "presion",
+    "valor": 1001.33,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P140",
+    "tipo": "presion",
+    "valor": 1014.0,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P141",
+    "tipo": "presion",
+    "valor": 988.51,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P142",
+    "tipo": "presion",
+    "valor": 1001.17,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P143",
+    "tipo": "presion",
+    "valor": 989.56,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P144",
+    "tipo": "presion",
+    "valor": 994.81,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P145",
+    "tipo": "presion",
+    "valor": 999.94,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P146",
+    "tipo": "presion",
+    "valor": 1025.52,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P147",
+    "tipo": "presion",
+    "valor": 1023.29,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P148",
+    "tipo": "presion",
+    "valor": 1005.9,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P149",
+    "tipo": "presion",
+    "valor": 1015.11,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P150",
+    "tipo": "presion",
+    "valor": 1032.04,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P151",
+    "tipo": "presion",
+    "valor": 1018.99,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P152",
+    "tipo": "presion",
+    "valor": 1029.13,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P153",
+    "tipo": "presion",
+    "valor": 1002.4,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P154",
+    "tipo": "presion",
+    "valor": 1029.71,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P155",
+    "tipo": "presion",
+    "valor": 995.26,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P156",
+    "tipo": "presion",
+    "valor": 986.08,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P157",
+    "tipo": "presion",
+    "valor": 992.23,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P158",
+    "tipo": "presion",
+    "valor": 1008.65,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P159",
+    "tipo": "presion",
+    "valor": 1021.21,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P160",
+    "tipo": "presion",
+    "valor": 1000.88,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P161",
+    "tipo": "presion",
+    "valor": 1012.5,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P162",
+    "tipo": "presion",
+    "valor": 1000.99,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P163",
+    "tipo": "presion",
+    "valor": 1010.91,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P164",
+    "tipo": "presion",
+    "valor": 1020.41,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P165",
+    "tipo": "presion",
+    "valor": 1019.9,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P166",
+    "tipo": "presion",
+    "valor": 1017.24,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P167",
+    "tipo": "presion",
+    "valor": 1020.43,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P168",
+    "tipo": "presion",
+    "valor": 1010.37,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P169",
+    "tipo": "presion",
+    "valor": 1008.47,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P170",
+    "tipo": "presion",
+    "valor": 991.38,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P171",
+    "tipo": "presion",
+    "valor": 1012.55,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P172",
+    "tipo": "presion",
+    "valor": 1027.15,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P173",
+    "tipo": "presion",
+    "valor": 1000.49,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P174",
+    "tipo": "presion",
+    "valor": 1002.57,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P175",
+    "tipo": "presion",
+    "valor": 1004.64,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P176",
+    "tipo": "presion",
+    "valor": 1007.0,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P177",
+    "tipo": "presion",
+    "valor": 1000.25,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P178",
+    "tipo": "presion",
+    "valor": 1010.53,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P179",
+    "tipo": "presion",
+    "valor": 1032.87,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P180",
+    "tipo": "presion",
+    "valor": 1026.86,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P181",
+    "tipo": "presion",
+    "valor": 1025.84,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P182",
+    "tipo": "presion",
+    "valor": 1000.1,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P183",
+    "tipo": "presion",
+    "valor": 996.47,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P184",
+    "tipo": "presion",
+    "valor": 1023.86,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P185",
+    "tipo": "presion",
+    "valor": 1005.32,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P186",
+    "tipo": "presion",
+    "valor": 997.47,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P187",
+    "tipo": "presion",
+    "valor": 1026.45,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P188",
+    "tipo": "presion",
+    "valor": 986.63,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P189",
+    "tipo": "presion",
+    "valor": 1000.29,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P190",
+    "tipo": "presion",
+    "valor": 1020.14,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P191",
+    "tipo": "presion",
+    "valor": 986.03,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P192",
+    "tipo": "presion",
+    "valor": 989.72,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P193",
+    "tipo": "presion",
+    "valor": 1021.02,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P194",
+    "tipo": "presion",
+    "valor": 1017.37,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P195",
+    "tipo": "presion",
+    "valor": 1018.5,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P196",
+    "tipo": "presion",
+    "valor": 1007.49,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P197",
+    "tipo": "presion",
+    "valor": 1034.15,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P198",
+    "tipo": "presion",
+    "valor": 1012.77,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P199",
+    "tipo": "presion",
+    "valor": 999.18,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P200",
+    "tipo": "presion",
+    "valor": 1034.21,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P201",
+    "tipo": "presion",
+    "valor": 1004.5,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P202",
+    "tipo": "presion",
+    "valor": 1030.02,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P203",
+    "tipo": "presion",
+    "valor": 1025.99,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P204",
+    "tipo": "presion",
+    "valor": 999.55,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P205",
+    "tipo": "presion",
+    "valor": 996.64,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P206",
+    "tipo": "presion",
+    "valor": 990.28,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P207",
+    "tipo": "presion",
+    "valor": 1024.36,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P208",
+    "tipo": "presion",
+    "valor": 1027.46,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P209",
+    "tipo": "presion",
+    "valor": 1014.32,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P210",
+    "tipo": "presion",
+    "valor": 1030.57,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P211",
+    "tipo": "presion",
+    "valor": 1021.95,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P212",
+    "tipo": "presion",
+    "valor": 987.34,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P213",
+    "tipo": "presion",
+    "valor": 992.83,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P214",
+    "tipo": "presion",
+    "valor": 1016.48,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P215",
+    "tipo": "presion",
+    "valor": 1010.75,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P216",
+    "tipo": "presion",
+    "valor": 1029.73,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P217",
+    "tipo": "presion",
+    "valor": 1029.55,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P218",
+    "tipo": "presion",
+    "valor": 1021.9,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P219",
+    "tipo": "presion",
+    "valor": 991.67,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P220",
+    "tipo": "presion",
+    "valor": 1030.38,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P221",
+    "tipo": "presion",
+    "valor": 1008.88,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P222",
+    "tipo": "presion",
+    "valor": 1023.99,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P223",
+    "tipo": "presion",
+    "valor": 1031.16,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P224",
+    "tipo": "presion",
+    "valor": 998.25,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P225",
+    "tipo": "presion",
+    "valor": 996.61,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P226",
+    "tipo": "presion",
+    "valor": 992.88,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P227",
+    "tipo": "presion",
+    "valor": 1016.27,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P228",
+    "tipo": "presion",
+    "valor": 1023.8,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P229",
+    "tipo": "presion",
+    "valor": 1019.55,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P230",
+    "tipo": "presion",
+    "valor": 1010.71,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P231",
+    "tipo": "presion",
+    "valor": 988.87,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P232",
+    "tipo": "presion",
+    "valor": 986.43,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P233",
+    "tipo": "presion",
+    "valor": 996.07,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P234",
+    "tipo": "presion",
+    "valor": 1000.6,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P235",
+    "tipo": "presion",
+    "valor": 1010.06,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P236",
+    "tipo": "presion",
+    "valor": 1011.53,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P237",
+    "tipo": "presion",
+    "valor": 1023.36,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P238",
+    "tipo": "presion",
+    "valor": 990.94,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P239",
+    "tipo": "presion",
+    "valor": 994.01,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P240",
+    "tipo": "presion",
+    "valor": 1016.96,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P241",
+    "tipo": "presion",
+    "valor": 1001.64,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P242",
+    "tipo": "presion",
+    "valor": 989.94,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P243",
+    "tipo": "presion",
+    "valor": 987.73,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P244",
+    "tipo": "presion",
+    "valor": 1010.65,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P245",
+    "tipo": "presion",
+    "valor": 1005.92,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P246",
+    "tipo": "presion",
+    "valor": 1000.85,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P247",
+    "tipo": "presion",
+    "valor": 1012.21,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P248",
+    "tipo": "presion",
+    "valor": 1016.25,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P249",
+    "tipo": "presion",
+    "valor": 994.28,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P250",
+    "tipo": "presion",
+    "valor": 1019.04,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P251",
+    "tipo": "presion",
+    "valor": 1027.25,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P252",
+    "tipo": "presion",
+    "valor": 985.46,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P253",
+    "tipo": "presion",
+    "valor": 1010.54,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P254",
+    "tipo": "presion",
+    "valor": 1027.39,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P255",
+    "tipo": "presion",
+    "valor": 1033.15,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P256",
+    "tipo": "presion",
+    "valor": 1020.14,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P257",
+    "tipo": "presion",
+    "valor": 1007.01,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P258",
+    "tipo": "presion",
+    "valor": 1034.94,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P259",
+    "tipo": "presion",
+    "valor": 1024.03,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P260",
+    "tipo": "presion",
+    "valor": 997.17,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P261",
+    "tipo": "presion",
+    "valor": 999.05,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P262",
+    "tipo": "presion",
+    "valor": 1018.99,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P263",
+    "tipo": "presion",
+    "valor": 1025.99,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P264",
+    "tipo": "presion",
+    "valor": 1025.23,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P265",
+    "tipo": "presion",
+    "valor": 1030.64,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P266",
+    "tipo": "presion",
+    "valor": 993.47,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P267",
+    "tipo": "presion",
+    "valor": 992.07,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P268",
+    "tipo": "presion",
+    "valor": 1024.71,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P269",
+    "tipo": "presion",
+    "valor": 1017.4,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P270",
+    "tipo": "presion",
+    "valor": 1016.3,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P271",
+    "tipo": "presion",
+    "valor": 1002.54,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P272",
+    "tipo": "presion",
+    "valor": 985.44,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P273",
+    "tipo": "presion",
+    "valor": 1020.94,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P274",
+    "tipo": "presion",
+    "valor": 987.34,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P275",
+    "tipo": "presion",
+    "valor": 987.72,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P276",
+    "tipo": "presion",
+    "valor": 1034.46,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P277",
+    "tipo": "presion",
+    "valor": 1008.14,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P278",
+    "tipo": "presion",
+    "valor": 1001.61,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P279",
+    "tipo": "presion",
+    "valor": 992.34,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P280",
+    "tipo": "presion",
+    "valor": 1030.47,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P281",
+    "tipo": "presion",
+    "valor": 1016.31,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P282",
+    "tipo": "presion",
+    "valor": 1013.76,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P283",
+    "tipo": "presion",
+    "valor": 1030.34,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P284",
+    "tipo": "presion",
+    "valor": 1017.64,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P285",
+    "tipo": "presion",
+    "valor": 1002.47,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P286",
+    "tipo": "presion",
+    "valor": 998.69,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P287",
+    "tipo": "presion",
+    "valor": 1017.47,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P288",
+    "tipo": "presion",
+    "valor": 1004.84,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P289",
+    "tipo": "presion",
+    "valor": 1018.25,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P290",
+    "tipo": "presion",
+    "valor": 1034.8,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P291",
+    "tipo": "presion",
+    "valor": 1020.65,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P292",
+    "tipo": "presion",
+    "valor": 1017.96,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P293",
+    "tipo": "presion",
+    "valor": 1013.28,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P294",
+    "tipo": "presion",
+    "valor": 1013.39,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P295",
+    "tipo": "presion",
+    "valor": 1007.28,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P296",
+    "tipo": "presion",
+    "valor": 994.53,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P297",
+    "tipo": "presion",
+    "valor": 996.28,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P298",
+    "tipo": "presion",
+    "valor": 999.29,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P299",
+    "tipo": "presion",
+    "valor": 1012.49,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P300",
+    "tipo": "presion",
+    "valor": 1031.21,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P301",
+    "tipo": "presion",
+    "valor": 1005.46,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P302",
+    "tipo": "presion",
+    "valor": 988.72,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P303",
+    "tipo": "presion",
+    "valor": 989.76,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P304",
+    "tipo": "presion",
+    "valor": 1012.36,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P305",
+    "tipo": "presion",
+    "valor": 1019.45,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P306",
+    "tipo": "presion",
+    "valor": 1030.14,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P307",
+    "tipo": "presion",
+    "valor": 997.66,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P308",
+    "tipo": "presion",
+    "valor": 999.47,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P309",
+    "tipo": "presion",
+    "valor": 1030.57,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P310",
+    "tipo": "presion",
+    "valor": 1021.02,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P311",
+    "tipo": "presion",
+    "valor": 1008.14,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P312",
+    "tipo": "presion",
+    "valor": 994.04,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P313",
+    "tipo": "presion",
+    "valor": 1026.84,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P314",
+    "tipo": "presion",
+    "valor": 1029.48,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P315",
+    "tipo": "presion",
+    "valor": 1021.18,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P316",
+    "tipo": "presion",
+    "valor": 986.2,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P317",
+    "tipo": "presion",
+    "valor": 1021.65,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P318",
+    "tipo": "presion",
+    "valor": 1028.83,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P319",
+    "tipo": "presion",
+    "valor": 1017.07,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P320",
+    "tipo": "presion",
+    "valor": 999.82,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P321",
+    "tipo": "presion",
+    "valor": 998.22,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P322",
+    "tipo": "presion",
+    "valor": 999.67,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P323",
+    "tipo": "presion",
+    "valor": 1021.86,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P324",
+    "tipo": "presion",
+    "valor": 1025.33,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P325",
+    "tipo": "presion",
+    "valor": 1021.74,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P326",
+    "tipo": "presion",
+    "valor": 991.08,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P327",
+    "tipo": "presion",
+    "valor": 1018.77,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P328",
+    "tipo": "presion",
+    "valor": 1008.42,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P329",
+    "tipo": "presion",
+    "valor": 989.17,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P330",
+    "tipo": "presion",
+    "valor": 1012.7,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P331",
+    "tipo": "presion",
+    "valor": 1033.09,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P332",
+    "tipo": "presion",
+    "valor": 993.71,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P333",
+    "tipo": "presion",
+    "valor": 991.33,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P334",
+    "tipo": "presion",
+    "valor": 1033.82,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P335",
+    "tipo": "presion",
+    "valor": 1008.36,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P336",
+    "tipo": "presion",
+    "valor": 1005.9,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P337",
+    "tipo": "presion",
+    "valor": 991.83,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P338",
+    "tipo": "presion",
+    "valor": 1034.43,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P339",
+    "tipo": "presion",
+    "valor": 1001.6,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P340",
+    "tipo": "presion",
+    "valor": 997.37,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P341",
+    "tipo": "presion",
+    "valor": 1028.17,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P342",
+    "tipo": "presion",
+    "valor": 1025.92,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P343",
+    "tipo": "presion",
+    "valor": 993.85,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P344",
+    "tipo": "presion",
+    "valor": 1031.06,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P345",
+    "tipo": "presion",
+    "valor": 1024.57,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P346",
+    "tipo": "presion",
+    "valor": 1016.99,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P347",
+    "tipo": "presion",
+    "valor": 1024.26,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P348",
+    "tipo": "presion",
+    "valor": 999.96,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P349",
+    "tipo": "presion",
+    "valor": 1014.23,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P350",
+    "tipo": "presion",
+    "valor": 1020.73,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P351",
+    "tipo": "presion",
+    "valor": 1008.83,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P352",
+    "tipo": "presion",
+    "valor": 1001.71,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P353",
+    "tipo": "presion",
+    "valor": 1008.94,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P354",
+    "tipo": "presion",
+    "valor": 996.66,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P355",
+    "tipo": "presion",
+    "valor": 1027.84,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P356",
+    "tipo": "presion",
+    "valor": 985.13,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P357",
+    "tipo": "presion",
+    "valor": 1026.93,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P358",
+    "tipo": "presion",
+    "valor": 985.79,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P359",
+    "tipo": "presion",
+    "valor": 1014.21,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P360",
+    "tipo": "presion",
+    "valor": 1026.33,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P361",
+    "tipo": "presion",
+    "valor": 1026.85,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P362",
+    "tipo": "presion",
+    "valor": 1023.93,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P363",
+    "tipo": "presion",
+    "valor": 1027.27,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P364",
+    "tipo": "presion",
+    "valor": 999.8,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P365",
+    "tipo": "presion",
+    "valor": 1026.83,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P366",
+    "tipo": "presion",
+    "valor": 1022.51,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P367",
+    "tipo": "presion",
+    "valor": 1006.31,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P368",
+    "tipo": "presion",
+    "valor": 1013.24,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P369",
+    "tipo": "presion",
+    "valor": 993.06,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P370",
+    "tipo": "presion",
+    "valor": 1008.1,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P371",
+    "tipo": "presion",
+    "valor": 1017.81,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P372",
+    "tipo": "presion",
+    "valor": 1031.07,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P373",
+    "tipo": "presion",
+    "valor": 989.14,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P374",
+    "tipo": "presion",
+    "valor": 986.87,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P375",
+    "tipo": "presion",
+    "valor": 1025.95,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P376",
+    "tipo": "presion",
+    "valor": 992.81,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P377",
+    "tipo": "presion",
+    "valor": 1033.33,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P378",
+    "tipo": "presion",
+    "valor": 989.42,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P379",
+    "tipo": "presion",
+    "valor": 1004.89,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P380",
+    "tipo": "presion",
+    "valor": 1026.97,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P381",
+    "tipo": "presion",
+    "valor": 986.51,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P382",
+    "tipo": "presion",
+    "valor": 1030.62,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P383",
+    "tipo": "presion",
+    "valor": 1004.5,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P384",
+    "tipo": "presion",
+    "valor": 1010.28,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P385",
+    "tipo": "presion",
+    "valor": 993.96,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P386",
+    "tipo": "presion",
+    "valor": 993.37,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P387",
+    "tipo": "presion",
+    "valor": 1011.3,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P388",
+    "tipo": "presion",
+    "valor": 1025.83,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P389",
+    "tipo": "presion",
+    "valor": 1011.54,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P390",
+    "tipo": "presion",
+    "valor": 1031.27,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P391",
+    "tipo": "presion",
+    "valor": 1027.13,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P392",
+    "tipo": "presion",
+    "valor": 1023.15,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P393",
+    "tipo": "presion",
+    "valor": 1023.53,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P394",
+    "tipo": "presion",
+    "valor": 1006.46,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P395",
+    "tipo": "presion",
+    "valor": 1011.24,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P396",
+    "tipo": "presion",
+    "valor": 1024.54,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P397",
+    "tipo": "presion",
+    "valor": 1028.37,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P398",
+    "tipo": "presion",
+    "valor": 996.62,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P399",
+    "tipo": "presion",
+    "valor": 1000.46,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P400",
+    "tipo": "presion",
+    "valor": 999.54,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P401",
+    "tipo": "presion",
+    "valor": 1020.26,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P402",
+    "tipo": "presion",
+    "valor": 1024.61,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P403",
+    "tipo": "presion",
+    "valor": 990.76,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P404",
+    "tipo": "presion",
+    "valor": 1018.15,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P405",
+    "tipo": "presion",
+    "valor": 1031.27,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P406",
+    "tipo": "presion",
+    "valor": 1031.72,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P407",
+    "tipo": "presion",
+    "valor": 1003.84,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P408",
+    "tipo": "presion",
+    "valor": 1014.38,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P409",
+    "tipo": "presion",
+    "valor": 1007.92,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P410",
+    "tipo": "presion",
+    "valor": 999.0,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P411",
+    "tipo": "presion",
+    "valor": 1006.18,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P412",
+    "tipo": "presion",
+    "valor": 994.07,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P413",
+    "tipo": "presion",
+    "valor": 1022.32,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P414",
+    "tipo": "presion",
+    "valor": 1007.84,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P415",
+    "tipo": "presion",
+    "valor": 1026.2,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P416",
+    "tipo": "presion",
+    "valor": 1016.97,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P417",
+    "tipo": "presion",
+    "valor": 1030.58,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P418",
+    "tipo": "presion",
+    "valor": 1028.49,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P419",
+    "tipo": "presion",
+    "valor": 987.36,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P420",
+    "tipo": "presion",
+    "valor": 1002.84,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P421",
+    "tipo": "presion",
+    "valor": 998.67,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P422",
+    "tipo": "presion",
+    "valor": 986.5,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P423",
+    "tipo": "presion",
+    "valor": 1000.38,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P424",
+    "tipo": "presion",
+    "valor": 986.39,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P425",
+    "tipo": "presion",
+    "valor": 1031.67,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P426",
+    "tipo": "presion",
+    "valor": 1022.6,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P427",
+    "tipo": "presion",
+    "valor": 1028.09,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P428",
+    "tipo": "presion",
+    "valor": 1020.3,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P429",
+    "tipo": "presion",
+    "valor": 1017.91,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P430",
+    "tipo": "presion",
+    "valor": 1000.51,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P431",
+    "tipo": "presion",
+    "valor": 1006.96,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P432",
+    "tipo": "presion",
+    "valor": 990.95,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P433",
+    "tipo": "presion",
+    "valor": 1015.33,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P434",
+    "tipo": "presion",
+    "valor": 1024.01,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P435",
+    "tipo": "presion",
+    "valor": 992.98,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P436",
+    "tipo": "presion",
+    "valor": 1014.13,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P437",
+    "tipo": "presion",
+    "valor": 993.48,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P438",
+    "tipo": "presion",
+    "valor": 987.75,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P439",
+    "tipo": "presion",
+    "valor": 1033.25,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P440",
+    "tipo": "presion",
+    "valor": 1031.82,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P441",
+    "tipo": "presion",
+    "valor": 1009.22,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P442",
+    "tipo": "presion",
+    "valor": 993.16,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P443",
+    "tipo": "presion",
+    "valor": 1004.74,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P444",
+    "tipo": "presion",
+    "valor": 1006.96,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P445",
+    "tipo": "presion",
+    "valor": 995.23,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P446",
+    "tipo": "presion",
+    "valor": 1011.25,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P447",
+    "tipo": "presion",
+    "valor": 1021.39,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P448",
+    "tipo": "presion",
+    "valor": 990.15,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P449",
+    "tipo": "presion",
+    "valor": 1018.4,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P450",
+    "tipo": "presion",
+    "valor": 1024.08,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P451",
+    "tipo": "presion",
+    "valor": 1000.93,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P452",
+    "tipo": "presion",
+    "valor": 1032.29,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P453",
+    "tipo": "presion",
+    "valor": 1031.72,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P454",
+    "tipo": "presion",
+    "valor": 993.08,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P455",
+    "tipo": "presion",
+    "valor": 1018.92,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P456",
+    "tipo": "presion",
+    "valor": 1023.62,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P457",
+    "tipo": "presion",
+    "valor": 993.21,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P458",
+    "tipo": "presion",
+    "valor": 1005.79,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P459",
+    "tipo": "presion",
+    "valor": 1003.94,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P460",
+    "tipo": "presion",
+    "valor": 1027.96,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P461",
+    "tipo": "presion",
+    "valor": 1009.98,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P462",
+    "tipo": "presion",
+    "valor": 1002.59,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P463",
+    "tipo": "presion",
+    "valor": 1003.49,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P464",
+    "tipo": "presion",
+    "valor": 993.55,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P465",
+    "tipo": "presion",
+    "valor": 1018.55,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P466",
+    "tipo": "presion",
+    "valor": 997.3,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P467",
+    "tipo": "presion",
+    "valor": 995.8,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P468",
+    "tipo": "presion",
+    "valor": 1001.17,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P469",
+    "tipo": "presion",
+    "valor": 1017.7,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P470",
+    "tipo": "presion",
+    "valor": 991.97,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P471",
+    "tipo": "presion",
+    "valor": 996.04,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P472",
+    "tipo": "presion",
+    "valor": 1009.74,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P473",
+    "tipo": "presion",
+    "valor": 1029.17,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P474",
+    "tipo": "presion",
+    "valor": 1034.02,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P475",
+    "tipo": "presion",
+    "valor": 1028.29,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P476",
+    "tipo": "presion",
+    "valor": 1008.18,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P477",
+    "tipo": "presion",
+    "valor": 1031.75,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P478",
+    "tipo": "presion",
+    "valor": 989.96,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P479",
+    "tipo": "presion",
+    "valor": 1015.74,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P480",
+    "tipo": "presion",
+    "valor": 1016.21,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P481",
+    "tipo": "presion",
+    "valor": 1010.44,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P482",
+    "tipo": "presion",
+    "valor": 1017.2,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P483",
+    "tipo": "presion",
+    "valor": 991.76,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P484",
+    "tipo": "presion",
+    "valor": 987.41,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P485",
+    "tipo": "presion",
+    "valor": 1021.72,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P486",
+    "tipo": "presion",
+    "valor": 1003.07,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P487",
+    "tipo": "presion",
+    "valor": 1016.55,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P488",
+    "tipo": "presion",
+    "valor": 1017.32,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P489",
+    "tipo": "presion",
+    "valor": 1020.45,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P490",
+    "tipo": "presion",
+    "valor": 997.23,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P491",
+    "tipo": "presion",
+    "valor": 1000.63,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P492",
+    "tipo": "presion",
+    "valor": 996.24,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P493",
+    "tipo": "presion",
+    "valor": 1017.57,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P494",
+    "tipo": "presion",
+    "valor": 1022.28,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P495",
+    "tipo": "presion",
+    "valor": 1023.71,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P496",
+    "tipo": "presion",
+    "valor": 1006.82,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P497",
+    "tipo": "presion",
+    "valor": 1003.17,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P498",
+    "tipo": "presion",
+    "valor": 993.45,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P499",
+    "tipo": "presion",
+    "valor": 993.81,
+    "unidad": "hPa"
+  },
+  {
+    "id": "P500",
+    "tipo": "presion",
+    "valor": 1004.23,
+    "unidad": "hPa"
+  }
+]

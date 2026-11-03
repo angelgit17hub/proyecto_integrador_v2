@@ -1,0 +1,1 @@
+Datasets sintéticos: 500 registros por archivo y 24 incidencias intencionales por dataset (4,8 %): 8 faltantes, 8 extremos del rango de generación y 8 no numéricos. No son mediciones reales. La carga desde la aplicación se implementa en semana 12.
