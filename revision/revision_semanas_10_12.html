@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Revisión DataLab S10–S12</title>
+<style>
+:root{
+  --bg:#f4f6f9;--surface:#ffffff;--ink:#1f2d3d;--muted:#5d6b7a;--line:#dbe2ea;
+  --navy:#142b4a;--teal:#167d9a;--pale:#e7f3f6;
+  --crit:#b42318;--crit-bg:#fdecea;--high:#b54708;--high-bg:#fef3e6;
+  --mid:#8a6d00;--mid-bg:#fdf8e1;--low:#3b6e8f;--low-bg:#e9f2f8;
+  --ok:#1f7a5c;--ok-bg:#e8f5ef;
+  --code-bg:#f1f4f8;--code-ink:#17324f;--before:#fff1f0;--after:#edf8f2;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1720;--surface:#16212d;--ink:#e3eaf2;--muted:#9fb0c2;--line:#2a3a4b;
+    --navy:#9cc7ff;--teal:#4fb8d4;--pale:#163240;
+    --crit:#ff8a80;--crit-bg:#3a1714;--high:#ffb366;--high-bg:#3a2612;
+    --mid:#f0d36b;--mid-bg:#332c10;--low:#8cc4ea;--low-bg:#14293a;
+    --ok:#6fd3a8;--ok-bg:#12302a;
+    --code-bg:#0b121a;--code-ink:#d6e4f2;--before:#2a1616;--after:#12281e;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f1720;--surface:#16212d;--ink:#e3eaf2;--muted:#9fb0c2;--line:#2a3a4b;
+  --navy:#9cc7ff;--teal:#4fb8d4;--pale:#163240;
+  --crit:#ff8a80;--crit-bg:#3a1714;--high:#ffb366;--high-bg:#3a2612;
+  --mid:#f0d36b;--mid-bg:#332c10;--low:#8cc4ea;--low-bg:#14293a;
+  --ok:#6fd3a8;--ok-bg:#12302a;
+  --code-bg:#0b121a;--code-ink:#d6e4f2;--before:#2a1616;--after:#12281e;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Segoe UI",system-ui,-apple-system,Arial,sans-serif}
+header{background:linear-gradient(125deg,#142b4a,#1b4965);color:#fff;padding:36px 16px}
+header .wrap{max-width:1100px;margin:auto}
+header small{color:#b9dce5;letter-spacing:.12em;text-transform:uppercase;font-weight:700;font-size:.8rem}
+header h1{font-size:clamp(1.7rem,4vw,2.6rem);line-height:1.15;margin:10px 0}
+header p{max-width:860px;color:#e4eef4;margin:6px 0}
+main{max-width:1100px;margin:auto;padding:20px 16px 60px}
+nav.toc{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}
+nav.toc a{border:1px solid var(--line);background:var(--surface);color:var(--navy);padding:8px 13px;border-radius:9px;font-weight:600;text-decoration:none;font-size:.92rem}
+nav.toc a:hover{background:var(--pale)}
+section{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px;margin:18px 0}
+h2{color:var(--navy);font-size:1.45rem;margin:0 0 10px}
+h3{color:var(--navy);font-size:1.12rem;margin:22px 0 6px}
+h4{margin:14px 0 4px;font-size:.98rem}
+p{margin:8px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.metric{border:1px solid var(--line);border-radius:12px;padding:14px;background:var(--bg)}
+.metric strong{display:block;color:var(--navy);font-size:1.3rem}
+.metric span{color:var(--muted);font-size:.88rem}
+.note{border-left:4px solid var(--teal);background:var(--pale);padding:12px 15px;border-radius:8px;margin:14px 0}
+.note.warn{border-color:var(--high);background:var(--high-bg)}
+.note.ok{border-color:var(--ok);background:var(--ok-bg)}
+.tablewrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:.93rem}
+th{background:#142b4a;color:#fff;text-align:left}
+td,th{padding:9px 11px;border-bottom:1px solid var(--line);vertical-align:top}
+code{background:var(--code-bg);color:var(--code-ink);padding:1px 5px;border-radius:4px;font-size:.88em;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+pre{background:var(--code-bg);color:var(--code-ink);padding:12px 14px;border-radius:9px;overflow-x:auto;font-size:.84rem;line-height:1.5;margin:6px 0;border:1px solid var(--line)}
+pre code{background:none;padding:0;font-size:inherit}
+.finding{border:1px solid var(--line);border-radius:12px;margin:16px 0;overflow:hidden}
+.finding>summary{cursor:pointer;padding:13px 15px;list-style:none;display:flex;gap:10px;align-items:flex-start;flex-wrap:wrap}
+.finding>summary::-webkit-details-marker{display:none}
+.finding>summary::before{content:"▸";color:var(--muted);transition:transform .15s}
+.finding[open]>summary::before{transform:rotate(90deg)}
+.finding .body{padding:0 16px 16px}
+.fid{font-weight:700;color:var(--navy);font-family:ui-monospace,Menlo,monospace}
+.ftitle{font-weight:600;flex:1 1 300px}
+.badge{font-size:.74rem;font-weight:700;padding:2px 9px;border-radius:20px;text-transform:uppercase;letter-spacing:.04em;white-space:nowrap}
+.crit{color:var(--crit);background:var(--crit-bg)}
+.high{color:var(--high);background:var(--high-bg)}
+.mid{color:var(--mid);background:var(--mid-bg)}
+.low{color:var(--low);background:var(--low-bg)}
+.wk{color:var(--teal);background:var(--pale)}
+.okb{color:var(--ok);background:var(--ok-bg)}
+.ba{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.ba>div{min-width:0}
+.ba .lbl,.lbl{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.ba .before pre{background:var(--before)}
+.ba .after pre,.after pre{background:var(--after)}
+@media (max-width:760px){.ba{grid-template-columns:1fr}}
+.learn{border-left:4px solid var(--ok);background:var(--ok-bg);padding:10px 14px;border-radius:8px;margin-top:10px}
+.learn b{color:var(--ok)}
+ul.pos li::marker{content:"✓  ";color:var(--ok)}
+.files{color:var(--muted);font-size:.9rem}
+footer{text-align:center;color:var(--muted);padding:20px;font-size:.88rem}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <small>DataLab · Lógica Computacional · Revisión docente</small>
+  <h1>Revisión del proyecto integrador — semanas 10 a 12</h1>
+  <p>Avance de cada rol comparado con <code style="color:#fff;background:#ffffff22">README.md</code>, <code style="color:#fff;background:#ffffff22">docs/GUIA_PROYECTO_INTEGRADOR.html</code>, <code style="color:#fff;background:#ffffff22">docs/contratos_modulos.md</code> y <code style="color:#fff;background:#ffffff22">docs/entregas_semanales.md</code>, con las correcciones realizadas.</p>
+  <p>Rama de la revisión: <b>revision-docente</b> · Fecha: 13 de noviembre de 2026 · Versión esperada: v1.2 · Último commit revisado: <code style="color:#fff;background:#ffffff22">5c9444a</code></p>
+</div></header>
+
+<main>
+<nav class="toc" aria-label="Contenido">
+  <a href="#resumen">Resumen</a>
+  <a href="#avance">Avance por rol</a>
+  <a href="#rol-a">Rol A · Calidad</a>
+  <a href="#rol-b">Rol B · Robustez</a>
+  <a href="#rol-c">Rol C · Fuentes</a>
+  <a href="#general">Observaciones generales</a>
+  <a href="#verificacion">Verificación</a>
+  <a href="#estudio">Cómo estudiar los cambios</a>
+</nav>
+
+<!-- ================================================================ -->
+<section id="resumen">
+  <h2>1. Resumen</h2>
+  <p>Alcance: <b>semanas 10, 11 y 12</b> (v1.0 a v1.2). La refactorización (semana 13) y las pruebas (semana 14) <b>no se evalúan</b>. Los archivos de la carpeta <code>tests/</code> no se tuvieron en cuenta en esta revisión.</p>
+
+  <div class="grid">
+    <div class="metric"><strong>1 de 3</strong><span>Roles con trabajo entregado (solo el Rol A, en un commit)</span></div>
+    <div class="metric"><strong>0 de 3 → 3 de 3</strong><span>Datasets que se cargan desde la interfaz Streamlit</span></div>
+    <div class="metric"><strong>Falla → 12 / 0 / 0</strong><span>Demostración en memoria (válidos / inválidos / errores)</span></div>
+    <div class="metric"><strong>17</strong><span>Observaciones corregidas (A: 6 · B: 5 · C: 6)</span></div>
+  </div>
+
+  <div class="note warn"><b>Estado encontrado:</b> la aplicación <b>no funcionaba en ningún modo</b>. <code>procesar_registros</code> (Rol B) y los tres lectores (Rol C) seguían con <code>raise NotImplementedError</code>, de modo que tanto la demostración en memoria como la carga de archivos terminaban en error. El único trabajo entregado es el del Rol A (commit <code>1c1e4d6</code>).</div>
+
+  <h3>Resultado del procesamiento con los datasets actuales</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Dataset</th><th>Filas</th><th>Antes (código de los estudiantes)</th><th>Después: válidos / inválidos / errores técnicos</th><th>README</th></tr></thead>
+    <tbody>
+      <tr><td><code>temperatura.csv</code></td><td>623</td><td>No carga: <code>NotImplementedError: Pendiente: lector CSV</code></td><td>528 / 91 / 4</td><td>528 / 91 / 4 ✓</td></tr>
+      <tr><td><code>presion.json</code></td><td>708</td><td>No carga: <code>NotImplementedError: Pendiente: lector JSON</code></td><td>595 / 107 / 6</td><td>595 / 107 / 6 ✓</td></tr>
+      <tr><td><code>humedad.xlsx</code></td><td>573</td><td>No carga: <code>NotImplementedError: Pendiente: lector Excel</code></td><td>433 / 131 / 9</td><td>433 / 131 / 9 ✓</td></tr>
+      <tr><td>Demostración en memoria</td><td>12</td><td>Falla: <code>NotImplementedError: Pendiente: integración del procesamiento</code></td><td>12 / 0 / 0</td><td>—</td></tr>
+    </tbody>
+  </table></div>
+  <p>También coinciden con el README los motivos de rechazo por tipo (faltante, no numérico, fuera de rango, unidad y tipo) y la distribución BAJO / NORMAL / ALTO de los válidos (por ejemplo, temperatura: 151 / 225 / 152). Cada fila queda en <b>una sola</b> bandeja: válidos + inválidos + errores = filas del archivo.</p>
+
+  <h3>Convenciones de este informe</h3>
+  <p><span class="badge crit">Crítico</span> rompe la ejecución o la interfaz. <span class="badge high">Alto</span> incumple un requisito de la guía o deja pasar datos incorrectos. <span class="badge mid">Medio</span> afecta el contrato o la mantenibilidad. <span class="badge low">Bajo</span> es una mejora de robustez o de estilo.</p>
+  <p>En el código, cada cambio lleva el comentario <code># REVISIÓN</code> y, cuando corresponde, el código de la observación (por ejemplo <code># REVISIÓN (A-4)</code>), para que puedan buscarlo con <code>Ctrl+F</code>. El trabajo del Rol A se conservó y se amplió paso a paso; en los roles B y C se escribió la implementación sobre las plantillas, dejando los TODO originales como referencia.</p>
+</section>
+
+<!-- ================================================================ -->
+<section id="avance">
+  <h2>2. Avance por rol frente a la guía</h2>
+  <p>Comparación de lo que pide <code>docs/entregas_semanales.md</code> / la guía con lo que había en el repositorio antes de la revisión.</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Semana</th><th>Rol A — Calidad</th><th>Rol B — Robustez</th><th>Rol C — Fuentes</th></tr></thead>
+    <tbody>
+      <tr><td><b>S10 · v1.0</b><br><span class="files">Normalización y validación</span></td>
+        <td><span class="badge mid">Parcial</span><br>Normaliza y valida campos, tipos, unidades y formato numérico. No estandariza unidades ni id.</td>
+        <td><span class="badge crit">No iniciado</span><br><code>procesar_registros</code> sin implementar: no hay estados válido/inválido.</td>
+        <td><span class="badge crit">No iniciado</span><br><code>preparar_registros_prueba</code> sin implementar.</td></tr>
+      <tr><td><b>S11 · v1.1</b><br><span class="files">Excepciones y errores</span></td>
+        <td><span class="badge mid">Parcial</span><br>Acumula motivos, pero son genéricos («El valor debe ser numérico.») y no muestran el dato recibido.</td>
+        <td><span class="badge crit">No iniciado</span><br><code>crear_reporte_error</code> sin implementar; sin continuidad por registro.</td>
+        <td><span class="badge crit">No iniciado</span><br>No existen escenarios de fuentes defectuosas.</td></tr>
+      <tr><td><b>S12 · v1.2</b><br><span class="files">Lectura de archivos</span></td>
+        <td><span class="badge crit">No iniciado</span><br>Sin rangos plausibles (exigidos por el README) ni manejo de NaN de Excel.</td>
+        <td><span class="badge crit">No iniciado</span><br>Sin control de errores de lectura, conversión ni estructura.</td>
+        <td><span class="badge crit">No iniciado</span><br>Los tres lectores lanzan <code>NotImplementedError</code>.</td></tr>
+      <tr><td><b>Git</b></td>
+        <td><span class="badge mid">Parcial</span><br>1 commit (<code>feat(rol-a): ...</code>) en <code>s12-calidad-datos</code>, desde la cuenta compartida «Campus Sala 101».</td>
+        <td><span class="badge crit">Sin evidencia</span><br>Ninguna rama ni commit.</td>
+        <td><span class="badge crit">Sin evidencia</span><br>Ninguna rama ni commit.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="note"><b>Consecuencia para la entrega integrada:</b> la regla de contribución de la guía dice que <i>«la integración de A + B + C debe completar el 100 % de la funcionalidad»</i>. Sin los aportes de B y C, el criterio de aceptación de la semana 12 (<i>«los tres datasets se cargan y procesan con el contrato común»</i>) no se cumplía, y tampoco el de la semana 10 (<i>«los inválidos quedan separados con motivos»</i>), porque no existía el procesamiento que los separa.</div>
+</section>
+
+<!-- ================================================================ -->
+<section id="rol-a">
+  <h2>3. Rol A — Calidad de datos</h2>
+  <p class="files">Archivos: <code>src/validation/normalizacion.py</code>, <code>src/validation/validaciones.py</code> · Commit del estudiante: <code>1c1e4d6</code> · Commit de la revisión: <code>924a25a</code></p>
+
+  <h3>Lo que estaba bien</h3>
+  <ul class="pos">
+    <li>La normalización comprueba que recibe un diccionario y devuelve una <b>copia</b>: no altera el registro original (contrato del Rol A).</li>
+    <li><code>validar_registro</code> <b>acumula todos los motivos</b> en lugar de detenerse en el primero.</li>
+    <li>Distingue «falta el campo» de «el campo está vacío»: son dos problemas distintos.</li>
+    <li>Rechaza <code>True</code>/<code>False</code> (en Python son <code>int</code>) y usa <code>math.isfinite</code> para descartar <code>nan</code> e <code>inf</code>.</li>
+    <li>Revisa <code>isinstance(tipo, str)</code> antes de buscar en el conjunto, lo que evita un <code>TypeError</code> con tipos no hashables, y solo compara la unidad si el tipo es conocido.</li>
+    <li>El código está organizado en pasos numerados y comentados, fácil de seguir.</li>
+  </ul>
+
+  <details class="finding" open>
+    <summary><span class="fid">A-1</span><span class="ftitle">Las unidades no se estandarizan: datos válidos se rechazan por cómo están escritos</span><span class="badge high">Alto</span><span class="badge wk">S10</span></summary>
+    <div class="body">
+      <p><b>Requisito:</b> la guía pide al Rol A «normalizar identificadores, tipos, <u>unidades</u> y valores», y <code>entregas_semanales.md</code> repite «normalizar id/tipo/<u>unidad</u>/valor textual».</p>
+      <p><b>Observación:</b> la validación compara la unidad de forma exacta (<code>"hPa"</code>), pero la normalización solo quitaba espacios. <code>"HPA"</code>, <code>"°c"</code> o <code>"porcentaje"</code> quedaban inválidos, aunque son la misma unidad mal escrita.</p>
+      <div class="ba">
+        <div class="before"><span class="lbl">Antes</span><pre><code># 3. Quitar espacios de los campos textuales.
+for campo in campos:
+    valor = registro_normalizado.get(campo)
+    if isinstance(valor, str):
+        registro_normalizado[campo] = valor.strip()
+# "HPA" llega igual a la validación</code></pre></div>
+        <div class="after"><span class="lbl">Después</span><pre><code>EQUIVALENCIAS_UNIDAD = {
+    "°c": "°C", "ºc": "°C", "c": "°C", "celsius": "°C",
+    "hpa": "hPa", "hectopascal": "hPa",
+    "%": "%", "porcentaje": "%",
+}
+...
+clave = registro_normalizado["unidad"].lower().replace(" ", "")
+registro_normalizado["unidad"] = EQUIVALENCIAS_UNIDAD.get(
+    clave, registro_normalizado["unidad"])</code></pre></div>
+      </div>
+      <div class="learn"><b>Para aprender:</b> una <b>tabla de equivalencias</b> (diccionario) reemplaza muchos <code>if</code>. Para aceptar una variante nueva basta con agregar una línea. Si la unidad no está en la tabla, <code>.get(clave, original)</code> la deja tal como llegó y la validación explica el motivo del rechazo. Normalizar no es aceptar cualquier cosa.</div>
+    </div>
+  </details>
+
+  <details class="finding">
+    <summary><span class="fid">A-2</span><span class="ftitle">El id no se estandariza y el tipo con tilde no se reconoce</span><span class="badge mid">Medio</span><span class="badge wk">S10</span></summary>
+    <div class="body">
+      <p><b>Observación:</b> <code>"p101"</code> y <code>"P101"</code> quedaban como sensores distintos; un id numérico leído desde Excel (<code>101</code>) se rechazaba con «El identificador debe ser texto», y <code>"Presión"</code> se convertía en <code>"presión"</code>, que no está en <code>TIPOS_PERMITIDOS</code> (allí se escribe <code>"presion"</code>).</p>
+      <div class="ba">
+        <div class="before"><span class="lbl">Antes</span><pre><code>registro_normalizado["tipo"] = (
+    registro_normalizado["tipo"].lower()
+)</code></pre></div>
+        <div class="after"><span class="lbl">Después</span><pre><code>SIN_TILDES = str.maketrans("áéíóúÁÉÍÓÚ", "aeiouAEIOU")
+...
+registro_normalizado["tipo"] = (
+    registro_normalizado["tipo"].lower()
+    .translate(SIN_TILDES)
+)
+
+if isinstance(identificador, int) and not isinstance(identificador, bool):
+    registro_normalizado["id"] = str(identificador)
+if isinstance(registro_normalizado.get("id"), str):
+    registro_normalizado["id"] = registro_normalizado["id"].upper()</code></pre></div>
+      </div>
+      <div class="learn"><b>Para aprender:</b> <code>str.maketrans</code> y <code>translate</code> cambian varios caracteres en una sola pasada. Se revisa <code>isinstance(..., str)</code> antes de llamar a <code>.upper()</code>, porque un número no tiene ese método, y se excluye <code>bool</code> porque <code>True</code> también es un <code>int</code>.</div>
+    </div>
+  </details>
+
+  <details class="finding">
+    <summary><span class="fid">A-3</span><span class="ftitle">Una celda vacía de Excel (NaN) se reportaba como «número no finito» y no como «campo vacío»</span><span class="badge high">Alto</span><span class="badge wk">S12</span></summary>
+    <div class="body">
+      <p><b>Requisito (S12):</b> «validar y normalizar registros provenientes de archivos». La arquitectura dice además: <i>«la validación no depende del origen de los datos»</i>.</p>
+      <p><b>Observación:</b> pandas representa una celda vacía como <code>NaN</code>. La comprobación <code>registro[campo] is None or registro[campo] == ""</code> no lo detectaba, y el valor terminaba en «El valor debe ser un número finito». Si el mismo dato venía de CSV o JSON, el motivo era «El campo valor está vacío». Era el mismo problema con dos motivos distintos.</p>
+      <div class="ba">
+        <div class="before"><span class="lbl">Antes</span><pre><code>elif registro[campo] is None or registro[campo] == "":
+    motivos.append(f"El campo {campo} está vacío.")</code></pre></div>
+        <div class="after"><span class="lbl">Después</span><pre><code>def _esta_vacio(contenido):
+    if contenido is None or contenido == "":
+        return True
+    # NaN es el único valor distinto de sí mismo
+    return isinstance(contenido, float) and contenido != contenido
+...
+elif _esta_vacio(registro[campo]):
+    motivos.append(f"El campo {campo} está vacío.")</code></pre></div>
+      </div>
+      <p>Además, <code>normalizar_registro</code> convierte el <code>NaN</code> en <code>None</code>. Aunque el Rol C ya entrega <code>None</code> (C-6), el Rol A se protege por su cuenta: es una <b>defensa en profundidad</b>.</p>
+      <div class="learn"><b>Para aprender:</b> <code>x != x</code> solo es verdadero cuando <code>x</code> es NaN. Es la misma idea que ya aprovechaba <code>math.isfinite</code>, pero aplicada a la detección de vacíos para que el motivo sea el correcto.</div>
+    </div>
+  </details>
+
+  <details class="finding" open>
+    <summary><span class="fid">A-4</span><span class="ftitle">Los valores extremos (999 °C, 1500 hPa, 150 %) pasaban como válidos</span><span class="badge high">Alto</span><span class="badge wk">S12</span></summary>
+    <div class="body">
+      <p><b>Requisito:</b> el README indica <i>«Los rangos de plausibilidad usados para detectar valores fuera de rango están en <code>src/validation/validaciones.py</code>»</i> y espera 73, 86 y 104 registros «fuera de rango» en los tres datasets.</p>
+      <p><b>Observación:</b> no había ningún control de rango. 999 °C o 150 % de humedad son números bien escritos, pero no son mediciones creíbles: se habrían clasificado como <code>ALTO</code> o <code>BAJO</code> y distorsionarían el resumen (263 registros en total).</p>
+      <div class="after"><span class="lbl">Después (validaciones.py)</span><pre><code>RANGOS_PLAUSIBLES = {
+    "temperatura": (-10.0, 50.0),
+    "presion": (800.0, 1100.0),
+    "humedad": (0.0, 100.0),
+}
+...
+elif tipo_es_conocido:
+    minimo, maximo = RANGOS_PLAUSIBLES[tipo]
+    if numero &lt; minimo or numero &gt; maximo:
+        motivos.append(f"Valor fuera del rango plausible para {tipo}: ...")</code></pre></div>
+      <div class="note"><b>Decisión de diseño.</b> Los límites salen del análisis de los datasets: las lecturas normales están entre 2 y 42 °C, entre 851 y 1080 hPa y entre 5 y 95 %, y todas las incidencias (−25, −18, 68, 75, 999 °C; 650, 700, 1200, 1250, 1500 hPa; −15, −5, 125, 150, 999 %) quedan fuera. Con estos rangos los conteos coinciden exactamente con el README.</div>
+      <div class="learn"><b>Para aprender:</b> <b>validar no es clasificar.</b> El rango plausible responde «¿el dato es creíble?». La clasificación BAJO/NORMAL/ALTO sigue centralizada en <code>clasificar_valor</code> y no se duplicó. Son dos preguntas distintas que se responden en módulos distintos.</div>
+    </div>
+  </details>
+
+  <details class="finding">
+    <summary><span class="fid">A-5</span><span class="ftitle">Motivos genéricos: no indicaban qué dato llegó ni qué se esperaba</span><span class="badge mid">Medio</span><span class="badge wk">S11</span></summary>
+    <div class="body">
+      <p><b>Requisito (S11):</b> «mejorar mensajes y motivos de validación»; la guía pide «motivos y mensajes de validación precisos».</p>
+      <div class="ba">
+        <div class="before"><span class="lbl">Antes</span><pre><code>"El valor debe ser numérico."
+"Tipo de sensor no permitido: viento."
+"Unidad incorrecta para presion. Se esperaba hPa."</code></pre></div>
+        <div class="after"><span class="lbl">Después</span><pre><code>"El valor no es numérico: 'N/A'."
+"Tipo de sensor no permitido: viento. Se esperaba
+ uno de: humedad, presion, temperatura."
+"Unidad incorrecta para presion: se recibió '°C'.
+ Se esperaba hPa."</code></pre></div>
+      </div>
+      <div class="learn"><b>Para aprender:</b> un motivo preciso permite corregir la fuente; «debe ser numérico» no dice qué llegó. <code>{valor!r}</code> en un f-string muestra la representación del dato (<code>'N/A'</code> con comillas), así se distingue el texto <code>'999'</code> del número <code>999</code>. Los motivos mantienen la forma <i>«categoría: detalle»</i>, que la interfaz usa para agruparlos en la gráfica «Motivos de rechazo».</div>
+    </div>
+  </details>
+
+  <details class="finding">
+    <summary><span class="fid">A-6</span><span class="ftitle">La coma decimal en valores de texto («21,5») se rechazaba</span><span class="badge low">Bajo</span><span class="badge wk">S12</span></summary>
+    <div class="body">
+      <pre><code>valor = registro_normalizado.get("valor")
+if isinstance(valor, str) and valor.count(",") == 1 and "." not in valor:
+    registro_normalizado["valor"] = valor.replace(",", ".")</code></pre>
+      <div class="learn"><b>Para aprender:</b> la regla es deliberadamente <b>conservadora</b>: solo actúa si hay exactamente una coma y ningún punto. <code>"1.013,2"</code> se deja como está y la validación lo rechaza; normalizar no debe inventar datos. El valor sigue siendo texto: la conversión a <code>float</code> la hace el Rol B después de validar.</div>
+    </div>
+  </details>
+
+  <h3>Trazabilidad Git del rol</h3>
+  <p>Un solo commit (<code>1c1e4d6</code>, «feat(rol-a): implementar normalizacion y validacion de registros»), hecho desde la cuenta compartida «Campus Sala 101». El mensaje casi sigue la convención: la guía usa el nombre del rol, <code>feat(calidad): ...</code>. El trabajo es de la semana 10, pero se subió a la rama <code>s12-calidad-datos</code>, y no hay commits del rol en las semanas 11 y 12.</p>
+</section>
+
+<!-- ================================================================ -->
+<section id="rol-b">
+  <h2>4. Rol B — Robustez y procesamiento</h2>
+  <p class="files">Archivos: <code>src/exceptions/errores.py</code>, <code>src/processing/procesamiento.py</code> · Commits del estudiante: ninguno · Commit de la revisión: <code>9524908</code></p>
+
+  <div class="note warn"><b>Sin avance.</b> Los dos archivos del rol estaban como en la plantilla. Como <code>procesar_registros</code> es el centro del flujo (lo llaman la demostración y la carga de archivos), esta ausencia dejaba toda la aplicación sin funcionar. Las clases base de excepciones, que venían en la plantilla, se conservaron.</div>
+
+  <details class="finding" open>
+    <summary><span class="fid">B-1</span><span class="ftitle">procesar_registros no estaba implementado: la demostración y la carga fallaban</span><span class="badge crit">Crítico</span><span class="badge wk">S10</span></summary>
+    <div class="body">
+      <p><b>Requisito (S10):</b> «integrar flujo de estados válido/inválido» (TODO B-S10-01 a B-S10-03). Aceptación: «los inválidos quedan separados con motivos; clasificación centralizada reutilizada».</p>
+      <div class="ba">
+        <div class="before"><span class="lbl">Antes</span><pre><code>def procesar_registros(registros):
+    # TODO B-S10-01 ... B-S12-04
+    raise NotImplementedError(
+        "Pendiente: integración del procesamiento, semanas 10–12")</code></pre></div>
+        <div class="after"><span class="lbl">Después (núcleo del ciclo)</span><pre><code>for registro in registros:
+    try:
+        _revisar_eventos_tecnicos(registro)          # Rol B
+        registro_norm = normalizar_registro(registro) # Rol A
+        es_valido, motivos = validar_registro(registro_norm)
+        if not es_valido:
+            invalidos.append({"registro": registro_norm,
+                              "motivos": motivos})
+            continue
+        registro_norm["valor"] = _convertir_valor(registro_norm)
+        registro_norm["clasificacion"] = clasificar_valor(
+            registro_norm["valor"], registro_norm["tipo"])
+        validos.append(registro_norm)
+    except DataLabError as error: ...</code></pre></div>
+      </div>
+      <p>La forma de los inválidos, <code>{"registro": ..., "motivos": [...]}</code>, es la que lee la interfaz (<code>item.get("registro")</code>, <code>item.get("motivos")</code>).</p>
+      <div class="learn"><b>Para aprender:</b> el procesamiento <b>coordina</b> y no repite reglas: importa <code>normalizar_registro</code>, <code>validar_registro</code>, <code>clasificar_valor</code> y <code>generar_resumen</code>. Separar «lo que dijo el sensor» (<code>registro</code>) de «lo que dijo la revisión» (<code>motivos</code>) evita mezclar responsabilidades. <code>continue</code> salta a la siguiente iteración y ahorra un nivel de <code>else</code>.</div>
+    </div>
+  </details>
+
+  <details class="finding" open>
+    <summary><span class="fid">B-2</span><span class="ftitle">crear_reporte_error no estaba implementado: no había reporte de errores</span><span class="badge crit">Crítico</span><span class="badge wk">S11</span></summary>
+    <div class="body">
+      <p><b>Requisito (S11):</b> TODO B-S11-01 a B-S11-03. El README pide que los errores tengan <i>«identificador, categoría, origen, mensaje y fecha/hora UTC»</i>.</p>
+      <div class="ba">
+        <div class="before"><span class="lbl">Antes</span><pre><code>def crear_reporte_error(origen, identificador, mensaje,
+                        categoria="PROCESAMIENTO"):
+    raise NotImplementedError(...)</code></pre></div>
+        <div class="after"><span class="lbl">Después</span><pre><code>return {
+    "identificador": ... str(identificador),
+    "categoria": str(categoria),
+    "origen": ... str(origen),
+    "mensaje": str(mensaje),
+    "fecha_hora": datetime.now(timezone.utc)
+                  .isoformat(timespec="seconds"),
+}</code></pre></div>
+      </div>
+      <p>Ejemplo real: <code>{'identificador': 'PRE-0705', 'categoria': 'PAQUETE_INCOMPLETO', 'origen': 'presion.json (fila 137)', 'mensaje': 'Evento técnico del sensor: SIMULACION_PAQUETE_INCOMPLETO', 'fecha_hora': '2026-11-14T03:44:26+00:00'}</code></p>
+      <div class="learn"><b>Para aprender:</b> <code>str(excepcion)</code> devuelve el mensaje original, así se cumple «sin ocultar el mensaje original». La función convierte todo a texto y <b>nunca lanza excepciones</b>: si el reporte fallara dentro de un <code>except</code>, el error de un registro sí detendría el lote. <code>timespec="seconds"</code> quita los microsegundos.</div>
+    </div>
+  </details>
+
+  <details class="finding" open>
+    <summary><span class="fid">B-3</span><span class="ftitle">No se detectaban los eventos técnicos ni los registros con estructura rota</span><span class="badge high">Alto</span><span class="badge wk">S11 · S12</span></summary>
+    <div class="body">
+      <p><b>Requisito (S11):</b> «excepciones, reporte de errores y continuidad por registro». <b>S12:</b> «controlar errores de lectura, conversión y estructura». El README espera 4, 6 y 9 errores técnicos por los eventos <code>SIMULACION_*</code> de la columna <code>observacion_tecnica</code>.</p>
+      <div class="after"><span class="lbl">Después (errores.py)</span><pre><code>class ErrorConversion(DataLabError):               CATEGORIA = "CONVERSION"
+class ErrorEstructuraRegistro(ErrorFormatoFuente): CATEGORIA = "ESTRUCTURA_REGISTRO"
+class ErrorEventoSensor(DataLabError):             CATEGORIA = "EVENTO_SENSOR"
+class ErrorTimeoutSensor(ErrorEventoSensor):       CATEGORIA = "TIMEOUT_SENSOR"
+class ErrorPaqueteIncompleto(ErrorEventoSensor):   CATEGORIA = "PAQUETE_INCOMPLETO"
+class ErrorLecturaIntermitente(ErrorEventoSensor): CATEGORIA = "LECTURA_INTERMITENTE"
+
+EVENTOS_TECNICOS = {
+    "SIMULACION_TIMEOUT_SENSOR": ErrorTimeoutSensor,
+    "SIMULACION_PAQUETE_INCOMPLETO": ErrorPaqueteIncompleto,
+    "SIMULACION_LECTURA_INTERMITENTE": ErrorLecturaIntermitente,
+}</code></pre></div>
+      <div class="after"><span class="lbl">Después (procesamiento.py)</span><pre><code>def _revisar_eventos_tecnicos(registro):
+    if not isinstance(registro, dict):
+        raise ErrorEstructuraRegistro(...)
+    if "_error_tecnico" in registro:          # marcado por el Rol C (C-4)
+        raise ErrorEstructuraRegistro(str(registro["_error_tecnico"]))
+    evento = registro.get("observacion_tecnica")
+    if isinstance(evento, str) and evento.strip().upper().startswith("SIMULACION_"):
+        codigo = evento.strip().upper()
+        clase_error = EVENTOS_TECNICOS.get(codigo, ErrorEventoSensor)
+        raise clase_error(f"Evento técnico del sensor: {codigo}")</code></pre></div>
+      <div class="learn"><b>Para aprender:</b> hay dos tipos de problema. Un <b>dato de mala calidad</b> (Rol A) va a <code>registros_invalidos</code> con sus motivos. Una <b>falla técnica del origen</b> (Rol B) va a <code>errores</code> con su categoría. Los eventos se revisan <i>antes</i> de validar: un registro con timeout no es «de mala calidad», es un registro en el que no se puede confiar. La tabla <code>EVENTOS_TECNICOS</code> permite agregar un evento nuevo sin tocar el ciclo.</div>
+    </div>
+  </details>
+
+  <details class="finding">
+    <summary><span class="fid">B-4</span><span class="ftitle">Sin aislamiento por registro: cualquier error detenía el lote completo</span><span class="badge high">Alto</span><span class="badge wk">S11</span></summary>
+    <div class="body">
+      <p><b>Requisito (S11):</b> TODO B-S11-04, «aislar errores por registro y continuar el lote». Aceptación: «un error no detiene el lote; se identifica y contabiliza».</p>
+      <div class="after"><span class="lbl">Después</span><pre><code>    except DataLabError as error:      # errores PREVISTOS
+        errores.append(crear_reporte_error(
+            _origen(registro), _identificador(registro),
+            error, error.CATEGORIA))
+    except Exception as error:         # red de seguridad
+        errores.append(crear_reporte_error(
+            _origen(registro), _identificador(registro),
+            f"Error inesperado ({type(error).__name__}): {error}", "SISTEMA"))</code></pre></div>
+      <div class="learn"><b>Para aprender:</b> el <code>try</code> va <b>dentro</b> del <code>for</code>: si estuviera afuera, el primer error terminaría el ciclo. Cada excepción <b>sabe</b> su categoría (atributo de clase <code>CATEGORIA</code>), así que no hace falta una cadena de <code>if isinstance(...)</code>. El orden de los <code>except</code> importa: el más específico va primero; si <code>except Exception</code> fuera el primero, también capturaría los <code>DataLabError</code>.</div>
+    </div>
+  </details>
+
+  <details class="finding">
+    <summary><span class="fid">B-5</span><span class="ftitle">Conversión y contrato: error de conversión propio y resultado siempre con las mismas claves</span><span class="badge mid">Medio</span><span class="badge wk">S12</span></summary>
+    <div class="body">
+      <ul>
+        <li><b>Conversión:</b> después de validar, el valor se convierte con <code>float()</code>. Si falla, se lanza <code>ErrorConversion(...) from exc</code>, que conserva el error original como causa (<code>__cause__</code>) y tiene su propia categoría (<code>CONVERSION</code>).</li>
+        <li><b>Entrada que no es lista:</b> se devuelve el contrato con un error <code>FORMATO_FUENTE</code> en lugar de fallar.</li>
+        <li><b>Resumen vacío:</b> se usa <code>generar_resumen([])</code> (total 0, promedio 0.0) en lugar de <code>{}</code>, de modo que quien consume el resultado siempre encuentra las mismas claves.</li>
+      </ul>
+      <div class="learn"><b>Para aprender:</b> un contrato no es solo «qué claves hay», sino «qué claves hay <i>siempre</i>». Un consumidor que tiene que preguntar <code>if "total" in resumen</code> es señal de un contrato débil.</div>
+    </div>
+  </details>
+
+  <h3>Trazabilidad Git del rol</h3>
+  <p>No hay ramas (<code>s10-robustez</code>, <code>s11-robustez</code>, <code>s12-robustez</code>) ni commits del rol. En la sustentación, el integrante B deberá explicar este código como si lo hubiera escrito, y el equipo debe aclarar por qué no hay evidencia del aporte.</p>
+</section>
+
+<!-- ================================================================ -->
+<section id="rol-c">
+  <h2>5. Rol C — Fuentes de datos</h2>
+  <p class="files">Archivos: <code>src/data/fuentes_memoria.py</code>, <code>src/data/lectores.py</code>, <code>src/data/carga_datos.py</code> · Commits del estudiante: ninguno · Commit de la revisión: <code>79f28de</code></p>
+
+  <div class="note warn"><b>Sin avance.</b> <code>cargar_desde_memoria()</code> y <code>carga_datos.py</code> venían ya en la plantilla; las funciones asignadas al rol (<code>preparar_registros_prueba</code> y los tres lectores) seguían con <code>NotImplementedError</code>, y no existían escenarios de fuentes defectuosas.</div>
+
+  <details class="finding" open>
+    <summary><span class="fid">C-1</span><span class="ftitle">Los lectores CSV, JSON y Excel no estaban implementados</span><span class="badge crit">Crítico</span><span class="badge wk">S12</span></summary>
+    <div class="body">
+      <p><b>Aceptación S12:</b> «los tres datasets se cargan y procesan con el contrato común». El servicio llama a <code>cargar_datos(archivo, nombre)</code> con un objeto parecido a un archivo (el <code>UploadedFile</code> de Streamlit o un <code>BytesIO</code> con atributo <code>name</code>), <b>no con una ruta</b>.</p>
+      <div class="ba">
+        <div class="before"><span class="lbl">Antes</span><pre><code>def leer_csv(archivo):
+    # TODO C-S12-01
+    raise NotImplementedError("Pendiente: lector CSV, semana 12")
+# igual en leer_json y leer_excel</code></pre></div>
+        <div class="after"><span class="lbl">Después (adaptador)</span><pre><code>def _obtener_bytes(archivo):
+    if isinstance(archivo, (str, Path)):
+        return Path(archivo).read_bytes()
+    if isinstance(archivo, (bytes, bytearray)):
+        return bytes(archivo)
+    if hasattr(archivo, "getvalue"):   # Streamlit / BytesIO
+        contenido = archivo.getvalue()
+    elif hasattr(archivo, "read"):     # archivo abierto
+        contenido = archivo.read()
+    else:
+        raise ErrorFormatoFuente(...)
+    ...</code></pre></div>
+      </div>
+      <p>Sobre ese adaptador, <code>leer_csv</code> usa <code>csv.reader</code> con <code>utf-8-sig</code> (elimina el BOM), <code>leer_json</code> acepta <code>[...]</code> o <code>{"registros": [...]}</code> (la forma de <code>presion.json</code>) y <code>leer_excel</code> usa <code>pd.read_excel(..., dtype=object)</code>.</p>
+      <div class="learn"><b>Para aprender:</b> es el patrón <b>adaptador</b>: una función auxiliar convierte cualquier entrada a <code>bytes</code>, y los tres lectores trabajan siempre sobre el mismo tipo. <code>hasattr</code> permite aceptar «cualquier cosa que tenga <code>.read()</code>» sin conocer su clase (<i>duck typing</i>). PEP 8: todas las importaciones van al inicio del archivo, agrupadas.</div>
+    </div>
+  </details>
+
+  <details class="finding">
+    <summary><span class="fid">C-2</span><span class="ftitle">preparar_registros_prueba no estaba implementado</span><span class="badge high">Alto</span><span class="badge wk">S10</span></summary>
+    <div class="body">
+      <p><b>Requisito (S10):</b> TODO C-S10-01 a C-S10-03, «preparar adaptador en memoria y fixtures con formatos variados».</p>
+      <p>Se devuelven los 12 registros base, 4 registros con formatos diversos que la normalización debe corregir (espacios, mayúsculas, <code>"Presión"</code>, <code>"HPA"</code>, <code>"55,5"</code>, <code>"ºc"</code>) y 6 casos inválidos (sin valor, id vacío, tipo <code>viento</code>, <code>"N/A"</code>, unidad incorrecta y fuera de rango). Resultado: <b>16 válidos y 6 inválidos</b>, cada uno con su motivo.</p>
+      <div class="learn"><b>Para aprender:</b> los ids de prueba usan la serie 1xx para no confundirse con los 12 registros base. <code>obtener_registros()</code> crea diccionarios nuevos en cada llamada, por eso los registros base nunca se alteran (TODO C-S10-03).</div>
+    </div>
+  </details>
+
+  <details class="finding">
+    <summary><span class="fid">C-3</span><span class="ftitle">Faltaban los escenarios de fuentes defectuosas de la semana 11</span><span class="badge mid">Medio</span><span class="badge wk">S11</span></summary>
+    <div class="body">
+      <p><b>Requisito S11 (Rol C):</b> «construir escenarios de origen defectuoso». Se agregó <code>preparar_escenarios_defectuosos()</code>: 2 registros correctos y 4 defectuosos (timeout del sensor, fila irregular marcada con <code>_error_tecnico</code>, texto en lugar de diccionario y <code>None</code>). Resultado: <b>2 válidos y 4 errores técnicos</b>, sin detener el lote.</p>
+      <div class="learn"><b>Para aprender:</b> no hay que confundir <b>datos de mala calidad</b> (<code>preparar_registros_prueba</code>, los rechaza el Rol A) con <b>fuentes defectuosas</b> (<code>preparar_escenarios_defectuosos</code>, los registra el Rol B como errores técnicos). Para probar a mano se usa <code>if __name__ == "__main__":</code> y no un <code>print()</code> suelto en el módulo, que se ejecutaría cada vez que alguien lo importe.</div>
+    </div>
+  </details>
+
+  <details class="finding">
+    <summary><span class="fid">C-4</span><span class="ftitle">Sin verificación de estructura ni uso de las excepciones del contrato</span><span class="badge mid">Medio</span><span class="badge wk">S12</span></summary>
+    <div class="body">
+      <p><b>Contrato (Rol C):</b> «Reportan errores de lectura mediante el contrato de excepciones». La guía pide además «probar archivos válidos, vacíos y con estructuras inesperadas».</p>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Situación</th><th>Comportamiento implementado</th></tr></thead>
+        <tbody>
+          <tr><td>CSV vacío o sin columnas <code>id, tipo, valor, unidad</code></td><td><code>ErrorFormatoFuente</code> que nombra las columnas faltantes</td></tr>
+          <tr><td>Fila CSV con columnas de más o de menos</td><td>Registro marcado con <code>_error_tecnico</code>, <code>_origen</code> y <code>_fila</code>; la lectura continúa y el Rol B lo reporta como <code>ESTRUCTURA_REGISTRO</code></td></tr>
+          <tr><td>JSON mal formado</td><td><code>ErrorLecturaFuente</code> con línea y columna</td></tr>
+          <tr><td>JSON que no es una lista (ni <code>{"registros": [...]}</code>)</td><td><code>ErrorFormatoFuente</code></td></tr>
+          <tr><td>Elemento JSON que no es un objeto</td><td>Marcado con <code>_error_tecnico</code>; la lectura continúa</td></tr>
+          <tr><td>Archivo inexistente, no UTF-8 o Excel dañado</td><td><code>ErrorLecturaFuente</code></td></tr>
+        </tbody>
+      </table></div>
+      <div class="learn"><b>Para aprender:</b> hay <b>dos niveles de falla</b>. Si falla todo el archivo, se lanza una excepción, porque no se puede confiar en ninguna fila. Si falla una fila, el Rol C la <b>marca</b> y el Rol B la <b>reporta</b> (B-3): una fila rota no debe impedir leer las otras 622. Se usa <code>csv.reader</code> y no <code>DictReader</code> porque este último esconde las filas irregulares con una clave <code>None</code>.</div>
+    </div>
+  </details>
+
+  <details class="finding">
+    <summary><span class="fid">C-5</span><span class="ftitle">carga_datos: ValueError genérico, «.xls» sin soporte y nombre obligatorio</span><span class="badge low">Bajo</span><span class="badge wk">S12</span></summary>
+    <div class="body">
+      <div class="ba">
+        <div class="before"><span class="lbl">Antes</span><pre><code>extension = nombre_archivo.lower().rsplit(".", 1)[-1]
+if extension == "csv": ...
+if extension in ("xlsx", "xls"):
+    return leer_excel(archivo)
+raise ValueError(f"Extensión no soportada: {extension}")</code></pre></div>
+        <div class="after"><span class="lbl">Después</span><pre><code>LECTORES_POR_EXTENSION = {"csv": leer_csv,
+    "json": leer_json, "xlsx": leer_excel}
+...
+extension = Path(str(nombre_archivo)).suffix.lower()[1:]
+lector = LECTORES_POR_EXTENSION.get(extension)
+if lector is None:
+    raise ErrorFormatoFuente(...)
+return lector(archivo)</code></pre></div>
+      </div>
+      <p>El proyecto instala <code>openpyxl</code>, que no lee <code>.xls</code>: aceptar esa extensión prometía algo que después fallaba. Con <code>rsplit</code>, un archivo sin extensión (<code>"datos"</code>) producía el mensaje confuso «Extensión no soportada: datos». Ahora, si no se envía <code>nombre_archivo</code>, se toma de <code>archivo.name</code> o de la ruta.</p>
+      <div class="learn"><b>Para aprender:</b> las funciones son objetos: se pueden guardar en un diccionario y llamarse después (<code>lector(archivo)</code>). Es la misma idea de tabla que en A-1 y B-3.</div>
+    </div>
+  </details>
+
+  <details class="finding">
+    <summary><span class="fid">C-6</span><span class="ftitle">Salida homogénea: sin NaN y con trazabilidad de origen y fila</span><span class="badge mid">Medio</span><span class="badge wk">S12</span></summary>
+    <div class="body">
+      <p><b>Requisito:</b> «implementar lectores CSV, JSON y Excel y <u>unificar salida</u>». El README: «Los lectores conservan metadatos de origen y fila».</p>
+      <div class="after"><span class="lbl">Después (lectores.py)</span><pre><code># Excel: NaN (celda vacía) → None, igual que un null de JSON
+tabla = tabla.astype(object).where(tabla.notna(), None)
+...
+registro["_origen"] = origen   # "humedad.xlsx"
+registro["_fila"] = indice + 2 # la fila 1 es el encabezado</code></pre></div>
+      <p>Los tres lectores entregan <code>list[dict]</code> con las mismas claves más <code>_origen</code> y <code>_fila</code>. La interfaz los muestra como «origen» y «fila», y el reporte de errores los usa: <code>'origen': 'humedad.xlsx (fila 89)'</code>.</p>
+      <div class="learn"><b>Para aprender:</b> el lector <b>no interpreta</b> los datos (no normaliza, no valida, no clasifica): solo entrega lo que hay en el archivo, con la misma forma sin importar el formato. <code>dtype=object</code> evita que pandas convierta tipos por su cuenta.</div>
+    </div>
+  </details>
+
+  <h3>Trazabilidad Git del rol</h3>
+  <p>No hay ramas (<code>s10-fuentes</code>, <code>s11-fuentes</code>, <code>s12-fuentes</code>) ni commits del rol.</p>
+</section>
+
+<!-- ================================================================ -->
+<section id="general">
+  <h2>6. Observaciones generales (no atribuibles a un rol)</h2>
+  <p>Estos puntos <b>no se modificaron</b>, porque pertenecen a archivos del docente, a la línea base o a la organización del equipo. Se documentan para tenerlos en cuenta.</p>
+
+  <h3>Git y colaboración (parte del 40 % del código)</h3>
+  <ul>
+    <li><b>No existen ramas de integración <code>semana-XX</code></b> ni ramas <code>s10-*</code> o <code>s11-*</code>. La única rama de estudiante es <code>s12-calidad-datos</code>, que contiene trabajo de la semana 10.</li>
+    <li>El commit <code>1c1e4d6</code> aparece directamente en la historia lineal de <code>main</code>, sin commit de fusión ni Pull Request visible. La guía exige PR hacia <code>semana-XX</code> y luego hacia <code>main</code>.</li>
+    <li>El único commit de estudiante tiene como autor «Campus Sala 101», una cuenta genérica del laboratorio, y se pierde la trazabilidad individual. Cada estudiante debe configurar su identidad en el equipo que use:<br>
+    <code>git config user.name "Nombre Apellido"</code> y <code>git config user.email "correo@..."</code>.</li>
+    <li>Los roles B y C no tienen ninguna evidencia en Git.</li>
+  </ul>
+
+  <h3>Archivos del docente o de la línea base</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Archivo</th><th>Observación</th><th>Sugerencia</th></tr></thead>
+    <tbody>
+      <tr><td><code>data/README.md</code></td><td>Describe los datasets anteriores: 500 registros y 24 incidencias.</td><td>Actualizar con las columnas <code>fecha</code> y <code>observacion_tecnica</code>, y con los conteos del README principal.</td></tr>
+      <tr><td><code>README.md</code> («Versión con implementación completa»)</td><td>Dice que el paquete contiene resueltos los módulos que eran TODO, pero el repositorio de los estudiantes parte de la plantilla con TODO.</td><td>Quitar esa sección de la versión de estudiantes o aclarar a qué versión aplica.</td></tr>
+      <tr><td><code>humedad.xlsx</code> y <code>README.md</code></td><td>Los conteos del README tratan el texto <code>"N/A"</code> de Excel como <b>faltante</b> (pandas lo convierte en celda vacía), mientras que el mismo <code>"N/A"</code> en CSV o JSON se cuenta como <b>no numérico</b>. El lector respeta ese comportamiento para coincidir con el README (humedad: 16 faltantes y 11 no numéricos).</td><td>Para que la validación no dependa del origen: tratar <code>"N/A"</code> como faltante en el Rol A para todas las fuentes, o leer Excel con <code>keep_default_na=False</code> y ajustar los conteos del README.</td></tr>
+      <tr><td><code>src/main.py</code></td><td>Clasifica directamente, sin pasar por <code>procesar_registros</code>: la consola omite la normalización y la validación.</td><td>Usar <code>ejecutar_demo()</code> del servicio.</td></tr>
+      <tr><td><code>src/interface/consola.py</code> y <code>src/processing/resumen.py</code></td><td>La consola espera <code>resumen["promedio_por_sensor"]</code>, pero <code>generar_resumen</code> no lo calcula, así que <code>python -m src.main</code> no muestra ningún promedio. El promedio general mezcla °C, hPa y %.</td><td>Agregar <code>promedio_por_sensor</code> en <code>resumen.py</code>.</td></tr>
+      <tr><td><code>docs/entregas_semanales.md</code></td><td>Menciona archivos que no existen en la estructura (<code>estados.py</code>, <code>fixtures_semana10.py</code>, <code>escenarios_fuente.py</code>).</td><td>Alinear con la estructura del README; en esta revisión los escenarios se ubicaron en <code>fuentes_memoria.py</code>.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ================================================================ -->
+<section id="verificacion">
+  <h2>7. Verificación realizada</h2>
+  <div class="note"><b>Importante:</b> la carpeta <code>tests/</code> no se tuvo en cuenta, por indicación del docente. La verificación se hizo ejecutando el servicio y la interfaz directamente.</div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Escenario</th><th>Resultado</th></tr></thead>
+    <tbody>
+      <tr><td>Tres datasets cargados <b>por ruta</b> y <b>como archivo en memoria</b> (como lo hace Streamlit)</td><td>528/91/4 · 595/107/6 · 433/131/9, idénticos en ambos modos y al README</td></tr>
+      <tr><td>Motivos por tipo y clasificación BAJO/NORMAL/ALTO</td><td>Coinciden con las dos tablas del README en los tres datasets</td></tr>
+      <tr><td>Demostración en memoria</td><td>12 válidos, 0 inválidos, 0 errores</td></tr>
+      <tr><td><code>preparar_registros_prueba()</code></td><td>16 válidos, 6 inválidos con un motivo cada uno</td></tr>
+      <tr><td><code>preparar_escenarios_defectuosos()</code></td><td>2 válidos, 4 errores (<code>TIMEOUT_SENSOR</code> y 3 × <code>ESTRUCTURA_REGISTRO</code>)</td></tr>
+      <tr><td>CSV vacío, sin columnas, con filas irregulares; JSON mal formado o con forma incorrecta; archivo no UTF-8; Excel dañado; extensión <code>.txt</code> o sin extensión; archivo inexistente</td><td>Excepción del contrato con mensaje claro, o fila marcada sin detener la lectura</td></tr>
+      <tr><td>Interfaz Streamlit (ejecutada sin navegador con <code>streamlit.testing</code>): modo demostración y «Usar datasets de ejemplo»</td><td>Sin excepciones; pestañas Panorama, una por archivo y Reporte; indicadores 1904 recibidos, 1556 válidos, 329 inválidos y 19 errores técnicos</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ================================================================ -->
+<section id="estudio">
+  <h2>8. Cómo estudiar los cambios</h2>
+  <ol>
+    <li>Ver todos los cambios de la revisión respecto a lo entregado:
+      <pre><code>git diff 5c9444a revision-docente -- src/</code></pre></li>
+    <li>Ver solo los cambios de un rol (cada rol tiene su propio commit en la rama <code>revision-docente</code>):
+      <pre><code>git log --oneline revision-docente
+git show 924a25a   # Rol A
+git show 9524908   # Rol B
+git show 79f28de   # Rol C</code></pre></li>
+    <li>Buscar los comentarios <code># REVISIÓN</code> en cada archivo: explican el porqué de cada cambio en el mismo lugar del código. El código entre paréntesis (por ejemplo <code>A-4</code>) remite a la observación de este informe.</li>
+    <li>Ejecutar la interfaz y cargar los tres archivos de <code>data/raw/</code> (o activar «Usar datasets de ejemplo»):
+      <pre><code>python -m streamlit run src/interface/streamlit_app.py</code></pre></li>
+    <li>Probar a mano los escenarios del Rol C:
+      <pre><code>python -c "from src.data.fuentes_memoria import preparar_escenarios_defectuosos as e; from src.processing.procesamiento import procesar_registros as p; print(p(e())['errores'])"</code></pre></li>
+  </ol>
+
+  <h3>Preguntas sugeridas para la sustentación</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Rol</th><th>Preguntas</th></tr></thead>
+    <tbody>
+      <tr><td>A</td><td>¿Por qué validar un rango plausible no es lo mismo que clasificar? · ¿Qué pasaría si la normalización modificara el diccionario original? · ¿Por qué <code>x != x</code> detecta un NaN? · ¿Por qué <code>"1.013,2"</code> no se convierte?</td></tr>
+      <tr><td>B</td><td>¿Cuál es la diferencia entre un registro inválido y un error técnico? · ¿Por qué el <code>try</code> está dentro del <code>for</code>? · ¿Por qué hay dos bloques <code>except</code> y en ese orden? · ¿Qué ventaja tiene el atributo <code>CATEGORIA</code> frente a una cadena de <code>if</code>?</td></tr>
+      <tr><td>C</td><td>¿Por qué una fila irregular se marca en lugar de lanzar una excepción? · ¿Qué hace <code>_obtener_bytes</code> y por qué <code>open(archivo)</code> no funciona con Streamlit? · ¿Para qué sirven <code>_origen</code> y <code>_fila</code>?</td></tr>
+      <tr><td>Todos</td><td>Recorran el viaje de la fila <code>PRE-0705</code> (evento <code>SIMULACION_PAQUETE_INCOMPLETO</code>, fila 137) desde <code>presion.json</code> hasta la pestaña «Errores técnicos». ¿Qué rol interviene en cada paso? ¿Y el de <code>HUM-0467</code> (valor −5 %)?</td></tr>
+    </tbody>
+  </table></div>
+</section>
+</main>
+
+<footer>DataLab · Revisión docente de las semanas 10 a 12 · Rama <code>revision-docente</code></footer>
+</body>
+</html>
