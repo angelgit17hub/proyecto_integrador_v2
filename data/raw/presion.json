@@ -1,3002 +1,5668 @@
-[
-  {
-    "id": "P001",
-    "tipo": "presion",
-    "valor": "",
-    "unidad": "hPa"
-  },
-  {
-    "id": "P002",
-    "tipo": "presion",
-    "valor": "",
-    "unidad": "hPa"
-  },
-  {
-    "id": "P003",
-    "tipo": "presion",
-    "valor": "",
-    "unidad": "hPa"
-  },
-  {
-    "id": "P004",
-    "tipo": "presion",
-    "valor": "",
-    "unidad": "hPa"
-  },
-  {
-    "id": "P005",
-    "tipo": "presion",
-    "valor": "",
-    "unidad": "hPa"
-  },
-  {
-    "id": "P006",
-    "tipo": "presion",
-    "valor": "",
-    "unidad": "hPa"
-  },
-  {
-    "id": "P007",
-    "tipo": "presion",
-    "valor": "",
-    "unidad": "hPa"
-  },
-  {
-    "id": "P008",
-    "tipo": "presion",
-    "valor": "",
-    "unidad": "hPa"
-  },
-  {
-    "id": "P009",
-    "tipo": "presion",
-    "valor": 295.5,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P010",
-    "tipo": "presion",
-    "valor": 295.5,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P011",
-    "tipo": "presion",
-    "valor": 295.5,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P012",
-    "tipo": "presion",
-    "valor": 295.5,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P013",
-    "tipo": "presion",
-    "valor": 295.5,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P014",
-    "tipo": "presion",
-    "valor": 295.5,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P015",
-    "tipo": "presion",
-    "valor": 295.5,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P016",
-    "tipo": "presion",
-    "valor": 295.5,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P017",
-    "tipo": "presion",
-    "valor": "N/D",
-    "unidad": "hPa"
-  },
-  {
-    "id": "P018",
-    "tipo": "presion",
-    "valor": "ERROR",
-    "unidad": "hPa"
-  },
-  {
-    "id": "P019",
-    "tipo": "presion",
-    "valor": "sin_dato",
-    "unidad": "hPa"
-  },
-  {
-    "id": "P020",
-    "tipo": "presion",
-    "valor": "desconocido",
-    "unidad": "hPa"
-  },
-  {
-    "id": "P021",
-    "tipo": "presion",
-    "valor": "NA",
-    "unidad": "hPa"
-  },
-  {
-    "id": "P022",
-    "tipo": "presion",
-    "valor": "?",
-    "unidad": "hPa"
-  },
-  {
-    "id": "P023",
-    "tipo": "presion",
-    "valor": "pendiente",
-    "unidad": "hPa"
-  },
-  {
-    "id": "P024",
-    "tipo": "presion",
-    "valor": "sin lectura",
-    "unidad": "hPa"
-  },
-  {
-    "id": "P025",
-    "tipo": "presion",
-    "valor": 1009.88,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P026",
-    "tipo": "presion",
-    "valor": 991.94,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P027",
-    "tipo": "presion",
-    "valor": 985.06,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P028",
-    "tipo": "presion",
-    "valor": 1013.14,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P029",
-    "tipo": "presion",
-    "valor": 1018.24,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P030",
-    "tipo": "presion",
-    "valor": 1016.58,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P031",
-    "tipo": "presion",
-    "valor": 1009.69,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P032",
-    "tipo": "presion",
-    "valor": 1021.93,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P033",
-    "tipo": "presion",
-    "valor": 1030.02,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P034",
-    "tipo": "presion",
-    "valor": 1024.21,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P035",
-    "tipo": "presion",
-    "valor": 990.22,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P036",
-    "tipo": "presion",
-    "valor": 1022.76,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P037",
-    "tipo": "presion",
-    "valor": 985.06,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P038",
-    "tipo": "presion",
-    "valor": 994.88,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P039",
-    "tipo": "presion",
-    "valor": 1018.8,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P040",
-    "tipo": "presion",
-    "valor": 1017.0,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P041",
-    "tipo": "presion",
-    "valor": 986.14,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P042",
-    "tipo": "presion",
-    "valor": 1023.07,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P043",
-    "tipo": "presion",
-    "valor": 1025.53,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P044",
-    "tipo": "presion",
-    "valor": 1026.41,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P045",
-    "tipo": "presion",
-    "valor": 1019.77,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P046",
-    "tipo": "presion",
-    "valor": 1019.83,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P047",
-    "tipo": "presion",
-    "valor": 1006.55,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P048",
-    "tipo": "presion",
-    "valor": 1012.32,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P049",
-    "tipo": "presion",
-    "valor": 1028.98,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P050",
-    "tipo": "presion",
-    "valor": 1034.84,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P051",
-    "tipo": "presion",
-    "valor": 985.24,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P052",
-    "tipo": "presion",
-    "valor": 1031.9,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P053",
-    "tipo": "presion",
-    "valor": 1022.8,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P054",
-    "tipo": "presion",
-    "valor": 1032.03,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P055",
-    "tipo": "presion",
-    "valor": 998.2,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P056",
-    "tipo": "presion",
-    "valor": 1012.62,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P057",
-    "tipo": "presion",
-    "valor": 1011.24,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P058",
-    "tipo": "presion",
-    "valor": 1004.18,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P059",
-    "tipo": "presion",
-    "valor": 1006.34,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P060",
-    "tipo": "presion",
-    "valor": 1012.84,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P061",
-    "tipo": "presion",
-    "valor": 1032.72,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P062",
-    "tipo": "presion",
-    "valor": 995.05,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P063",
-    "tipo": "presion",
-    "valor": 1025.15,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P064",
-    "tipo": "presion",
-    "valor": 1025.82,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P065",
-    "tipo": "presion",
-    "valor": 1026.78,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P066",
-    "tipo": "presion",
-    "valor": 1023.26,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P067",
-    "tipo": "presion",
-    "valor": 1014.6,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P068",
-    "tipo": "presion",
-    "valor": 989.17,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P069",
-    "tipo": "presion",
-    "valor": 993.32,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P070",
-    "tipo": "presion",
-    "valor": 996.82,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P071",
-    "tipo": "presion",
-    "valor": 985.02,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P072",
-    "tipo": "presion",
-    "valor": 993.95,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P073",
-    "tipo": "presion",
-    "valor": 995.85,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P074",
-    "tipo": "presion",
-    "valor": 1003.98,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P075",
-    "tipo": "presion",
-    "valor": 997.91,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P076",
-    "tipo": "presion",
-    "valor": 1029.48,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P077",
-    "tipo": "presion",
-    "valor": 1002.59,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P078",
-    "tipo": "presion",
-    "valor": 1010.92,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P079",
-    "tipo": "presion",
-    "valor": 1020.86,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P080",
-    "tipo": "presion",
-    "valor": 1012.18,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P081",
-    "tipo": "presion",
-    "valor": 1009.03,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P082",
-    "tipo": "presion",
-    "valor": 1024.3,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P083",
-    "tipo": "presion",
-    "valor": 993.0,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P084",
-    "tipo": "presion",
-    "valor": 1002.67,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P085",
-    "tipo": "presion",
-    "valor": 1026.32,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P086",
-    "tipo": "presion",
-    "valor": 1005.57,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P087",
-    "tipo": "presion",
-    "valor": 1000.83,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P088",
-    "tipo": "presion",
-    "valor": 1022.25,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P089",
-    "tipo": "presion",
-    "valor": 995.23,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P090",
-    "tipo": "presion",
-    "valor": 1010.46,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P091",
-    "tipo": "presion",
-    "valor": 1011.02,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P092",
-    "tipo": "presion",
-    "valor": 985.78,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P093",
-    "tipo": "presion",
-    "valor": 992.6,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P094",
-    "tipo": "presion",
-    "valor": 1002.63,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P095",
-    "tipo": "presion",
-    "valor": 985.38,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P096",
-    "tipo": "presion",
-    "valor": 1001.6,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P097",
-    "tipo": "presion",
-    "valor": 1023.67,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P098",
-    "tipo": "presion",
-    "valor": 1024.92,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P099",
-    "tipo": "presion",
-    "valor": 988.91,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P100",
-    "tipo": "presion",
-    "valor": 987.53,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P101",
-    "tipo": "presion",
-    "valor": 1012.12,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P102",
-    "tipo": "presion",
-    "valor": 1029.41,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P103",
-    "tipo": "presion",
-    "valor": 1030.54,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P104",
-    "tipo": "presion",
-    "valor": 994.04,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P105",
-    "tipo": "presion",
-    "valor": 987.11,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P106",
-    "tipo": "presion",
-    "valor": 992.03,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P107",
-    "tipo": "presion",
-    "valor": 1003.16,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P108",
-    "tipo": "presion",
-    "valor": 1020.31,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P109",
-    "tipo": "presion",
-    "valor": 986.95,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P110",
-    "tipo": "presion",
-    "valor": 998.31,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P111",
-    "tipo": "presion",
-    "valor": 1003.69,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P112",
-    "tipo": "presion",
-    "valor": 1020.99,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P113",
-    "tipo": "presion",
-    "valor": 1018.83,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P114",
-    "tipo": "presion",
-    "valor": 1020.98,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P115",
-    "tipo": "presion",
-    "valor": 998.33,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P116",
-    "tipo": "presion",
-    "valor": 1015.07,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P117",
-    "tipo": "presion",
-    "valor": 1010.99,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P118",
-    "tipo": "presion",
-    "valor": 988.58,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P119",
-    "tipo": "presion",
-    "valor": 1028.81,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P120",
-    "tipo": "presion",
-    "valor": 1015.03,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P121",
-    "tipo": "presion",
-    "valor": 986.51,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P122",
-    "tipo": "presion",
-    "valor": 1031.8,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P123",
-    "tipo": "presion",
-    "valor": 992.92,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P124",
-    "tipo": "presion",
-    "valor": 997.65,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P125",
-    "tipo": "presion",
-    "valor": 991.97,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P126",
-    "tipo": "presion",
-    "valor": 1028.12,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P127",
-    "tipo": "presion",
-    "valor": 1011.54,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P128",
-    "tipo": "presion",
-    "valor": 1034.32,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P129",
-    "tipo": "presion",
-    "valor": 987.87,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P130",
-    "tipo": "presion",
-    "valor": 1006.64,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P131",
-    "tipo": "presion",
-    "valor": 996.5,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P132",
-    "tipo": "presion",
-    "valor": 1023.98,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P133",
-    "tipo": "presion",
-    "valor": 1020.38,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P134",
-    "tipo": "presion",
-    "valor": 1003.23,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P135",
-    "tipo": "presion",
-    "valor": 1006.33,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P136",
-    "tipo": "presion",
-    "valor": 1033.89,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P137",
-    "tipo": "presion",
-    "valor": 1032.33,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P138",
-    "tipo": "presion",
-    "valor": 1023.25,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P139",
-    "tipo": "presion",
-    "valor": 1001.33,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P140",
-    "tipo": "presion",
-    "valor": 1014.0,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P141",
-    "tipo": "presion",
-    "valor": 988.51,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P142",
-    "tipo": "presion",
-    "valor": 1001.17,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P143",
-    "tipo": "presion",
-    "valor": 989.56,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P144",
-    "tipo": "presion",
-    "valor": 994.81,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P145",
-    "tipo": "presion",
-    "valor": 999.94,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P146",
-    "tipo": "presion",
-    "valor": 1025.52,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P147",
-    "tipo": "presion",
-    "valor": 1023.29,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P148",
-    "tipo": "presion",
-    "valor": 1005.9,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P149",
-    "tipo": "presion",
-    "valor": 1015.11,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P150",
-    "tipo": "presion",
-    "valor": 1032.04,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P151",
-    "tipo": "presion",
-    "valor": 1018.99,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P152",
-    "tipo": "presion",
-    "valor": 1029.13,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P153",
-    "tipo": "presion",
-    "valor": 1002.4,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P154",
-    "tipo": "presion",
-    "valor": 1029.71,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P155",
-    "tipo": "presion",
-    "valor": 995.26,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P156",
-    "tipo": "presion",
-    "valor": 986.08,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P157",
-    "tipo": "presion",
-    "valor": 992.23,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P158",
-    "tipo": "presion",
-    "valor": 1008.65,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P159",
-    "tipo": "presion",
-    "valor": 1021.21,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P160",
-    "tipo": "presion",
-    "valor": 1000.88,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P161",
-    "tipo": "presion",
-    "valor": 1012.5,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P162",
-    "tipo": "presion",
-    "valor": 1000.99,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P163",
-    "tipo": "presion",
-    "valor": 1010.91,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P164",
-    "tipo": "presion",
-    "valor": 1020.41,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P165",
-    "tipo": "presion",
-    "valor": 1019.9,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P166",
-    "tipo": "presion",
-    "valor": 1017.24,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P167",
-    "tipo": "presion",
-    "valor": 1020.43,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P168",
-    "tipo": "presion",
-    "valor": 1010.37,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P169",
-    "tipo": "presion",
-    "valor": 1008.47,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P170",
-    "tipo": "presion",
-    "valor": 991.38,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P171",
-    "tipo": "presion",
-    "valor": 1012.55,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P172",
-    "tipo": "presion",
-    "valor": 1027.15,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P173",
-    "tipo": "presion",
-    "valor": 1000.49,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P174",
-    "tipo": "presion",
-    "valor": 1002.57,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P175",
-    "tipo": "presion",
-    "valor": 1004.64,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P176",
-    "tipo": "presion",
-    "valor": 1007.0,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P177",
-    "tipo": "presion",
-    "valor": 1000.25,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P178",
-    "tipo": "presion",
-    "valor": 1010.53,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P179",
-    "tipo": "presion",
-    "valor": 1032.87,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P180",
-    "tipo": "presion",
-    "valor": 1026.86,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P181",
-    "tipo": "presion",
-    "valor": 1025.84,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P182",
-    "tipo": "presion",
-    "valor": 1000.1,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P183",
-    "tipo": "presion",
-    "valor": 996.47,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P184",
-    "tipo": "presion",
-    "valor": 1023.86,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P185",
-    "tipo": "presion",
-    "valor": 1005.32,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P186",
-    "tipo": "presion",
-    "valor": 997.47,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P187",
-    "tipo": "presion",
-    "valor": 1026.45,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P188",
-    "tipo": "presion",
-    "valor": 986.63,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P189",
-    "tipo": "presion",
-    "valor": 1000.29,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P190",
-    "tipo": "presion",
-    "valor": 1020.14,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P191",
-    "tipo": "presion",
-    "valor": 986.03,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P192",
-    "tipo": "presion",
-    "valor": 989.72,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P193",
-    "tipo": "presion",
-    "valor": 1021.02,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P194",
-    "tipo": "presion",
-    "valor": 1017.37,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P195",
-    "tipo": "presion",
-    "valor": 1018.5,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P196",
-    "tipo": "presion",
-    "valor": 1007.49,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P197",
-    "tipo": "presion",
-    "valor": 1034.15,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P198",
-    "tipo": "presion",
-    "valor": 1012.77,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P199",
-    "tipo": "presion",
-    "valor": 999.18,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P200",
-    "tipo": "presion",
-    "valor": 1034.21,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P201",
-    "tipo": "presion",
-    "valor": 1004.5,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P202",
-    "tipo": "presion",
-    "valor": 1030.02,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P203",
-    "tipo": "presion",
-    "valor": 1025.99,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P204",
-    "tipo": "presion",
-    "valor": 999.55,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P205",
-    "tipo": "presion",
-    "valor": 996.64,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P206",
-    "tipo": "presion",
-    "valor": 990.28,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P207",
-    "tipo": "presion",
-    "valor": 1024.36,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P208",
-    "tipo": "presion",
-    "valor": 1027.46,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P209",
-    "tipo": "presion",
-    "valor": 1014.32,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P210",
-    "tipo": "presion",
-    "valor": 1030.57,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P211",
-    "tipo": "presion",
-    "valor": 1021.95,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P212",
-    "tipo": "presion",
-    "valor": 987.34,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P213",
-    "tipo": "presion",
-    "valor": 992.83,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P214",
-    "tipo": "presion",
-    "valor": 1016.48,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P215",
-    "tipo": "presion",
-    "valor": 1010.75,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P216",
-    "tipo": "presion",
-    "valor": 1029.73,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P217",
-    "tipo": "presion",
-    "valor": 1029.55,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P218",
-    "tipo": "presion",
-    "valor": 1021.9,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P219",
-    "tipo": "presion",
-    "valor": 991.67,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P220",
-    "tipo": "presion",
-    "valor": 1030.38,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P221",
-    "tipo": "presion",
-    "valor": 1008.88,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P222",
-    "tipo": "presion",
-    "valor": 1023.99,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P223",
-    "tipo": "presion",
-    "valor": 1031.16,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P224",
-    "tipo": "presion",
-    "valor": 998.25,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P225",
-    "tipo": "presion",
-    "valor": 996.61,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P226",
-    "tipo": "presion",
-    "valor": 992.88,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P227",
-    "tipo": "presion",
-    "valor": 1016.27,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P228",
-    "tipo": "presion",
-    "valor": 1023.8,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P229",
-    "tipo": "presion",
-    "valor": 1019.55,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P230",
-    "tipo": "presion",
-    "valor": 1010.71,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P231",
-    "tipo": "presion",
-    "valor": 988.87,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P232",
-    "tipo": "presion",
-    "valor": 986.43,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P233",
-    "tipo": "presion",
-    "valor": 996.07,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P234",
-    "tipo": "presion",
-    "valor": 1000.6,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P235",
-    "tipo": "presion",
-    "valor": 1010.06,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P236",
-    "tipo": "presion",
-    "valor": 1011.53,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P237",
-    "tipo": "presion",
-    "valor": 1023.36,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P238",
-    "tipo": "presion",
-    "valor": 990.94,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P239",
-    "tipo": "presion",
-    "valor": 994.01,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P240",
-    "tipo": "presion",
-    "valor": 1016.96,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P241",
-    "tipo": "presion",
-    "valor": 1001.64,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P242",
-    "tipo": "presion",
-    "valor": 989.94,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P243",
-    "tipo": "presion",
-    "valor": 987.73,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P244",
-    "tipo": "presion",
-    "valor": 1010.65,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P245",
-    "tipo": "presion",
-    "valor": 1005.92,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P246",
-    "tipo": "presion",
-    "valor": 1000.85,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P247",
-    "tipo": "presion",
-    "valor": 1012.21,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P248",
-    "tipo": "presion",
-    "valor": 1016.25,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P249",
-    "tipo": "presion",
-    "valor": 994.28,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P250",
-    "tipo": "presion",
-    "valor": 1019.04,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P251",
-    "tipo": "presion",
-    "valor": 1027.25,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P252",
-    "tipo": "presion",
-    "valor": 985.46,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P253",
-    "tipo": "presion",
-    "valor": 1010.54,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P254",
-    "tipo": "presion",
-    "valor": 1027.39,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P255",
-    "tipo": "presion",
-    "valor": 1033.15,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P256",
-    "tipo": "presion",
-    "valor": 1020.14,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P257",
-    "tipo": "presion",
-    "valor": 1007.01,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P258",
-    "tipo": "presion",
-    "valor": 1034.94,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P259",
-    "tipo": "presion",
-    "valor": 1024.03,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P260",
-    "tipo": "presion",
-    "valor": 997.17,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P261",
-    "tipo": "presion",
-    "valor": 999.05,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P262",
-    "tipo": "presion",
-    "valor": 1018.99,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P263",
-    "tipo": "presion",
-    "valor": 1025.99,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P264",
-    "tipo": "presion",
-    "valor": 1025.23,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P265",
-    "tipo": "presion",
-    "valor": 1030.64,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P266",
-    "tipo": "presion",
-    "valor": 993.47,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P267",
-    "tipo": "presion",
-    "valor": 992.07,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P268",
-    "tipo": "presion",
-    "valor": 1024.71,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P269",
-    "tipo": "presion",
-    "valor": 1017.4,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P270",
-    "tipo": "presion",
-    "valor": 1016.3,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P271",
-    "tipo": "presion",
-    "valor": 1002.54,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P272",
-    "tipo": "presion",
-    "valor": 985.44,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P273",
-    "tipo": "presion",
-    "valor": 1020.94,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P274",
-    "tipo": "presion",
-    "valor": 987.34,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P275",
-    "tipo": "presion",
-    "valor": 987.72,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P276",
-    "tipo": "presion",
-    "valor": 1034.46,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P277",
-    "tipo": "presion",
-    "valor": 1008.14,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P278",
-    "tipo": "presion",
-    "valor": 1001.61,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P279",
-    "tipo": "presion",
-    "valor": 992.34,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P280",
-    "tipo": "presion",
-    "valor": 1030.47,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P281",
-    "tipo": "presion",
-    "valor": 1016.31,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P282",
-    "tipo": "presion",
-    "valor": 1013.76,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P283",
-    "tipo": "presion",
-    "valor": 1030.34,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P284",
-    "tipo": "presion",
-    "valor": 1017.64,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P285",
-    "tipo": "presion",
-    "valor": 1002.47,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P286",
-    "tipo": "presion",
-    "valor": 998.69,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P287",
-    "tipo": "presion",
-    "valor": 1017.47,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P288",
-    "tipo": "presion",
-    "valor": 1004.84,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P289",
-    "tipo": "presion",
-    "valor": 1018.25,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P290",
-    "tipo": "presion",
-    "valor": 1034.8,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P291",
-    "tipo": "presion",
-    "valor": 1020.65,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P292",
-    "tipo": "presion",
-    "valor": 1017.96,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P293",
-    "tipo": "presion",
-    "valor": 1013.28,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P294",
-    "tipo": "presion",
-    "valor": 1013.39,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P295",
-    "tipo": "presion",
-    "valor": 1007.28,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P296",
-    "tipo": "presion",
-    "valor": 994.53,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P297",
-    "tipo": "presion",
-    "valor": 996.28,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P298",
-    "tipo": "presion",
-    "valor": 999.29,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P299",
-    "tipo": "presion",
-    "valor": 1012.49,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P300",
-    "tipo": "presion",
-    "valor": 1031.21,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P301",
-    "tipo": "presion",
-    "valor": 1005.46,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P302",
-    "tipo": "presion",
-    "valor": 988.72,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P303",
-    "tipo": "presion",
-    "valor": 989.76,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P304",
-    "tipo": "presion",
-    "valor": 1012.36,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P305",
-    "tipo": "presion",
-    "valor": 1019.45,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P306",
-    "tipo": "presion",
-    "valor": 1030.14,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P307",
-    "tipo": "presion",
-    "valor": 997.66,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P308",
-    "tipo": "presion",
-    "valor": 999.47,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P309",
-    "tipo": "presion",
-    "valor": 1030.57,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P310",
-    "tipo": "presion",
-    "valor": 1021.02,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P311",
-    "tipo": "presion",
-    "valor": 1008.14,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P312",
-    "tipo": "presion",
-    "valor": 994.04,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P313",
-    "tipo": "presion",
-    "valor": 1026.84,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P314",
-    "tipo": "presion",
-    "valor": 1029.48,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P315",
-    "tipo": "presion",
-    "valor": 1021.18,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P316",
-    "tipo": "presion",
-    "valor": 986.2,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P317",
-    "tipo": "presion",
-    "valor": 1021.65,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P318",
-    "tipo": "presion",
-    "valor": 1028.83,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P319",
-    "tipo": "presion",
-    "valor": 1017.07,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P320",
-    "tipo": "presion",
-    "valor": 999.82,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P321",
-    "tipo": "presion",
-    "valor": 998.22,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P322",
-    "tipo": "presion",
-    "valor": 999.67,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P323",
-    "tipo": "presion",
-    "valor": 1021.86,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P324",
-    "tipo": "presion",
-    "valor": 1025.33,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P325",
-    "tipo": "presion",
-    "valor": 1021.74,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P326",
-    "tipo": "presion",
-    "valor": 991.08,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P327",
-    "tipo": "presion",
-    "valor": 1018.77,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P328",
-    "tipo": "presion",
-    "valor": 1008.42,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P329",
-    "tipo": "presion",
-    "valor": 989.17,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P330",
-    "tipo": "presion",
-    "valor": 1012.7,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P331",
-    "tipo": "presion",
-    "valor": 1033.09,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P332",
-    "tipo": "presion",
-    "valor": 993.71,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P333",
-    "tipo": "presion",
-    "valor": 991.33,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P334",
-    "tipo": "presion",
-    "valor": 1033.82,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P335",
-    "tipo": "presion",
-    "valor": 1008.36,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P336",
-    "tipo": "presion",
-    "valor": 1005.9,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P337",
-    "tipo": "presion",
-    "valor": 991.83,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P338",
-    "tipo": "presion",
-    "valor": 1034.43,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P339",
-    "tipo": "presion",
-    "valor": 1001.6,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P340",
-    "tipo": "presion",
-    "valor": 997.37,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P341",
-    "tipo": "presion",
-    "valor": 1028.17,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P342",
-    "tipo": "presion",
-    "valor": 1025.92,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P343",
-    "tipo": "presion",
-    "valor": 993.85,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P344",
-    "tipo": "presion",
-    "valor": 1031.06,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P345",
-    "tipo": "presion",
-    "valor": 1024.57,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P346",
-    "tipo": "presion",
-    "valor": 1016.99,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P347",
-    "tipo": "presion",
-    "valor": 1024.26,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P348",
-    "tipo": "presion",
-    "valor": 999.96,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P349",
-    "tipo": "presion",
-    "valor": 1014.23,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P350",
-    "tipo": "presion",
-    "valor": 1020.73,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P351",
-    "tipo": "presion",
-    "valor": 1008.83,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P352",
-    "tipo": "presion",
-    "valor": 1001.71,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P353",
-    "tipo": "presion",
-    "valor": 1008.94,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P354",
-    "tipo": "presion",
-    "valor": 996.66,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P355",
-    "tipo": "presion",
-    "valor": 1027.84,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P356",
-    "tipo": "presion",
-    "valor": 985.13,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P357",
-    "tipo": "presion",
-    "valor": 1026.93,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P358",
-    "tipo": "presion",
-    "valor": 985.79,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P359",
-    "tipo": "presion",
-    "valor": 1014.21,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P360",
-    "tipo": "presion",
-    "valor": 1026.33,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P361",
-    "tipo": "presion",
-    "valor": 1026.85,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P362",
-    "tipo": "presion",
-    "valor": 1023.93,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P363",
-    "tipo": "presion",
-    "valor": 1027.27,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P364",
-    "tipo": "presion",
-    "valor": 999.8,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P365",
-    "tipo": "presion",
-    "valor": 1026.83,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P366",
-    "tipo": "presion",
-    "valor": 1022.51,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P367",
-    "tipo": "presion",
-    "valor": 1006.31,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P368",
-    "tipo": "presion",
-    "valor": 1013.24,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P369",
-    "tipo": "presion",
-    "valor": 993.06,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P370",
-    "tipo": "presion",
-    "valor": 1008.1,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P371",
-    "tipo": "presion",
-    "valor": 1017.81,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P372",
-    "tipo": "presion",
-    "valor": 1031.07,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P373",
-    "tipo": "presion",
-    "valor": 989.14,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P374",
-    "tipo": "presion",
-    "valor": 986.87,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P375",
-    "tipo": "presion",
-    "valor": 1025.95,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P376",
-    "tipo": "presion",
-    "valor": 992.81,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P377",
-    "tipo": "presion",
-    "valor": 1033.33,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P378",
-    "tipo": "presion",
-    "valor": 989.42,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P379",
-    "tipo": "presion",
-    "valor": 1004.89,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P380",
-    "tipo": "presion",
-    "valor": 1026.97,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P381",
-    "tipo": "presion",
-    "valor": 986.51,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P382",
-    "tipo": "presion",
-    "valor": 1030.62,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P383",
-    "tipo": "presion",
-    "valor": 1004.5,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P384",
-    "tipo": "presion",
-    "valor": 1010.28,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P385",
-    "tipo": "presion",
-    "valor": 993.96,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P386",
-    "tipo": "presion",
-    "valor": 993.37,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P387",
-    "tipo": "presion",
-    "valor": 1011.3,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P388",
-    "tipo": "presion",
-    "valor": 1025.83,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P389",
-    "tipo": "presion",
-    "valor": 1011.54,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P390",
-    "tipo": "presion",
-    "valor": 1031.27,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P391",
-    "tipo": "presion",
-    "valor": 1027.13,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P392",
-    "tipo": "presion",
-    "valor": 1023.15,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P393",
-    "tipo": "presion",
-    "valor": 1023.53,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P394",
-    "tipo": "presion",
-    "valor": 1006.46,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P395",
-    "tipo": "presion",
-    "valor": 1011.24,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P396",
-    "tipo": "presion",
-    "valor": 1024.54,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P397",
-    "tipo": "presion",
-    "valor": 1028.37,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P398",
-    "tipo": "presion",
-    "valor": 996.62,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P399",
-    "tipo": "presion",
-    "valor": 1000.46,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P400",
-    "tipo": "presion",
-    "valor": 999.54,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P401",
-    "tipo": "presion",
-    "valor": 1020.26,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P402",
-    "tipo": "presion",
-    "valor": 1024.61,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P403",
-    "tipo": "presion",
-    "valor": 990.76,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P404",
-    "tipo": "presion",
-    "valor": 1018.15,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P405",
-    "tipo": "presion",
-    "valor": 1031.27,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P406",
-    "tipo": "presion",
-    "valor": 1031.72,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P407",
-    "tipo": "presion",
-    "valor": 1003.84,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P408",
-    "tipo": "presion",
-    "valor": 1014.38,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P409",
-    "tipo": "presion",
-    "valor": 1007.92,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P410",
-    "tipo": "presion",
-    "valor": 999.0,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P411",
-    "tipo": "presion",
-    "valor": 1006.18,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P412",
-    "tipo": "presion",
-    "valor": 994.07,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P413",
-    "tipo": "presion",
-    "valor": 1022.32,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P414",
-    "tipo": "presion",
-    "valor": 1007.84,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P415",
-    "tipo": "presion",
-    "valor": 1026.2,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P416",
-    "tipo": "presion",
-    "valor": 1016.97,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P417",
-    "tipo": "presion",
-    "valor": 1030.58,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P418",
-    "tipo": "presion",
-    "valor": 1028.49,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P419",
-    "tipo": "presion",
-    "valor": 987.36,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P420",
-    "tipo": "presion",
-    "valor": 1002.84,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P421",
-    "tipo": "presion",
-    "valor": 998.67,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P422",
-    "tipo": "presion",
-    "valor": 986.5,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P423",
-    "tipo": "presion",
-    "valor": 1000.38,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P424",
-    "tipo": "presion",
-    "valor": 986.39,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P425",
-    "tipo": "presion",
-    "valor": 1031.67,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P426",
-    "tipo": "presion",
-    "valor": 1022.6,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P427",
-    "tipo": "presion",
-    "valor": 1028.09,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P428",
-    "tipo": "presion",
-    "valor": 1020.3,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P429",
-    "tipo": "presion",
-    "valor": 1017.91,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P430",
-    "tipo": "presion",
-    "valor": 1000.51,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P431",
-    "tipo": "presion",
-    "valor": 1006.96,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P432",
-    "tipo": "presion",
-    "valor": 990.95,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P433",
-    "tipo": "presion",
-    "valor": 1015.33,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P434",
-    "tipo": "presion",
-    "valor": 1024.01,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P435",
-    "tipo": "presion",
-    "valor": 992.98,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P436",
-    "tipo": "presion",
-    "valor": 1014.13,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P437",
-    "tipo": "presion",
-    "valor": 993.48,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P438",
-    "tipo": "presion",
-    "valor": 987.75,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P439",
-    "tipo": "presion",
-    "valor": 1033.25,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P440",
-    "tipo": "presion",
-    "valor": 1031.82,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P441",
-    "tipo": "presion",
-    "valor": 1009.22,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P442",
-    "tipo": "presion",
-    "valor": 993.16,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P443",
-    "tipo": "presion",
-    "valor": 1004.74,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P444",
-    "tipo": "presion",
-    "valor": 1006.96,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P445",
-    "tipo": "presion",
-    "valor": 995.23,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P446",
-    "tipo": "presion",
-    "valor": 1011.25,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P447",
-    "tipo": "presion",
-    "valor": 1021.39,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P448",
-    "tipo": "presion",
-    "valor": 990.15,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P449",
-    "tipo": "presion",
-    "valor": 1018.4,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P450",
-    "tipo": "presion",
-    "valor": 1024.08,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P451",
-    "tipo": "presion",
-    "valor": 1000.93,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P452",
-    "tipo": "presion",
-    "valor": 1032.29,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P453",
-    "tipo": "presion",
-    "valor": 1031.72,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P454",
-    "tipo": "presion",
-    "valor": 993.08,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P455",
-    "tipo": "presion",
-    "valor": 1018.92,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P456",
-    "tipo": "presion",
-    "valor": 1023.62,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P457",
-    "tipo": "presion",
-    "valor": 993.21,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P458",
-    "tipo": "presion",
-    "valor": 1005.79,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P459",
-    "tipo": "presion",
-    "valor": 1003.94,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P460",
-    "tipo": "presion",
-    "valor": 1027.96,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P461",
-    "tipo": "presion",
-    "valor": 1009.98,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P462",
-    "tipo": "presion",
-    "valor": 1002.59,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P463",
-    "tipo": "presion",
-    "valor": 1003.49,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P464",
-    "tipo": "presion",
-    "valor": 993.55,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P465",
-    "tipo": "presion",
-    "valor": 1018.55,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P466",
-    "tipo": "presion",
-    "valor": 997.3,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P467",
-    "tipo": "presion",
-    "valor": 995.8,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P468",
-    "tipo": "presion",
-    "valor": 1001.17,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P469",
-    "tipo": "presion",
-    "valor": 1017.7,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P470",
-    "tipo": "presion",
-    "valor": 991.97,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P471",
-    "tipo": "presion",
-    "valor": 996.04,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P472",
-    "tipo": "presion",
-    "valor": 1009.74,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P473",
-    "tipo": "presion",
-    "valor": 1029.17,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P474",
-    "tipo": "presion",
-    "valor": 1034.02,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P475",
-    "tipo": "presion",
-    "valor": 1028.29,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P476",
-    "tipo": "presion",
-    "valor": 1008.18,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P477",
-    "tipo": "presion",
-    "valor": 1031.75,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P478",
-    "tipo": "presion",
-    "valor": 989.96,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P479",
-    "tipo": "presion",
-    "valor": 1015.74,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P480",
-    "tipo": "presion",
-    "valor": 1016.21,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P481",
-    "tipo": "presion",
-    "valor": 1010.44,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P482",
-    "tipo": "presion",
-    "valor": 1017.2,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P483",
-    "tipo": "presion",
-    "valor": 991.76,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P484",
-    "tipo": "presion",
-    "valor": 987.41,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P485",
-    "tipo": "presion",
-    "valor": 1021.72,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P486",
-    "tipo": "presion",
-    "valor": 1003.07,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P487",
-    "tipo": "presion",
-    "valor": 1016.55,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P488",
-    "tipo": "presion",
-    "valor": 1017.32,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P489",
-    "tipo": "presion",
-    "valor": 1020.45,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P490",
-    "tipo": "presion",
-    "valor": 997.23,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P491",
-    "tipo": "presion",
-    "valor": 1000.63,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P492",
-    "tipo": "presion",
-    "valor": 996.24,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P493",
-    "tipo": "presion",
-    "valor": 1017.57,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P494",
-    "tipo": "presion",
-    "valor": 1022.28,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P495",
-    "tipo": "presion",
-    "valor": 1023.71,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P496",
-    "tipo": "presion",
-    "valor": 1006.82,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P497",
-    "tipo": "presion",
-    "valor": 1003.17,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P498",
-    "tipo": "presion",
-    "valor": 993.45,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P499",
-    "tipo": "presion",
-    "valor": 993.81,
-    "unidad": "hPa"
-  },
-  {
-    "id": "P500",
-    "tipo": "presion",
-    "valor": 1004.23,
-    "unidad": "hPa"
-  }
-]
+{
+  "registros": [
+    {
+      "id": "PRE-0471",
+      "tipo": "presion",
+      "valor": 1057.93,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T06:57",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0649",
+      "tipo": "presion",
+      "valor": 700,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T03:43",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0437",
+      "tipo": "presion",
+      "valor": 1043.7,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T02:59",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0574",
+      "tipo": "presion",
+      "valor": 1072.04,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T18:58",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0620",
+      "tipo": "presion",
+      "valor": 1200,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T00:20",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0125",
+      "tipo": "presion",
+      "valor": 983.25,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T14:35",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0656",
+      "tipo": "presion",
+      "valor": 650,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T04:32",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0159",
+      "tipo": "presion",
+      "valor": 925.09,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T18:33",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0061",
+      "tipo": "presion",
+      "valor": 921.41,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T07:07",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0082",
+      "tipo": "presion",
+      "valor": 935.78,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T09:34",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0335",
+      "tipo": "presion",
+      "valor": 1012.51,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T15:05",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0577",
+      "tipo": "presion",
+      "valor": 1047.65,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T19:19",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0660",
+      "tipo": "presion",
+      "valor": 1200,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T05:00",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0091",
+      "tipo": "presion",
+      "valor": 852.9,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T10:37",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0047",
+      "tipo": "presion",
+      "valor": 930.46,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T05:29",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0601",
+      "tipo": "presion",
+      "valor": 650,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T22:07",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0043",
+      "tipo": "presion",
+      "valor": 984.41,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T05:01",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0655",
+      "tipo": "presion",
+      "valor": 1200,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T04:25",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0386",
+      "tipo": "presion",
+      "valor": 1015.57,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T21:02",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0249",
+      "tipo": "presion",
+      "valor": 1004.44,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T05:03",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0232",
+      "tipo": "presion",
+      "valor": 1005.92,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T03:04",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0246",
+      "tipo": "presion",
+      "valor": 1009.03,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T04:42",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0066",
+      "tipo": "presion",
+      "valor": 950.98,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T07:42",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0303",
+      "tipo": "presion",
+      "valor": 1012.73,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T11:21",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0275",
+      "tipo": "presion",
+      "valor": 1001.71,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T08:05",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0313",
+      "tipo": "presion",
+      "valor": 1011.42,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T12:31",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0434",
+      "tipo": "presion",
+      "valor": 1040.28,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T02:38",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0625",
+      "tipo": "presion",
+      "valor": 1200,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T00:55",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0449",
+      "tipo": "presion",
+      "valor": 1049.66,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T04:23",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0699",
+      "tipo": "presion",
+      "valor": "ERROR_SENSOR",
+      "unidad": "hPa",
+      "fecha": "2026-10-04T09:33",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0692",
+      "tipo": "presion",
+      "valor": null,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T08:44",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0241",
+      "tipo": "presion",
+      "valor": 1007.45,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T04:07",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0076",
+      "tipo": "presion",
+      "valor": 928.9,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T08:52",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0285",
+      "tipo": "presion",
+      "valor": 1009.12,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T09:15",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0150",
+      "tipo": "presion",
+      "valor": 862.61,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T17:30",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0163",
+      "tipo": "presion",
+      "valor": 929.64,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T19:01",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0412",
+      "tipo": "presion",
+      "valor": 1013.81,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T00:04",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0361",
+      "tipo": "presion",
+      "valor": 1018.74,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T18:07",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0142",
+      "tipo": "presion",
+      "valor": 851.14,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T16:34",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0344",
+      "tipo": "presion",
+      "valor": 1016.39,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T16:08",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0623",
+      "tipo": "presion",
+      "valor": 1500,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T00:41",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0155",
+      "tipo": "presion",
+      "valor": 870.46,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T18:05",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0295",
+      "tipo": "presion",
+      "valor": 1009.04,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T10:25",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0567",
+      "tipo": "presion",
+      "valor": 1035.59,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T18:09",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0227",
+      "tipo": "presion",
+      "valor": 1014.12,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T02:29",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0282",
+      "tipo": "presion",
+      "valor": 1000.23,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T08:54",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0086",
+      "tipo": "presion",
+      "valor": 857.05,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T10:02",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0521",
+      "tipo": "presion",
+      "valor": 1052.7,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T12:47",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0173",
+      "tipo": "presion",
+      "valor": 906.38,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T20:11",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0482",
+      "tipo": "presion",
+      "valor": 1075.2,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T08:14",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0371",
+      "tipo": "presion",
+      "valor": 1003.54,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T19:17",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0284",
+      "tipo": "presion",
+      "valor": 1010.95,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T09:08",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0651",
+      "tipo": "presion",
+      "valor": 650,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T03:57",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0261",
+      "tipo": "presion",
+      "valor": 1015.97,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T06:27",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0041",
+      "tipo": "presion",
+      "valor": 884.45,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T04:47",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0695",
+      "tipo": "presion",
+      "valor": "ERROR_SENSOR",
+      "unidad": "hPa",
+      "fecha": "2026-10-04T09:05",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0102",
+      "tipo": "presion",
+      "valor": 921.53,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T11:54",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0641",
+      "tipo": "presion",
+      "valor": 650,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T02:47",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0680",
+      "tipo": "presion",
+      "valor": 1200,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T07:20",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0654",
+      "tipo": "presion",
+      "valor": 700,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T04:18",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0162",
+      "tipo": "presion",
+      "valor": 867.67,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T18:54",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0490",
+      "tipo": "presion",
+      "valor": 1029.76,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T09:10",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0593",
+      "tipo": "presion",
+      "valor": 1021.0,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T21:11",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0242",
+      "tipo": "presion",
+      "valor": 1003.82,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T04:14",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0440",
+      "tipo": "presion",
+      "valor": 1065.71,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T03:20",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0552",
+      "tipo": "presion",
+      "valor": 1031.23,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T16:24",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0690",
+      "tipo": "presion",
+      "valor": "SIN_DATO",
+      "unidad": "unidad_desconocida",
+      "fecha": "2026-10-04T08:30",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0323",
+      "tipo": "presion",
+      "valor": 1013.44,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T13:41",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0111",
+      "tipo": "presion",
+      "valor": 959.77,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T12:57",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0312",
+      "tipo": "presion",
+      "valor": 1018.0,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T12:24",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0512",
+      "tipo": "presion",
+      "valor": 1035.51,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T11:44",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0701",
+      "tipo": "presion",
+      "valor": null,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T09:47",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0581",
+      "tipo": "presion",
+      "valor": 1029.16,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T19:47",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0276",
+      "tipo": "presion",
+      "valor": 1016.31,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T08:12",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0039",
+      "tipo": "presion",
+      "valor": 900.44,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T04:33",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0003",
+      "tipo": "presion",
+      "valor": 907.3,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T00:21",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0021",
+      "tipo": "presion",
+      "valor": 901.12,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T02:27",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0026",
+      "tipo": "presion",
+      "valor": 899.02,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T03:02",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0316",
+      "tipo": "presion",
+      "valor": 1012.66,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T12:52",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0351",
+      "tipo": "presion",
+      "valor": 1003.08,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T16:57",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0597",
+      "tipo": "presion",
+      "valor": 1250,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T21:39",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0582",
+      "tipo": "presion",
+      "valor": 1040.99,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T19:54",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0052",
+      "tipo": "presion",
+      "valor": 954.04,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T06:04",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0689",
+      "tipo": "desconocido",
+      "valor": null,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T08:23",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0629",
+      "tipo": "presion",
+      "valor": 700,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T01:23",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0114",
+      "tipo": "presion",
+      "valor": 995.94,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T13:18",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0200",
+      "tipo": "presion",
+      "valor": 1013.62,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T23:20",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0311",
+      "tipo": "presion",
+      "valor": 1007.96,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T12:17",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0549",
+      "tipo": "presion",
+      "valor": 1043.31,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T16:03",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0479",
+      "tipo": "presion",
+      "valor": 1060.36,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T07:53",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0652",
+      "tipo": "presion",
+      "valor": 1250,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T04:04",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0310",
+      "tipo": "presion",
+      "valor": 1004.3,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T12:10",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0646",
+      "tipo": "presion",
+      "valor": 650,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T03:22",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0226",
+      "tipo": "presion",
+      "valor": 1008.77,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T02:22",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0190",
+      "tipo": "presion",
+      "valor": 1013.5,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T22:10",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0594",
+      "tipo": "presion",
+      "valor": 1044.59,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T21:18",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0107",
+      "tipo": "presion",
+      "valor": 951.2,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T12:29",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0432",
+      "tipo": "presion",
+      "valor": 1034.5,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T02:24",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0589",
+      "tipo": "presion",
+      "valor": 1024.55,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T20:43",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0118",
+      "tipo": "presion",
+      "valor": 925.98,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T13:46",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0302",
+      "tipo": "presion",
+      "valor": 1001.25,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T11:14",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0201",
+      "tipo": "presion",
+      "valor": 1000.89,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T23:27",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0143",
+      "tipo": "presion",
+      "valor": 982.07,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T16:41",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0272",
+      "tipo": "presion",
+      "valor": 1001.13,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T07:44",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0248",
+      "tipo": "presion",
+      "valor": 1001.18,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T04:56",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0129",
+      "tipo": "presion",
+      "valor": 956.82,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T15:03",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0119",
+      "tipo": "presion",
+      "valor": 973.59,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T13:53",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0062",
+      "tipo": "presion",
+      "valor": 875.88,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T07:14",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0366",
+      "tipo": "presion",
+      "valor": 1014.4,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T18:42",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0399",
+      "tipo": "presion",
+      "valor": 1011.57,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T22:33",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0230",
+      "tipo": "presion",
+      "valor": 1003.36,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T02:50",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0514",
+      "tipo": "presion",
+      "valor": 1029.45,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T11:58",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0683",
+      "tipo": "presion",
+      "valor": "SIN_DATO",
+      "unidad": "hPa",
+      "fecha": "2026-10-04T07:41",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0212",
+      "tipo": "presion",
+      "valor": 1009.61,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T00:44",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0271",
+      "tipo": "presion",
+      "valor": 1005.28,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T07:37",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0243",
+      "tipo": "presion",
+      "valor": 1006.49,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T04:21",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0017",
+      "tipo": "presion",
+      "valor": 863.72,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T01:59",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0140",
+      "tipo": "presion",
+      "valor": 869.75,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T16:20",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0494",
+      "tipo": "presion",
+      "valor": 1043.33,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T09:38",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0647",
+      "tipo": "presion",
+      "valor": 1250,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T03:29",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0293",
+      "tipo": "presion",
+      "valor": 1007.98,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T10:11",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0407",
+      "tipo": "presion",
+      "valor": 1009.71,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T23:29",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0459",
+      "tipo": "presion",
+      "valor": 1025.43,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T05:33",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0051",
+      "tipo": "presion",
+      "valor": 856.31,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T05:57",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0373",
+      "tipo": "presion",
+      "valor": 1008.21,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T19:31",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0187",
+      "tipo": "presion",
+      "valor": 1005.23,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T21:49",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0064",
+      "tipo": "presion",
+      "valor": 956.52,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T07:28",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0108",
+      "tipo": "presion",
+      "valor": 923.13,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T12:36",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0678",
+      "tipo": "presion",
+      "valor": 1500,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T07:06",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0522",
+      "tipo": "presion",
+      "valor": 1052.12,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T12:54",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0126",
+      "tipo": "presion",
+      "valor": 890.08,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T14:42",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0014",
+      "tipo": "presion",
+      "valor": 914.56,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T01:38",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0176",
+      "tipo": "presion",
+      "valor": 951.72,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T20:32",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0225",
+      "tipo": "presion",
+      "valor": 1000.16,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T02:15",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0611",
+      "tipo": "presion",
+      "valor": 650,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T23:17",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0578",
+      "tipo": "presion",
+      "valor": 1042.01,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T19:26",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0705",
+      "tipo": "presion",
+      "valor": 1013.89,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T10:15",
+      "observacion_tecnica": "SIMULACION_PAQUETE_INCOMPLETO"
+    },
+    {
+      "id": "PRE-0557",
+      "tipo": "presion",
+      "valor": 1041.63,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T16:59",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0534",
+      "tipo": "presion",
+      "valor": 1041.38,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T14:18",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0197",
+      "tipo": "presion",
+      "valor": 1016.56,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T22:59",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0702",
+      "tipo": "presion",
+      "valor": "N/A",
+      "unidad": "unidad_desconocida",
+      "fecha": "2026-10-04T09:54",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0477",
+      "tipo": "presion",
+      "valor": 1023.36,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T07:39",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0304",
+      "tipo": "presion",
+      "valor": 1000.3,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T11:28",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0559",
+      "tipo": "presion",
+      "valor": 1053.42,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T17:13",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0161",
+      "tipo": "presion",
+      "valor": 876.46,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T18:47",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0381",
+      "tipo": "presion",
+      "valor": 1001.86,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T20:27",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0205",
+      "tipo": "presion",
+      "valor": 1012.26,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T23:55",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0093",
+      "tipo": "presion",
+      "valor": 889.39,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T10:51",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0334",
+      "tipo": "presion",
+      "valor": 1007.83,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T14:58",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0106",
+      "tipo": "presion",
+      "valor": 940.03,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T12:22",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0469",
+      "tipo": "presion",
+      "valor": 1031.8,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T06:43",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0608",
+      "tipo": "presion",
+      "valor": 1500,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T22:56",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0391",
+      "tipo": "presion",
+      "valor": 1012.61,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T21:37",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0238",
+      "tipo": "presion",
+      "valor": 1001.47,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T03:46",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0673",
+      "tipo": "presion",
+      "valor": 1500,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T06:31",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0572",
+      "tipo": "presion",
+      "valor": 1066.61,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T18:44",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0110",
+      "tipo": "presion",
+      "valor": 918.5,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T12:50",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0121",
+      "tipo": "presion",
+      "valor": 874.68,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T14:07",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0547",
+      "tipo": "presion",
+      "valor": 1061.0,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T15:49",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0583",
+      "tipo": "presion",
+      "valor": 1075.43,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T20:01",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0074",
+      "tipo": "presion",
+      "valor": 981.62,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T08:38",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0525",
+      "tipo": "presion",
+      "valor": 1030.35,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T13:15",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0461",
+      "tipo": "presion",
+      "valor": 1073.99,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T05:47",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0682",
+      "tipo": "desconocido",
+      "valor": "SIN_DATO",
+      "unidad": "unidad_desconocida",
+      "fecha": "2026-10-04T07:34",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0352",
+      "tipo": "presion",
+      "valor": 1009.59,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T17:04",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0645",
+      "tipo": "presion",
+      "valor": 1200,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T03:15",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0524",
+      "tipo": "presion",
+      "valor": 1063.72,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T13:08",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0539",
+      "tipo": "presion",
+      "valor": 1038.34,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T14:53",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0506",
+      "tipo": "presion",
+      "valor": 1070.44,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T11:02",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0229",
+      "tipo": "presion",
+      "valor": 1009.39,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T02:43",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0296",
+      "tipo": "presion",
+      "valor": 1002.48,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T10:32",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0013",
+      "tipo": "presion",
+      "valor": 884.67,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T01:31",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0179",
+      "tipo": "presion",
+      "valor": 1012.76,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T20:53",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0618",
+      "tipo": "presion",
+      "valor": 1500,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T00:06",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0015",
+      "tipo": "presion",
+      "valor": 853.8,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T01:45",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0602",
+      "tipo": "presion",
+      "valor": 1250,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T22:14",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0662",
+      "tipo": "presion",
+      "valor": 1250,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T05:14",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0148",
+      "tipo": "presion",
+      "valor": 916.19,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T17:16",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0268",
+      "tipo": "presion",
+      "valor": 1004.61,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T07:16",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0345",
+      "tipo": "presion",
+      "valor": 1013.22,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T16:15",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0485",
+      "tipo": "presion",
+      "valor": 1066.71,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T08:35",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0254",
+      "tipo": "presion",
+      "valor": 1007.92,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T05:38",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0696",
+      "tipo": "desconocido",
+      "valor": null,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T09:12",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0127",
+      "tipo": "presion",
+      "valor": 968.05,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T14:49",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0622",
+      "tipo": "presion",
+      "valor": 1250,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T00:34",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0472",
+      "tipo": "presion",
+      "valor": 1067.19,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T07:04",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0167",
+      "tipo": "presion",
+      "valor": 951.47,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T19:29",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0264",
+      "tipo": "presion",
+      "valor": 1006.94,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T06:48",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0707",
+      "tipo": "presion",
+      "valor": 1011.52,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T10:29",
+      "observacion_tecnica": "SIMULACION_LECTURA_INTERMITENTE"
+    },
+    {
+      "id": "PRE-0433",
+      "tipo": "presion",
+      "valor": 1035.35,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T02:31",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0327",
+      "tipo": "presion",
+      "valor": 1005.92,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T14:09",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0006",
+      "tipo": "presion",
+      "valor": 940.49,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T00:42",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0105",
+      "tipo": "presion",
+      "valor": 874.03,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T12:15",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0057",
+      "tipo": "presion",
+      "valor": 913.07,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T06:39",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0168",
+      "tipo": "presion",
+      "valor": 956.5,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T19:36",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0367",
+      "tipo": "presion",
+      "valor": 1004.71,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T18:49",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0679",
+      "tipo": "presion",
+      "valor": 700,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T07:13",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0504",
+      "tipo": "presion",
+      "valor": 1046.11,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T10:48",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0253",
+      "tipo": "presion",
+      "valor": 1003.17,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T05:31",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0149",
+      "tipo": "presion",
+      "valor": 957.81,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T17:23",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0421",
+      "tipo": "presion",
+      "valor": 1077.2,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T01:07",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0222",
+      "tipo": "presion",
+      "valor": 1016.57,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T01:54",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0486",
+      "tipo": "presion",
+      "valor": 1065.2,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T08:42",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0251",
+      "tipo": "presion",
+      "valor": 1004.52,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T05:17",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0158",
+      "tipo": "presion",
+      "valor": 996.41,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T18:26",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0320",
+      "tipo": "presion",
+      "valor": 1012.25,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T13:20",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0650",
+      "tipo": "presion",
+      "valor": 1200,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T03:50",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0383",
+      "tipo": "presion",
+      "valor": 1002.11,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T20:41",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0022",
+      "tipo": "presion",
+      "valor": 975.76,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T02:34",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0708",
+      "tipo": "presion",
+      "valor": 1016.94,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T10:36",
+      "observacion_tecnica": "SIMULACION_PAQUETE_INCOMPLETO"
+    },
+    {
+      "id": "PRE-0428",
+      "tipo": "presion",
+      "valor": 1021.99,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T01:56",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0170",
+      "tipo": "presion",
+      "valor": 905.65,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T19:50",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0116",
+      "tipo": "presion",
+      "valor": 989.74,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T13:32",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0532",
+      "tipo": "presion",
+      "valor": 1076.98,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T14:04",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0507",
+      "tipo": "presion",
+      "valor": 1056.16,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T11:09",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0395",
+      "tipo": "presion",
+      "valor": 1016.26,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T22:05",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0177",
+      "tipo": "presion",
+      "valor": 876.21,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T20:39",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0423",
+      "tipo": "presion",
+      "valor": 1072.5,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T01:21",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0639",
+      "tipo": "presion",
+      "valor": 700,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T02:33",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0635",
+      "tipo": "presion",
+      "valor": 1200,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T02:05",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0441",
+      "tipo": "presion",
+      "valor": 1061.5,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T03:27",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0355",
+      "tipo": "presion",
+      "valor": 1018.39,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T17:25",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0343",
+      "tipo": "presion",
+      "valor": 1012.88,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T16:01",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0278",
+      "tipo": "presion",
+      "valor": 1009.18,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T08:26",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0147",
+      "tipo": "presion",
+      "valor": 947.93,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T17:09",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0628",
+      "tipo": "presion",
+      "valor": 1500,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T01:16",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0207",
+      "tipo": "presion",
+      "valor": 1007.77,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T00:09",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0070",
+      "tipo": "presion",
+      "valor": 917.6,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T08:10",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0630",
+      "tipo": "presion",
+      "valor": 1200,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T01:30",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0348",
+      "tipo": "presion",
+      "valor": 1006.92,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T16:36",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0568",
+      "tipo": "presion",
+      "valor": 1024.78,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T18:16",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0576",
+      "tipo": "presion",
+      "valor": 1062.53,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T19:12",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0171",
+      "tipo": "presion",
+      "valor": 952.05,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T19:57",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0099",
+      "tipo": "presion",
+      "valor": 989.65,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T11:33",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0585",
+      "tipo": "presion",
+      "valor": 1072.92,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T20:15",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0420",
+      "tipo": "presion",
+      "valor": 1018.06,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T01:00",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0182",
+      "tipo": "presion",
+      "valor": 1010.35,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T21:14",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0612",
+      "tipo": "presion",
+      "valor": 1250,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T23:24",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0513",
+      "tipo": "presion",
+      "valor": 1048.44,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T11:51",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0511",
+      "tipo": "presion",
+      "valor": 1043.29,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T11:37",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0394",
+      "tipo": "presion",
+      "valor": 1008.23,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T21:58",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0495",
+      "tipo": "presion",
+      "valor": 1066.79,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T09:45",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0280",
+      "tipo": "presion",
+      "valor": 1006.61,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T08:40",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0259",
+      "tipo": "presion",
+      "valor": 1010.45,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T06:13",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0431",
+      "tipo": "presion",
+      "valor": 1060.81,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T02:17",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0239",
+      "tipo": "presion",
+      "valor": 1018.98,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T03:53",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0600",
+      "tipo": "presion",
+      "valor": 1200,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T22:00",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0584",
+      "tipo": "presion",
+      "valor": 1049.57,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T20:08",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0377",
+      "tipo": "presion",
+      "valor": 1015.75,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T19:59",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0270",
+      "tipo": "presion",
+      "valor": 1010.89,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T07:30",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0453",
+      "tipo": "presion",
+      "valor": 1029.37,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T04:51",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0038",
+      "tipo": "presion",
+      "valor": 967.32,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T04:26",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0135",
+      "tipo": "presion",
+      "valor": 911.9,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T15:45",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0372",
+      "tipo": "presion",
+      "valor": 1010.76,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T19:24",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0330",
+      "tipo": "presion",
+      "valor": 1000.21,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T14:30",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0698",
+      "tipo": "presion",
+      "valor": "SIN_DATO",
+      "unidad": "unidad_desconocida",
+      "fecha": "2026-10-04T09:26",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0458",
+      "tipo": "presion",
+      "valor": 1072.44,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T05:26",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0072",
+      "tipo": "presion",
+      "valor": 854.87,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T08:24",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0073",
+      "tipo": "presion",
+      "valor": 883.64,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T08:31",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0607",
+      "tipo": "presion",
+      "valor": 1250,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T22:49",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0153",
+      "tipo": "presion",
+      "valor": 864.21,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T17:51",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0643",
+      "tipo": "presion",
+      "valor": 1500,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T03:01",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0199",
+      "tipo": "presion",
+      "valor": 1001.77,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T23:13",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0669",
+      "tipo": "presion",
+      "valor": 700,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T06:03",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0094",
+      "tipo": "presion",
+      "valor": 893.17,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T10:58",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0049",
+      "tipo": "presion",
+      "valor": 918.75,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T05:43",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0410",
+      "tipo": "presion",
+      "valor": 1012.99,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T23:50",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0605",
+      "tipo": "presion",
+      "valor": 1200,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T22:35",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0349",
+      "tipo": "presion",
+      "valor": 1009.01,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T16:43",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0180",
+      "tipo": "presion",
+      "valor": 1016.55,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T21:00",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0002",
+      "tipo": "presion",
+      "valor": 925.69,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T00:14",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0181",
+      "tipo": "presion",
+      "valor": 1018.91,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T21:07",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0322",
+      "tipo": "presion",
+      "valor": 1001.87,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T13:34",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0069",
+      "tipo": "presion",
+      "valor": 963.47,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T08:03",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0315",
+      "tipo": "presion",
+      "valor": 1014.61,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T12:45",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0236",
+      "tipo": "presion",
+      "valor": 1013.42,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T03:32",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0005",
+      "tipo": "presion",
+      "valor": 887.42,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T00:35",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0648",
+      "tipo": "presion",
+      "valor": 1500,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T03:36",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0023",
+      "tipo": "presion",
+      "valor": 990.89,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T02:41",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0518",
+      "tipo": "presion",
+      "valor": 1026.79,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T12:26",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0426",
+      "tipo": "presion",
+      "valor": 1074.93,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T01:42",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0392",
+      "tipo": "presion",
+      "valor": 1013.33,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T21:44",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0210",
+      "tipo": "presion",
+      "valor": 1014.83,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T00:30",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0415",
+      "tipo": "presion",
+      "valor": 1006.31,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T00:25",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0617",
+      "tipo": "presion",
+      "valor": 1250,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T23:59",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0141",
+      "tipo": "presion",
+      "valor": 920.75,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T16:27",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0376",
+      "tipo": "presion",
+      "valor": 1012.48,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T19:52",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0687",
+      "tipo": "presion",
+      "valor": "N/A",
+      "unidad": "hPa",
+      "fecha": "2026-10-04T08:09",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0067",
+      "tipo": "presion",
+      "valor": 979.0,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T07:49",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0364",
+      "tipo": "presion",
+      "valor": 1018.24,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T18:28",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0657",
+      "tipo": "presion",
+      "valor": 1250,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T04:39",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0139",
+      "tipo": "presion",
+      "valor": 995.23,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T16:13",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0277",
+      "tipo": "presion",
+      "valor": 1007.99,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T08:19",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0269",
+      "tipo": "presion",
+      "valor": 1006.31,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T07:23",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0587",
+      "tipo": "presion",
+      "valor": 1027.42,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T20:29",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0402",
+      "tipo": "presion",
+      "valor": 1001.71,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T22:54",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0329",
+      "tipo": "presion",
+      "valor": 1008.61,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T14:23",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0451",
+      "tipo": "presion",
+      "valor": 1043.98,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T04:37",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0109",
+      "tipo": "presion",
+      "valor": 905.58,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T12:43",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0306",
+      "tipo": "presion",
+      "valor": 1014.93,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T11:42",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0184",
+      "tipo": "presion",
+      "valor": 1013.55,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T21:28",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0631",
+      "tipo": "presion",
+      "valor": 650,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T01:37",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0447",
+      "tipo": "presion",
+      "valor": 1024.59,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T04:09",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0046",
+      "tipo": "presion",
+      "valor": 868.66,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T05:22",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0510",
+      "tipo": "presion",
+      "valor": 1068.28,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T11:30",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0308",
+      "tipo": "presion",
+      "valor": 1006.73,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T11:56",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0255",
+      "tipo": "presion",
+      "valor": 1018.95,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T05:45",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0527",
+      "tipo": "presion",
+      "valor": 1060.02,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T13:29",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0616",
+      "tipo": "presion",
+      "valor": 650,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T23:52",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0204",
+      "tipo": "presion",
+      "valor": 1007.65,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T23:48",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0542",
+      "tipo": "presion",
+      "valor": 1072.12,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T15:14",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0537",
+      "tipo": "presion",
+      "valor": 1062.0,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T14:39",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0496",
+      "tipo": "presion",
+      "valor": 1075.35,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T09:52",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0328",
+      "tipo": "presion",
+      "valor": 1015.39,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T14:16",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0554",
+      "tipo": "presion",
+      "valor": 1054.67,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T16:38",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0134",
+      "tipo": "presion",
+      "valor": 981.28,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T15:38",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0152",
+      "tipo": "presion",
+      "valor": 928.24,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T17:44",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0535",
+      "tipo": "presion",
+      "valor": 1031.77,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T14:25",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0370",
+      "tipo": "presion",
+      "valor": 1002.67,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T19:10",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0132",
+      "tipo": "presion",
+      "valor": 880.31,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T15:24",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0044",
+      "tipo": "presion",
+      "valor": 869.34,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T05:08",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0068",
+      "tipo": "presion",
+      "valor": 887.25,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T07:56",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0538",
+      "tipo": "presion",
+      "valor": 1064.96,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T14:46",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0010",
+      "tipo": "presion",
+      "valor": 876.35,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T01:10",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0452",
+      "tipo": "presion",
+      "valor": 1050.62,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T04:44",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0468",
+      "tipo": "presion",
+      "valor": 1069.77,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T06:36",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0677",
+      "tipo": "presion",
+      "valor": 1250,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T06:59",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0218",
+      "tipo": "presion",
+      "valor": 1011.89,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T01:26",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0131",
+      "tipo": "presion",
+      "valor": 916.61,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T15:17",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0380",
+      "tipo": "presion",
+      "valor": 1015.91,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T20:20",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0019",
+      "tipo": "presion",
+      "valor": 979.08,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T02:13",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0610",
+      "tipo": "presion",
+      "valor": 1200,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T23:10",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0034",
+      "tipo": "presion",
+      "valor": 875.61,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T03:58",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0354",
+      "tipo": "presion",
+      "valor": 1004.86,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T17:18",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0055",
+      "tipo": "presion",
+      "valor": 947.35,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T06:25",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0688",
+      "tipo": "presion",
+      "valor": "ERROR_SENSOR",
+      "unidad": "hPa",
+      "fecha": "2026-10-04T08:16",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0028",
+      "tipo": "presion",
+      "valor": 911.84,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T03:16",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0365",
+      "tipo": "presion",
+      "valor": 1004.4,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T18:35",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0448",
+      "tipo": "presion",
+      "valor": 1059.4,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T04:16",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0060",
+      "tipo": "presion",
+      "valor": 951.59,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T07:00",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0460",
+      "tipo": "presion",
+      "valor": 1033.45,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T05:40",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0457",
+      "tipo": "presion",
+      "valor": 1042.33,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T05:19",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0417",
+      "tipo": "presion",
+      "valor": 1003.01,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T00:39",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0491",
+      "tipo": "presion",
+      "valor": 1046.86,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T09:17",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0104",
+      "tipo": "presion",
+      "valor": 957.85,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T12:08",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0078",
+      "tipo": "presion",
+      "valor": 983.66,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T09:06",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0234",
+      "tipo": "presion",
+      "valor": 1000.82,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T03:18",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0056",
+      "tipo": "presion",
+      "valor": 933.93,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T06:32",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0144",
+      "tipo": "presion",
+      "valor": 873.72,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T16:48",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0545",
+      "tipo": "presion",
+      "valor": 1061.64,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T15:35",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0670",
+      "tipo": "presion",
+      "valor": 1200,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T06:10",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0462",
+      "tipo": "presion",
+      "valor": 1078.63,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T05:54",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0517",
+      "tipo": "presion",
+      "valor": 1038.82,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T12:19",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0231",
+      "tipo": "presion",
+      "valor": 1007.75,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T02:57",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0216",
+      "tipo": "presion",
+      "valor": 1000.39,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T01:12",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0706",
+      "tipo": "presion",
+      "valor": 1007.45,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T10:22",
+      "observacion_tecnica": "SIMULACION_TIMEOUT_SENSOR"
+    },
+    {
+      "id": "PRE-0502",
+      "tipo": "presion",
+      "valor": 1055.73,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T10:34",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0198",
+      "tipo": "presion",
+      "valor": 1000.23,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T23:06",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0634",
+      "tipo": "presion",
+      "valor": 700,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T01:58",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0520",
+      "tipo": "presion",
+      "valor": 1035.03,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T12:40",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0439",
+      "tipo": "presion",
+      "valor": 1031.33,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T03:13",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0263",
+      "tipo": "presion",
+      "valor": 1016.28,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T06:41",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0633",
+      "tipo": "presion",
+      "valor": 1500,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T01:51",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0563",
+      "tipo": "presion",
+      "valor": 1044.81,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T17:41",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0398",
+      "tipo": "presion",
+      "valor": 1005.53,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T22:26",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0130",
+      "tipo": "presion",
+      "valor": 938.19,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T15:10",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0191",
+      "tipo": "presion",
+      "valor": 1000.67,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T22:17",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0691",
+      "tipo": "presion",
+      "valor": "SIN_DATO",
+      "unidad": "hPa",
+      "fecha": "2026-10-04T08:37",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0484",
+      "tipo": "presion",
+      "valor": 1053.33,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T08:28",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0393",
+      "tipo": "presion",
+      "valor": 1001.54,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T21:51",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0672",
+      "tipo": "presion",
+      "valor": 1250,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T06:24",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0256",
+      "tipo": "presion",
+      "valor": 1000.35,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T05:52",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0262",
+      "tipo": "presion",
+      "valor": 1004.84,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T06:34",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0586",
+      "tipo": "presion",
+      "valor": 1077.8,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T20:22",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0436",
+      "tipo": "presion",
+      "valor": 1043.05,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T02:52",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0027",
+      "tipo": "presion",
+      "valor": 977.16,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T03:09",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0301",
+      "tipo": "presion",
+      "valor": 1014.77,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T11:07",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0389",
+      "tipo": "presion",
+      "valor": 1000.3,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T21:23",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0281",
+      "tipo": "presion",
+      "valor": 1015.35,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T08:47",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0319",
+      "tipo": "presion",
+      "valor": 1004.4,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T13:13",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0603",
+      "tipo": "presion",
+      "valor": 1500,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T22:21",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0089",
+      "tipo": "presion",
+      "valor": 922.03,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T10:23",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0009",
+      "tipo": "presion",
+      "valor": 915.22,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T01:03",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0548",
+      "tipo": "presion",
+      "valor": 1063.81,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T15:56",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0564",
+      "tipo": "presion",
+      "valor": 1046.14,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T17:48",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0416",
+      "tipo": "presion",
+      "valor": 1004.31,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T00:32",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0085",
+      "tipo": "presion",
+      "valor": 917.47,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T09:55",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0075",
+      "tipo": "presion",
+      "valor": 993.37,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T08:45",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0195",
+      "tipo": "presion",
+      "valor": 1017.83,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T22:45",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0553",
+      "tipo": "presion",
+      "valor": 1067.28,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T16:31",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0555",
+      "tipo": "presion",
+      "valor": 1077.22,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T16:45",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0540",
+      "tipo": "presion",
+      "valor": 1070.23,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T15:00",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0164",
+      "tipo": "presion",
+      "valor": 857.42,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T19:08",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0004",
+      "tipo": "presion",
+      "valor": 960.0,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T00:28",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0429",
+      "tipo": "presion",
+      "valor": 1038.91,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T02:03",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0478",
+      "tipo": "presion",
+      "valor": 1068.86,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T07:46",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0422",
+      "tipo": "presion",
+      "valor": 1038.26,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T01:14",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0700",
+      "tipo": "presion",
+      "valor": null,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T09:40",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0314",
+      "tipo": "presion",
+      "valor": 1002.06,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T12:38",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0174",
+      "tipo": "presion",
+      "valor": 943.15,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T20:18",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0172",
+      "tipo": "presion",
+      "valor": 897.97,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T20:04",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0703",
+      "tipo": "presion",
+      "valor": 1011.24,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T10:01",
+      "observacion_tecnica": "SIMULACION_TIMEOUT_SENSOR"
+    },
+    {
+      "id": "PRE-0088",
+      "tipo": "presion",
+      "valor": 976.86,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T10:16",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0411",
+      "tipo": "presion",
+      "valor": 1005.0,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T23:57",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0359",
+      "tipo": "presion",
+      "valor": 1001.77,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T17:53",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0536",
+      "tipo": "presion",
+      "valor": 1025.91,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T14:32",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0561",
+      "tipo": "presion",
+      "valor": 1033.78,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T17:27",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0362",
+      "tipo": "presion",
+      "valor": 1018.26,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T18:14",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0326",
+      "tipo": "presion",
+      "valor": 1012.51,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T14:02",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0317",
+      "tipo": "presion",
+      "valor": 1011.51,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T12:59",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0165",
+      "tipo": "presion",
+      "valor": 982.45,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T19:15",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0337",
+      "tipo": "presion",
+      "valor": 1009.72,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T15:19",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0237",
+      "tipo": "presion",
+      "valor": 1012.57,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T03:39",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0318",
+      "tipo": "presion",
+      "valor": 1004.93,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T13:06",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0065",
+      "tipo": "presion",
+      "valor": 861.65,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T07:35",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0266",
+      "tipo": "presion",
+      "valor": 1000.27,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T07:02",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0473",
+      "tipo": "presion",
+      "valor": 1079.53,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T07:11",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0340",
+      "tipo": "presion",
+      "valor": 1005.42,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T15:40",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0492",
+      "tipo": "presion",
+      "valor": 1050.65,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T09:24",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0424",
+      "tipo": "presion",
+      "valor": 1065.89,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T01:28",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0223",
+      "tipo": "presion",
+      "valor": 1013.36,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T02:01",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0258",
+      "tipo": "presion",
+      "valor": 1001.75,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T06:06",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0292",
+      "tipo": "presion",
+      "valor": 1018.06,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T10:04",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0018",
+      "tipo": "presion",
+      "valor": 953.03,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T02:06",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0087",
+      "tipo": "presion",
+      "valor": 946.95,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T10:09",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0598",
+      "tipo": "presion",
+      "valor": 1500,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T21:46",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0145",
+      "tipo": "presion",
+      "valor": 962.96,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T16:55",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0095",
+      "tipo": "presion",
+      "valor": 903.59,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T11:05",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0059",
+      "tipo": "presion",
+      "valor": 885.29,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T06:53",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0684",
+      "tipo": "presion",
+      "valor": null,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T07:48",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0401",
+      "tipo": "presion",
+      "valor": 1017.96,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T22:47",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0050",
+      "tipo": "presion",
+      "valor": 984.99,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T05:50",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0580",
+      "tipo": "presion",
+      "valor": 1028.79,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T19:40",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0390",
+      "tipo": "presion",
+      "valor": 1008.24,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T21:30",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0481",
+      "tipo": "presion",
+      "valor": 1078.29,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T08:07",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0267",
+      "tipo": "presion",
+      "valor": 1005.36,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T07:09",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0358",
+      "tipo": "presion",
+      "valor": 1000.54,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T17:46",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0042",
+      "tipo": "presion",
+      "valor": 882.95,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T04:54",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0533",
+      "tipo": "presion",
+      "valor": 1061.94,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T14:11",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0405",
+      "tipo": "presion",
+      "valor": 1007.31,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T23:15",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0079",
+      "tipo": "presion",
+      "valor": 933.29,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T09:13",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0290",
+      "tipo": "presion",
+      "valor": 1011.92,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T09:50",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0220",
+      "tipo": "presion",
+      "valor": 1000.12,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T01:40",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0100",
+      "tipo": "presion",
+      "valor": 935.64,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T11:40",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0357",
+      "tipo": "presion",
+      "valor": 1002.2,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T17:39",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0414",
+      "tipo": "presion",
+      "valor": 1007.82,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T00:18",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0336",
+      "tipo": "presion",
+      "valor": 1017.48,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T15:12",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0324",
+      "tipo": "presion",
+      "valor": 1003.75,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T13:48",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0273",
+      "tipo": "presion",
+      "valor": 1000.13,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T07:51",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0378",
+      "tipo": "presion",
+      "valor": 1004.23,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T20:06",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0071",
+      "tipo": "presion",
+      "valor": 871.43,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T08:17",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0501",
+      "tipo": "presion",
+      "valor": 1037.29,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T10:27",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0048",
+      "tipo": "presion",
+      "valor": 940.63,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T05:36",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0245",
+      "tipo": "presion",
+      "valor": 1013.02,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T04:35",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0299",
+      "tipo": "presion",
+      "valor": 1008.84,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T10:53",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0443",
+      "tipo": "presion",
+      "valor": 1028.13,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T03:41",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0353",
+      "tipo": "presion",
+      "valor": 1004.26,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T17:11",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0058",
+      "tipo": "presion",
+      "valor": 920.32,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T06:46",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0681",
+      "tipo": "presion",
+      "valor": 650,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T07:27",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0219",
+      "tipo": "presion",
+      "valor": 1003.32,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T01:33",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0621",
+      "tipo": "presion",
+      "valor": 650,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T00:27",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0442",
+      "tipo": "presion",
+      "valor": 1046.82,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T03:34",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0475",
+      "tipo": "presion",
+      "valor": 1078.93,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T07:25",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0122",
+      "tipo": "presion",
+      "valor": 951.49,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T14:14",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0566",
+      "tipo": "presion",
+      "valor": 1027.05,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T18:02",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0183",
+      "tipo": "presion",
+      "valor": 1006.96,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T21:21",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0609",
+      "tipo": "presion",
+      "valor": 700,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T23:03",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0632",
+      "tipo": "presion",
+      "valor": 1250,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T01:44",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0090",
+      "tipo": "presion",
+      "valor": 951.94,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T10:30",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0487",
+      "tipo": "presion",
+      "valor": 1069.42,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T08:49",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0188",
+      "tipo": "presion",
+      "valor": 1001.1,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T21:56",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0500",
+      "tipo": "presion",
+      "valor": 1039.7,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T10:20",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0419",
+      "tipo": "presion",
+      "valor": 1007.27,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T00:53",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0350",
+      "tipo": "presion",
+      "valor": 1012.07,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T16:50",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0347",
+      "tipo": "presion",
+      "valor": 1003.06,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T16:29",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0214",
+      "tipo": "presion",
+      "valor": 1000.17,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T00:58",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0016",
+      "tipo": "presion",
+      "valor": 895.62,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T01:52",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0084",
+      "tipo": "presion",
+      "valor": 947.33,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T09:48",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0636",
+      "tipo": "presion",
+      "valor": 650,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T02:12",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0175",
+      "tipo": "presion",
+      "valor": 880.28,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T20:25",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0668",
+      "tipo": "presion",
+      "valor": 1500,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T05:56",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0613",
+      "tipo": "presion",
+      "valor": 1500,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T23:31",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0606",
+      "tipo": "presion",
+      "valor": 650,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T22:42",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0053",
+      "tipo": "presion",
+      "valor": 871.42,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T06:11",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0120",
+      "tipo": "presion",
+      "valor": 897.43,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T14:00",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0508",
+      "tipo": "presion",
+      "valor": 1048.06,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T11:16",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0560",
+      "tipo": "presion",
+      "valor": 1066.0,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T17:20",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0526",
+      "tipo": "presion",
+      "valor": 1039.53,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T13:22",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0627",
+      "tipo": "presion",
+      "valor": 1250,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T01:09",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0665",
+      "tipo": "presion",
+      "valor": 1200,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T05:35",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0247",
+      "tipo": "presion",
+      "valor": 1000.19,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T04:49",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0112",
+      "tipo": "presion",
+      "valor": 913.69,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T13:04",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0136",
+      "tipo": "presion",
+      "valor": 918.56,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T15:52",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0252",
+      "tipo": "presion",
+      "valor": 1009.8,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T05:24",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0289",
+      "tipo": "presion",
+      "valor": 1003.49,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T09:43",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0466",
+      "tipo": "presion",
+      "valor": 1066.44,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T06:22",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0659",
+      "tipo": "presion",
+      "valor": 700,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T04:53",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0193",
+      "tipo": "presion",
+      "valor": 1005.22,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T22:31",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0455",
+      "tipo": "presion",
+      "valor": 1054.73,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T05:05",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0624",
+      "tipo": "presion",
+      "valor": 700,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T00:48",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0404",
+      "tipo": "presion",
+      "valor": 1003.0,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T23:08",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0286",
+      "tipo": "presion",
+      "valor": 1017.53,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T09:22",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0031",
+      "tipo": "presion",
+      "valor": 962.17,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T03:37",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0001",
+      "tipo": "presion",
+      "valor": 881.56,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T00:07",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0546",
+      "tipo": "presion",
+      "valor": 1032.86,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T15:42",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0103",
+      "tipo": "presion",
+      "valor": 928.96,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T12:01",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0156",
+      "tipo": "presion",
+      "valor": 947.69,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T18:12",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0305",
+      "tipo": "presion",
+      "valor": 1007.49,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T11:35",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0208",
+      "tipo": "presion",
+      "valor": 1005.14,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T00:16",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0489",
+      "tipo": "presion",
+      "valor": 1073.65,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T09:03",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0346",
+      "tipo": "presion",
+      "valor": 1010.34,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T16:22",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0213",
+      "tipo": "presion",
+      "valor": 1011.83,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T00:51",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0444",
+      "tipo": "presion",
+      "valor": 1064.33,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T03:48",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0400",
+      "tipo": "presion",
+      "valor": 1016.34,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T22:40",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0138",
+      "tipo": "presion",
+      "valor": 858.98,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T16:06",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0544",
+      "tipo": "presion",
+      "valor": 1062.39,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T15:28",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0321",
+      "tipo": "presion",
+      "valor": 1016.72,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T13:27",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0274",
+      "tipo": "presion",
+      "valor": 1003.48,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T07:58",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0430",
+      "tipo": "presion",
+      "valor": 1059.24,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T02:10",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0573",
+      "tipo": "presion",
+      "valor": 1065.37,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T18:51",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0403",
+      "tipo": "presion",
+      "valor": 1011.91,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T23:01",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0565",
+      "tipo": "presion",
+      "valor": 1078.16,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T17:55",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0221",
+      "tipo": "presion",
+      "valor": 1012.65,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T01:47",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0196",
+      "tipo": "presion",
+      "valor": 1007.05,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T22:52",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0294",
+      "tipo": "presion",
+      "valor": 1007.6,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T10:18",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0615",
+      "tipo": "presion",
+      "valor": 1200,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T23:45",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0519",
+      "tipo": "presion",
+      "valor": 1045.32,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T12:33",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0235",
+      "tipo": "presion",
+      "valor": 1006.3,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T03:25",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0450",
+      "tipo": "presion",
+      "valor": 1038.42,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T04:30",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0244",
+      "tipo": "presion",
+      "valor": 1012.77,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T04:28",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0626",
+      "tipo": "presion",
+      "valor": 650,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T01:02",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0045",
+      "tipo": "presion",
+      "valor": 986.28,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T05:15",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0528",
+      "tipo": "presion",
+      "valor": 1055.47,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T13:36",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0160",
+      "tipo": "presion",
+      "valor": 986.87,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T18:40",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0488",
+      "tipo": "presion",
+      "valor": 1070.51,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T08:56",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0666",
+      "tipo": "presion",
+      "valor": 650,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T05:42",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0619",
+      "tipo": "presion",
+      "valor": 700,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T00:13",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0338",
+      "tipo": "presion",
+      "valor": 1000.31,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T15:26",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0240",
+      "tipo": "presion",
+      "valor": 1016.82,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T04:00",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0476",
+      "tipo": "presion",
+      "valor": 1041.67,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T07:32",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0516",
+      "tipo": "presion",
+      "valor": 1063.96,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T12:12",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0037",
+      "tipo": "presion",
+      "valor": 933.84,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T04:19",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0097",
+      "tipo": "presion",
+      "valor": 928.42,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T11:19",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0169",
+      "tipo": "presion",
+      "valor": 981.46,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T19:43",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0115",
+      "tipo": "presion",
+      "valor": 895.82,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T13:25",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0591",
+      "tipo": "presion",
+      "valor": 1044.83,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T20:57",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0418",
+      "tipo": "presion",
+      "valor": 1013.99,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T00:46",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0674",
+      "tipo": "presion",
+      "valor": 700,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T06:38",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0694",
+      "tipo": "presion",
+      "valor": null,
+      "unidad": "unidad_desconocida",
+      "fecha": "2026-10-04T08:58",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0604",
+      "tipo": "presion",
+      "valor": 700,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T22:28",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0498",
+      "tipo": "presion",
+      "valor": 1053.06,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T10:06",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0445",
+      "tipo": "presion",
+      "valor": 1057.33,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T03:55",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0588",
+      "tipo": "presion",
+      "valor": 1053.52,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T20:36",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0470",
+      "tipo": "presion",
+      "valor": 1029.66,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T06:50",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0454",
+      "tipo": "presion",
+      "valor": 1066.2,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T04:58",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0342",
+      "tipo": "presion",
+      "valor": 1019.68,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T15:54",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0397",
+      "tipo": "presion",
+      "valor": 1012.81,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T22:19",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0157",
+      "tipo": "presion",
+      "valor": 905.94,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T18:19",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0083",
+      "tipo": "presion",
+      "valor": 901.37,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T09:41",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0128",
+      "tipo": "presion",
+      "valor": 886.28,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T14:56",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0007",
+      "tipo": "presion",
+      "valor": 867.35,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T00:49",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0080",
+      "tipo": "presion",
+      "valor": 973.24,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T09:20",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0562",
+      "tipo": "presion",
+      "valor": 1023.33,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T17:34",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0036",
+      "tipo": "presion",
+      "valor": 948.75,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T04:12",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0474",
+      "tipo": "presion",
+      "valor": 1077.51,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T07:18",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0579",
+      "tipo": "presion",
+      "valor": 1058.98,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T19:33",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0030",
+      "tipo": "presion",
+      "valor": 858.17,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T03:30",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0571",
+      "tipo": "presion",
+      "valor": 1077.54,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T18:37",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0640",
+      "tipo": "presion",
+      "valor": 1200,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T02:40",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0515",
+      "tipo": "presion",
+      "valor": 1060.83,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T12:05",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0675",
+      "tipo": "presion",
+      "valor": 1200,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T06:45",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0642",
+      "tipo": "presion",
+      "valor": 1250,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T02:54",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0396",
+      "tipo": "presion",
+      "valor": 1013.68,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T22:12",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0531",
+      "tipo": "presion",
+      "valor": 1034.14,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T13:57",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0387",
+      "tipo": "presion",
+      "valor": 1005.25,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T21:09",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0497",
+      "tipo": "presion",
+      "valor": 1032.36,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T09:59",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0638",
+      "tipo": "presion",
+      "valor": 1500,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T02:26",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0413",
+      "tipo": "presion",
+      "valor": 1017.5,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T00:11",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0297",
+      "tipo": "presion",
+      "valor": 1007.8,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T10:39",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0382",
+      "tipo": "presion",
+      "valor": 1012.82,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T20:34",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0464",
+      "tipo": "presion",
+      "valor": 1044.18,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T06:08",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0309",
+      "tipo": "presion",
+      "valor": 1015.59,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T12:03",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0035",
+      "tipo": "presion",
+      "valor": 860.1,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T04:05",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0644",
+      "tipo": "presion",
+      "valor": 700,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T03:08",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0206",
+      "tipo": "presion",
+      "valor": 1007.16,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T00:02",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0499",
+      "tipo": "presion",
+      "valor": 1049.44,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T10:13",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0189",
+      "tipo": "presion",
+      "valor": 1014.28,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T22:03",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0685",
+      "tipo": "presion",
+      "valor": "ERROR_SENSOR",
+      "unidad": "hPa",
+      "fecha": "2026-10-04T07:55",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0664",
+      "tipo": "presion",
+      "valor": 700,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T05:28",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0154",
+      "tipo": "presion",
+      "valor": 957.82,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T17:58",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0283",
+      "tipo": "presion",
+      "valor": 1017.31,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T09:01",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0575",
+      "tipo": "presion",
+      "valor": 1053.25,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T19:05",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0257",
+      "tipo": "presion",
+      "valor": 1009.03,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T05:59",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0209",
+      "tipo": "presion",
+      "valor": 1002.8,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T00:23",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0033",
+      "tipo": "presion",
+      "valor": 948.53,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T03:51",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0077",
+      "tipo": "presion",
+      "valor": 976.71,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T08:59",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0054",
+      "tipo": "presion",
+      "valor": 969.22,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T06:18",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0467",
+      "tipo": "presion",
+      "valor": 1029.79,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T06:29",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0133",
+      "tipo": "presion",
+      "valor": 884.71,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T15:31",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0637",
+      "tipo": "presion",
+      "valor": 1250,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T02:19",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0569",
+      "tipo": "presion",
+      "valor": 1037.94,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T18:23",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0384",
+      "tipo": "presion",
+      "valor": 1016.33,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T20:48",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0523",
+      "tipo": "presion",
+      "valor": 1057.31,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T13:01",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0667",
+      "tipo": "presion",
+      "valor": 1250,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T05:49",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0291",
+      "tipo": "presion",
+      "valor": 1006.37,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T09:57",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0260",
+      "tipo": "presion",
+      "valor": 1007.65,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T06:20",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0530",
+      "tipo": "presion",
+      "valor": 1050.91,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T13:50",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0368",
+      "tipo": "presion",
+      "valor": 1013.02,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T18:56",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0663",
+      "tipo": "presion",
+      "valor": 1500,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T05:21",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0427",
+      "tipo": "presion",
+      "valor": 1039.9,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T01:49",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0101",
+      "tipo": "presion",
+      "valor": 985.42,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T11:47",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0331",
+      "tipo": "presion",
+      "valor": 1014.51,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T14:37",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0465",
+      "tipo": "presion",
+      "valor": 1052.55,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T06:15",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0265",
+      "tipo": "presion",
+      "valor": 1009.19,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T06:55",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0279",
+      "tipo": "presion",
+      "valor": 1010.92,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T08:33",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0671",
+      "tipo": "presion",
+      "valor": 650,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T06:17",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0438",
+      "tipo": "presion",
+      "valor": 1037.76,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T03:06",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0063",
+      "tipo": "presion",
+      "valor": 929.28,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T07:21",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0325",
+      "tipo": "presion",
+      "valor": 1013.7,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T13:55",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0505",
+      "tipo": "presion",
+      "valor": 1078.67,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T10:55",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0590",
+      "tipo": "presion",
+      "valor": 1033.68,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T20:50",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0113",
+      "tipo": "presion",
+      "valor": 965.13,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T13:11",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0614",
+      "tipo": "presion",
+      "valor": 700,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T23:38",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0446",
+      "tipo": "presion",
+      "valor": 1037.68,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T04:02",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0012",
+      "tipo": "presion",
+      "valor": 881.09,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T01:24",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0596",
+      "tipo": "presion",
+      "valor": 650,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T21:32",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0178",
+      "tipo": "presion",
+      "valor": 977.37,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T20:46",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0360",
+      "tipo": "presion",
+      "valor": 1016.73,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T18:00",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0558",
+      "tipo": "presion",
+      "valor": 1075.37,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T17:06",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0215",
+      "tipo": "presion",
+      "valor": 1003.88,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T01:05",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0096",
+      "tipo": "presion",
+      "valor": 997.19,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T11:12",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0333",
+      "tipo": "presion",
+      "valor": 1009.39,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T14:51",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0194",
+      "tipo": "presion",
+      "valor": 1019.51,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T22:38",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0288",
+      "tipo": "presion",
+      "valor": 1012.05,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T09:36",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0509",
+      "tipo": "presion",
+      "valor": 1060.44,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T11:23",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0529",
+      "tipo": "presion",
+      "valor": 1025.27,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T13:43",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0483",
+      "tipo": "presion",
+      "valor": 1021.59,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T08:21",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0040",
+      "tipo": "presion",
+      "valor": 912.01,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T04:40",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0374",
+      "tipo": "presion",
+      "valor": 1017.47,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T19:38",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0658",
+      "tipo": "presion",
+      "valor": 1500,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T04:46",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0339",
+      "tipo": "presion",
+      "valor": 1010.2,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T15:33",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0224",
+      "tipo": "presion",
+      "valor": 1002.51,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T02:08",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0543",
+      "tipo": "presion",
+      "valor": 1032.89,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T15:21",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0233",
+      "tipo": "presion",
+      "valor": 1007.78,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T03:11",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0024",
+      "tipo": "presion",
+      "valor": 852.47,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T02:48",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0570",
+      "tipo": "presion",
+      "valor": 1020.95,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T18:30",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0098",
+      "tipo": "presion",
+      "valor": 898.03,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T11:26",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0298",
+      "tipo": "presion",
+      "valor": 1004.87,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T10:46",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0388",
+      "tipo": "presion",
+      "valor": 1008.08,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T21:16",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0287",
+      "tipo": "presion",
+      "valor": 1009.63,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T09:29",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0409",
+      "tipo": "presion",
+      "valor": 1010.04,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T23:43",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0653",
+      "tipo": "presion",
+      "valor": 1500,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T04:11",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0020",
+      "tipo": "presion",
+      "valor": 950.43,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T02:20",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0307",
+      "tipo": "presion",
+      "valor": 1017.22,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T11:49",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0697",
+      "tipo": "presion",
+      "valor": "SIN_DATO",
+      "unidad": "hPa",
+      "fecha": "2026-10-04T09:19",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0693",
+      "tipo": "presion",
+      "valor": null,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T08:51",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0599",
+      "tipo": "presion",
+      "valor": 700,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T21:53",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0025",
+      "tipo": "presion",
+      "valor": 943.27,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T02:55",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0493",
+      "tipo": "presion",
+      "valor": 1068.71,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T09:31",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0124",
+      "tipo": "presion",
+      "valor": 950.48,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T14:28",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0123",
+      "tipo": "presion",
+      "valor": 858.79,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T14:21",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0385",
+      "tipo": "presion",
+      "valor": 1005.39,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T20:55",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0008",
+      "tipo": "presion",
+      "valor": 963.9,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T00:56",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0117",
+      "tipo": "presion",
+      "valor": 950.22,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T13:39",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0463",
+      "tipo": "presion",
+      "valor": 1072.8,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T06:01",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0332",
+      "tipo": "presion",
+      "valor": 1015.53,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T14:44",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0300",
+      "tipo": "presion",
+      "valor": 1010.26,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T11:00",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0369",
+      "tipo": "presion",
+      "valor": 1001.47,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T19:03",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0676",
+      "tipo": "presion",
+      "valor": 650,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T06:52",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0686",
+      "tipo": "presion",
+      "valor": "ERROR_SENSOR",
+      "unidad": "unidad_desconocida",
+      "fecha": "2026-10-04T08:02",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0406",
+      "tipo": "presion",
+      "valor": 1011.05,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T23:22",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0541",
+      "tipo": "presion",
+      "valor": 1029.7,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T15:07",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0092",
+      "tipo": "presion",
+      "valor": 882.06,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T10:44",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0185",
+      "tipo": "presion",
+      "valor": 1007.79,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T21:35",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0425",
+      "tipo": "presion",
+      "valor": 1075.01,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T01:35",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0146",
+      "tipo": "presion",
+      "valor": 851.59,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T17:02",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0592",
+      "tipo": "presion",
+      "valor": 1053.53,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T21:04",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0550",
+      "tipo": "presion",
+      "valor": 1060.99,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T16:10",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0480",
+      "tipo": "presion",
+      "valor": 1026.0,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T08:00",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0202",
+      "tipo": "presion",
+      "valor": 1006.38,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T23:34",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0408",
+      "tipo": "presion",
+      "valor": 1017.54,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T23:36",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0661",
+      "tipo": "presion",
+      "valor": 650,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T05:07",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0166",
+      "tipo": "presion",
+      "valor": 883.68,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T19:22",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0503",
+      "tipo": "presion",
+      "valor": 1068.15,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T10:41",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0556",
+      "tipo": "presion",
+      "valor": 1063.94,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T16:52",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0551",
+      "tipo": "presion",
+      "valor": 1044.87,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T16:17",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0192",
+      "tipo": "presion",
+      "valor": 1007.9,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T22:24",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0456",
+      "tipo": "presion",
+      "valor": 1039.82,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T05:12",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0375",
+      "tipo": "presion",
+      "valor": 1015.54,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T19:45",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0081",
+      "tipo": "presion",
+      "valor": 913.01,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T09:27",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0137",
+      "tipo": "presion",
+      "valor": 923.08,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T15:59",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0029",
+      "tipo": "presion",
+      "valor": 894.3,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T03:23",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0217",
+      "tipo": "presion",
+      "valor": 1006.47,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T01:19",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0356",
+      "tipo": "presion",
+      "valor": 1002.38,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T17:32",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0595",
+      "tipo": "presion",
+      "valor": 1079.93,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T21:25",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0186",
+      "tipo": "presion",
+      "valor": 1018.82,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T21:42",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0032",
+      "tipo": "presion",
+      "valor": 944.29,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T03:44",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0363",
+      "tipo": "presion",
+      "valor": 1006.94,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T18:21",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0228",
+      "tipo": "presion",
+      "valor": 1012.72,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T02:36",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0379",
+      "tipo": "presion",
+      "valor": 1012.99,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T20:13",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0341",
+      "tipo": "presion",
+      "valor": 1001.02,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T15:47",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0250",
+      "tipo": "presion",
+      "valor": 1015.76,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T05:10",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0011",
+      "tipo": "presion",
+      "valor": 921.05,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T01:17",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0704",
+      "tipo": "presion",
+      "valor": 1011.42,
+      "unidad": "hPa",
+      "fecha": "2026-10-04T10:08",
+      "observacion_tecnica": "SIMULACION_LECTURA_INTERMITENTE"
+    },
+    {
+      "id": "PRE-0203",
+      "tipo": "presion",
+      "valor": 1017.39,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T23:41",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0151",
+      "tipo": "presion",
+      "valor": 927.59,
+      "unidad": "hPa",
+      "fecha": "2026-10-01T17:37",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0435",
+      "tipo": "presion",
+      "valor": 1067.13,
+      "unidad": "hPa",
+      "fecha": "2026-10-03T02:45",
+      "observacion_tecnica": ""
+    },
+    {
+      "id": "PRE-0211",
+      "tipo": "presion",
+      "valor": 1000.82,
+      "unidad": "hPa",
+      "fecha": "2026-10-02T00:37",
+      "observacion_tecnica": ""
+    }
+  ]
+}

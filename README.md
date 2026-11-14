@@ -66,7 +66,7 @@ python -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt
-python -m streamlit run src/interface/streamlit_app.py
+streamlit run src/interface/streamlit_app.py
 ```
 
 La línea base por consola puede ejecutarse con:
@@ -77,13 +77,27 @@ python -m src.main
 
 ## Datasets
 
-Se incluyen tres datasets sintéticos, cada uno con 500 registros:
+Se incluyen tres datasets sintéticos con las columnas `id`, `tipo`, `valor`, `unidad`, `fecha` y `observacion_tecnica`:
 
-- `data/raw/temperatura.csv`
-- `data/raw/presion.json`
-- `data/raw/humedad.xlsx`
+| Archivo | Registros | Válidos | Inválidos | Errores técnicos | Incidencias |
+|---|---:|---:|---:|---:|---:|
+| `data/raw/temperatura.csv` | 623 | 528 | 91 | 4 | 15,2 % |
+| `data/raw/presion.json` | 708 | 595 | 107 | 6 | 16,0 % |
+| `data/raw/humedad.xlsx` | 573 | 433 | 131 | 9 | 24,4 % |
 
-Cada archivo contiene 24 incidencias intencionales (4,8 %): 8 valores faltantes, 8 extremos respecto del rango de generación y 8 valores no numéricos. No son mediciones reales ni estándares regulatorios.
+Incidencias intencionales de calidad, por tipo (un registro puede tener más de un motivo):
+
+| Archivo | Valor faltante | No numérico | Fuera de rango | Unidad no válida | Tipo no permitido |
+|---|---:|---:|---:|---:|---:|
+| temperatura.csv | 9 | 9 | 73 | 4 | 3 |
+| presion.json | 8 | 13 | 86 | 5 | 3 |
+| humedad.xlsx | 16 | 11 | 104 | 6 | 4 |
+
+Los errores técnicos corresponden a los eventos simulados de `observacion_tecnica`
+(`SIMULACION_TIMEOUT_SENSOR`, `SIMULACION_LECTURA_INTERMITENTE` y
+`SIMULACION_PAQUETE_INCOMPLETO`). Los rangos de plausibilidad usados para detectar
+valores fuera de rango están en `src/validation/validaciones.py`. No son mediciones
+reales ni estándares regulatorios.
 
 ## Evolución y entregas
 
@@ -168,3 +182,53 @@ Un producto funcional no sustituye la sustentación. Cada integrante debe poder 
 - No duplicar las reglas de clasificación.
 - Resolver conflictos mediante revisión y coordinación, sin sobrescribir el trabajo de otro integrante.
 - Mantener actualizado el README y las evidencias de cada entrega.
+
+
+## Versión con implementación completa
+Este paquete contiene resueltos los módulos que en la plantilla progresiva aparecían como TODO: normalización, validación, fuentes de prueba, lectores CSV/JSON/Excel, reporte de errores, procesamiento robusto e integración con Streamlit. La carpeta `tests/` incluye pruebas unitarias básicas.
+
+### Ejecución en Windows
+Desde la raíz del proyecto:
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python -m streamlit run src/interface/streamlit_app.py
+```
+Para ejecutar pruebas: `python -m unittest discover -s tests`.
+
+
+## Manejo de errores técnicos por registro (versión robusta)
+
+Los lectores conservan metadatos de origen y fila, y convierten errores estructurales
+aislados en incidencias individuales. El procesador reconoce además los marcadores
+`SIMULACION_TIMEOUT_SENSOR`, `SIMULACION_LECTURA_INTERMITENTE` y
+`SIMULACION_PAQUETE_INCOMPLETO`.
+
+- Los problemas de calidad (nulos, unidades o valores no permitidos) se registran en
+  `registros_invalidos`, con sus motivos.
+- Las fallas técnicas o estructurales se registran en `errores`, con identificador,
+  categoría, origen, mensaje y fecha/hora UTC.
+- Un error individual no detiene el lote; los registros posteriores continúan.
+- Un archivo completo ilegible o con estructura global incorrecta sí produce una
+  excepción de fuente, porque no es posible procesar sus filas de forma confiable.
+
+En Streamlit, la pestaña **Errores técnicos** permite consultar y descargar el reporte.
+
+
+## Distribución de categorías de clasificación
+
+Los datasets se regeneraron para que los registros válidos incluyan las tres categorías
+pedagógicas. La clasificación se calcula con los umbrales definidos en
+`src/processing/clasificacion.py`. Los registros inválidos y los descartados por
+eventos técnicos no se incluyen en estos conteos.
+
+| Archivo | BAJO | NORMAL | ALTO |
+|---|---:|---:|---:|
+| temperatura.csv | 151 | 225 | 152 |
+| humedad.xlsx | 126 | 186 | 121 |
+| presion.json | 178 | 242 | 175 |
+
+Los valores altos, normales y bajos están distribuidos deliberadamente; no son una
+muestra aleatoria representativa de sensores reales. Se diseñaron para que el
+estudiantado practique las tres ramas de clasificación y pueda comparar resultados.

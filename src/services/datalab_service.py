@@ -1,16 +1,16 @@
-"""Fachada entre Streamlit y la lógica de DataLab.
-
-Este módulo es provisto por el docente. No debe ser modificado por los estudiantes.
-La interfaz se ejecuta desde el día uno con el modo de demostración en memoria.
-"""
-from src.data.fuentes_memoria import cargar_desde_memoria
+"""Fachada entre Streamlit y la lógica de DataLab."""
+from src.data.carga_datos import cargar_datos
 from src.processing.procesamiento import procesar_registros
-from src.processing.resumen import generar_resumen
+
 
 def obtener_datos_demo():
-    return cargar_desde_memoria()
+    return cargar_datos()
+
 
 def ejecutar_demo():
-    registros = obtener_datos_demo()
-    resultado = procesar_registros(registros)
-    return resultado, generar_resumen(resultado["registros_validos"])
+    return procesar_registros(obtener_datos_demo())
+
+
+def ejecutar_archivo(archivo, nombre_archivo):
+    registros=cargar_datos(archivo, nombre_archivo)
+    return procesar_registros(registros)
