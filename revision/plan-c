@@ -1,0 +1,341 @@
+#Python
+# fixtures_semana10.py
+
+FIXTURES_SEMANA_10 = [
+    # Registro válido estándar
+    {
+        "id": "reg_001",
+        "tipo": "temperatura",
+        "unidad": "celsius",
+        "valor": "25.5"
+    },
+    # Registro con espacios y mayúsculas (para probar normalización)
+    {
+        "id": " REG_002 ",
+        "tipo": " HUMEDAD ",
+        "unidad": " Porcentaje ",
+        "valor": " 60.0 "
+    },
+    # Registro con formato numérico inválido
+    {
+        "id": "reg_003",
+        "tipo": "presion",
+        "unidad": "hpa",
+        "valor": "abc"
+    },
+    # Registro con campos faltantes
+    {
+        "id": "reg_004",
+        "tipo": "temperatura",
+        "unidad": "",
+        "valor": None
+    }
+]
+
+#Python
+# fuentes_memoria.py
+
+from fixtures_semana10 import FIXTURES_SEMANA_10
+
+class AdaptadorMemoria:
+    """
+    Adaptador para proveer datos en memoria utilizando los fixtures de la semana 10.
+    """
+    def __init__(self, datos=None):
+        # Si no se pasan datos personalizados, carga los fixtures predefinidos
+        self.datos = datos if datos is not None else FIXTURES_SEMANA_10
+
+    def obtener_registros(self):
+        """
+        Retorna la lista de registros en crudo para que sean procesados.
+        """
+        return self.datos
+
+    def agregar_registro(self, registro: dict):
+        """
+        Permite agregar dinámicamente nuevos escenarios de prueba.
+        """
+        self.datos.append(registro)
+        
+        Python
+from fuentes_memoria import AdaptadorMemoria
+
+# Inicializar el adaptador
+adaptador = AdaptadorMemoria()
+
+# Obtener los registros para pasarlos al flujo de validación
+registros_crudos = adaptador.obtener_registros()
+
+for reg in registros_crudos:
+    print(reg)
+    
+    
+#SEMANA 11
+
+Python
+# escenarios_fuente.py
+
+ ESCENARIOS_DEFECTUOSOS = [
+    {
+        "descripcion": "Estructura completamente vacía",
+        "datos": {}
+    },
+    {
+        "descripcion": "Falta la clave principal 'id'",
+        "datos": {
+            "tipo": "temperatura",
+            "unidad": "celsius",
+            "valor": "22.5"
+        }
+    },
+    {
+        "descripcion": "Tipos de datos incorrectos en la estructura (valor como diccionario en vez de texto)",
+        "datos": {
+            "id": "reg_err_01",
+            "tipo": "presion",
+            "unidad": "hpa",
+            "valor": {"subvalor": 100}
+        }
+    },
+    {
+        "descripcion": "Datos nulos o None en campos críticos",
+        "datos": {
+            "id": None,
+            "tipo": None,
+            "unidad": None,
+            "valor": None
+        }
+    }
+]
+
+def obtener_escenarios_defectuosos():
+    """
+    Retorna la lista de escenarios con fallas estructurales 
+    para evaluar el manejo de excepciones de los compañeros (Rol B).
+    """
+    return ESCENARIOS_DEFECTUOSOS
+
+Python
+# tests/test_entradas_semana11.py
+
+from escenarios_fuente import obtener_escenarios_defectuosos
+
+def test_verificar_estructura_escenarios():
+    escenarios = obtener_escenarios_defectuosos()
+    assert len(escenarios) > 0, "Debe haber al menos un escenario defectuoso definido."
+    
+    for escenario in escenarios:
+        assert "descripcion" in escenario, "Cada escenario debe tener una descripción."
+        assert "datos" in escenario, "Cada escenario debe incluir los datos a probar."
+        
+#SEMANA 12
+
+Python
+# lectores.py
+import csv
+import json
+import os
+
+try:
+    import pandas as pd
+except ImportError:
+    pd = None
+
+class LectorCSV:
+    """Lector para archivos en formato CSV."""
+    def __init__(self, ruta_archivo: str):
+        self.ruta_archivo = ruta_archivo
+
+    def leer(self) -> list:
+        registros = []
+        if not os.path.exists(self.ruta_archivo):
+            raise FileNotFoundError(f"El archivo CSV no existe: {self.ruta_archivo}")
+        
+        with open(self.ruta_archivo, mode='r', encoding='utf-8') as archivo:
+            lector = csv.DictReader(archivo)
+            for fila in lector:
+                registros.append(dict(fila))
+        return registros
+
+
+class LectorJSON:
+    """Lector para archivos en formato JSON."""
+    def __init__(self, ruta_archivo: str):
+        self.ruta_archivo = ruta_archivo
+
+    def leer(self) -> list:
+        if not os.path.exists(self.ruta_archivo):
+            raise FileNotFoundError(f"El archivo JSON no existe: {self.ruta_archivo}")
+        
+        with open(self.ruta_archivo, mode='r', encoding='utf-8') as archivo:
+            datos = json.load(archivo)
+            # Asegurar que devuelva una lista de diccionarios
+            if isinstance(datos, list):
+                return datos
+            elif isinstance(datos, dict):
+                return [datos]
+            return []
+
+
+class LectorExcel:
+    """Lector para archivos en formato Excel (.xlsx)."""
+    def __init__(self, ruta_archivo: str):
+        self.ruta_archivo = ruta_archivo
+
+    def leer(self) -> list:
+        if pd is None:
+            raise ImportError("La librería 'pandas' y 'openpyxl' son necesarias para leer archivos Excel.")
+        if not os.path.exists(self.ruta_archivo):
+            raise FileNotFoundError(f"El archivo Excel no existe: {self.ruta_archivo}")
+        
+        df = pd.read_excel(self.ruta_archivo)
+        # Convertir el DataFrame de pandas a una lista de diccionarios limpiando nulos de tipo NaN
+        df = df.where(pd.notnull(df), None)
+        return df.to_dict(orient='records')
+
+#Python
+# carga_datos.py
+import os
+from lectores import LectorCSV, LectorJSON, LectorExcel
+
+class CargaDatosUnificada:
+    """
+    Gestor centralizado para la carga de datos desde diferentes fuentes de archivos
+    bajo un contrato común.
+    """
+    def __init__(self, ruta_archivo: str):
+        self.ruta_archivo = ruta_archivo
+
+    def cargar(self) -> list:
+        """
+        Detecta la extensión del archivo, selecciona el lector adecuado
+        y retorna los registros unificados.
+        """
+        _, extension = os.path.splitext(self.ruta_archivo)
+        extension = extension.lower()
+
+        lector = None
+        if extension == '.csv':
+            lector = LectorCSV(self.ruta_archivo)
+        elif extension == '.json':
+            lector = LectorJSON(self.ruta_archivo)
+        elif extension in ['.xls', '.xlsx']:
+            lector = LectorExcel(self.ruta_archivo)
+        else:
+            raise ValueError(f"Formato de archivo no soportado: {extension}")
+
+        return lector.leer()
+    
+#SEMANA 13
+
+Python
+# data/__init__.py
+from .carga_datos import CargaDatosUnificada
+from .lectores import LectorCSV, LectorJSON, LectorExcel
+
+__all__ = ['CargaDatosUnificada', 'LectorCSV', 'LectorJSON', 'LectorExcel']
+
+Python
+# data/lectores.py
+from abc import ABC, abstractmethod
+import csv
+import json
+import os
+
+try:
+    import pandas as pd
+except ImportError:
+    pd = None
+
+class LectorBase(ABC):
+    """Interfaz abstracta para unificar el comportamiento de los lectores."""
+    def __init__(self, ruta_archivo: str):
+        self.ruta_archivo = ruta_archivo
+        self._validar_existencia()
+
+    def _validar_existencia(self):
+        if not os.path.exists(self.ruta_archivo):
+            raise FileNotFoundError(f"El archivo no existe: {self.ruta_archivo}")
+
+    @abstractmethod
+    def leer(self) -> list:
+        pass
+
+
+class LectorCSV(LectorBase):
+    def leer(self) -> list:
+        with open(self.ruta_archivo, mode='r', encoding='utf-8') as archivo:
+            return [dict(fila) for fila in csv.DictReader(archivo)]
+
+
+class LectorJSON(LectorBase):
+    def leer(self) -> list:
+        with open(self.ruta_archivo, mode='r', encoding='utf-8') as archivo:
+            datos = json.load(archivo)
+            return datos if isinstance(datos, list) else [datos]
+
+
+class LectorExcel(LectorBase):
+    def leer(self) -> list:
+        if pd is None:
+            raise ImportError("Se requiere 'pandas' y 'openpyxl' para leer Excel.")
+        df = pd.read_excel(self.ruta_archivo)
+        df = df.where(pd.notnull(df), None)
+        return df.to_dict(orient='records')
+    
+#SEMANA 14
+
+Python
+# tests/test_lectores.py                                                                                                                                                                 
+import json
+import csv
+import pytest
+from data.carga_datos import CargaDatosUnificada
+
+def test_lector_csv(tmp_path):
+    # 1. Crear un archivo CSV temporal de prueba
+    archivo_csv = tmp_path / "datos_prueba.csv"
+    archivo_csv.write_text("id,tipo,unidad,valor\nreg_1,temperatura,celsius,24.5", encoding="utf-8")
+
+    # 2. Ejecutar la carga unificada
+    cargador = CargaDatosUnificada(str(archivo_csv))
+    registros = cargador.cargar()
+
+    # 3. Aserciones
+    assert len(registros) == 1
+    assert registros[0]["id"] == "reg_1"
+    assert registros[0]["tipo"] == "temperatura"
+
+
+def test_lector_json(tmp_path):
+    # 1. Crear un archivo JSON temporal de prueba
+    archivo_json = tmp_path / "datos_prueba.json"
+    datos = [{"id": "reg_2", "tipo": "humedad", "unidad": "%", "valor": "60"}]
+    archivo_json.write_text(json.dumps(datos), encoding="utf-8")
+
+    # 2. Ejecutar la carga unificada
+    cargador = CargaDatosUnificada(str(archivo_json))
+    registros = cargador.cargar()
+
+    # 3. Aserciones
+    assert len(registros) == 1
+    assert registros[0]["id"] == "reg_2"
+    assert registros[0]["tipo"] == "humedad"
+
+
+def test_archivo_no_encontrado():
+    # Verificar que se lance una excepción si el archivo no existe
+    cargador = CargaDatosUnificada("archivo_inexistente.csv")
+    with pytest.raises(FileNotFoundError):
+        cargador.cargar()
+
+
+def test_formato_no_soportado(tmp_path):
+    # Verificar que se lance un error con extensiones no válidas
+    archivo_txt = tmp_path / "datos.txt"
+    archivo_txt.write_text("datos de texto plano", encoding="utf-8")
+    
+    cargador = CargaDatosUnificada(str(archivo_txt))
+    with pytest.raises(ValueError, match="Formato de archivo no soportado"):
+        cargador.cargar()
+        
