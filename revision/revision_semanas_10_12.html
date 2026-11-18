@@ -95,6 +95,7 @@ footer{text-align:center;color:var(--muted);padding:20px;font-size:.88rem}
   <h1>Revisión del proyecto integrador — semanas 10 a 12</h1>
   <p>Avance de cada rol comparado con <code style="color:#fff;background:#ffffff22">README.md</code>, <code style="color:#fff;background:#ffffff22">docs/GUIA_PROYECTO_INTEGRADOR.html</code>, <code style="color:#fff;background:#ffffff22">docs/contratos_modulos.md</code> y <code style="color:#fff;background:#ffffff22">docs/entregas_semanales.md</code>, con las correcciones realizadas.</p>
   <p>Rama de la revisión: <b>revision-docente</b> · Fecha: 13 de noviembre de 2026 · Versión esperada: v1.2 · Último commit revisado: <code style="color:#fff;background:#ffffff22">5c9444a</code></p>
+  <p><b>Actualización · 18 de noviembre de 2026:</b> revisión de la <b>segunda entrega del Rol C</b> (commits <code style="color:#fff;background:#ffffff22">567615f</code>, <code style="color:#fff;background:#ffffff22">c2466ec</code> y <code style="color:#fff;background:#ffffff22">75ebe15</code> en <code style="color:#fff;background:#ffffff22">main</code>). Ver <a href="#rol-c-v2" style="color:#fff">observaciones C-7 a C-14</a>.</p>
 </div></header>
 
 <main>
@@ -104,6 +105,7 @@ footer{text-align:center;color:var(--muted);padding:20px;font-size:.88rem}
   <a href="#rol-a">Rol A · Calidad</a>
   <a href="#rol-b">Rol B · Robustez</a>
   <a href="#rol-c">Rol C · Fuentes</a>
+  <a href="#rol-c-v2">Rol C · 2.ª entrega</a>
   <a href="#general">Observaciones generales</a>
   <a href="#verificacion">Verificación</a>
   <a href="#estudio">Cómo estudiar los cambios</a>
@@ -115,22 +117,24 @@ footer{text-align:center;color:var(--muted);padding:20px;font-size:.88rem}
   <p>Alcance: <b>semanas 10, 11 y 12</b> (v1.0 a v1.2). La refactorización (semana 13) y las pruebas (semana 14) <b>no se evalúan</b>. Los archivos de la carpeta <code>tests/</code> no se tuvieron en cuenta en esta revisión.</p>
 
   <div class="grid">
-    <div class="metric"><strong>1 de 3</strong><span>Roles con trabajo entregado (solo el Rol A, en un commit)</span></div>
+    <div class="metric"><strong>1 de 3 → 2 de 3</strong><span>Roles con trabajo entregado (Rol A; Rol C desde el 17-nov)</span></div>
     <div class="metric"><strong>0 de 3 → 3 de 3</strong><span>Datasets que se cargan desde la interfaz Streamlit</span></div>
     <div class="metric"><strong>Falla → 12 / 0 / 0</strong><span>Demostración en memoria (válidos / inválidos / errores)</span></div>
-    <div class="metric"><strong>17</strong><span>Observaciones corregidas (A: 6 · B: 5 · C: 6)</span></div>
+    <div class="metric"><strong>25</strong><span>Observaciones corregidas (A: 6 · B: 5 · C: 6 + 8 de la 2.ª entrega)</span></div>
   </div>
+
+  <div class="note warn"><b>Actualización 18-nov:</b> la segunda entrega del Rol C (<code>75ebe15</code>) reemplazó los lectores por un diseño orientado a objetos. La idea es buena, pero <b>volvió a dejar la aplicación sin funcionar</b>: <code>from lectores import ...</code> lanza <code>ModuleNotFoundError</code> al importar el servicio, así que Streamlit no abría <b>ni siquiera la demostración en memoria</b>. Se corrigió conservando el diseño de clases de los estudiantes (<a href="#rol-c-v2">C-7 a C-14</a>).</div>
 
   <div class="note warn"><b>Estado encontrado:</b> la aplicación <b>no funcionaba en ningún modo</b>. <code>procesar_registros</code> (Rol B) y los tres lectores (Rol C) seguían con <code>raise NotImplementedError</code>, de modo que tanto la demostración en memoria como la carga de archivos terminaban en error. El único trabajo entregado es el del Rol A (commit <code>1c1e4d6</code>).</div>
 
   <h3>Resultado del procesamiento con los datasets actuales</h3>
   <div class="tablewrap"><table>
-    <thead><tr><th>Dataset</th><th>Filas</th><th>Antes (código de los estudiantes)</th><th>Después: válidos / inválidos / errores técnicos</th><th>README</th></tr></thead>
+    <thead><tr><th>Dataset</th><th>Filas</th><th>Antes (plantilla, 13-nov)</th><th>2.ª entrega Rol C (17-nov)</th><th>Después: válidos / inválidos / errores técnicos</th><th>README</th></tr></thead>
     <tbody>
-      <tr><td><code>temperatura.csv</code></td><td>623</td><td>No carga: <code>NotImplementedError: Pendiente: lector CSV</code></td><td>528 / 91 / 4</td><td>528 / 91 / 4 ✓</td></tr>
-      <tr><td><code>presion.json</code></td><td>708</td><td>No carga: <code>NotImplementedError: Pendiente: lector JSON</code></td><td>595 / 107 / 6</td><td>595 / 107 / 6 ✓</td></tr>
-      <tr><td><code>humedad.xlsx</code></td><td>573</td><td>No carga: <code>NotImplementedError: Pendiente: lector Excel</code></td><td>433 / 131 / 9</td><td>433 / 131 / 9 ✓</td></tr>
-      <tr><td>Demostración en memoria</td><td>12</td><td>Falla: <code>NotImplementedError: Pendiente: integración del procesamiento</code></td><td>12 / 0 / 0</td><td>—</td></tr>
+      <tr><td><code>temperatura.csv</code></td><td>623</td><td>No carga: <code>NotImplementedError: Pendiente: lector CSV</code></td><td>No carga (<code>ModuleNotFoundError</code>). Con la importación arreglada: 0 / 619 / 4</td><td>528 / 91 / 4</td><td>528 / 91 / 4 ✓</td></tr>
+      <tr><td><code>presion.json</code></td><td>708</td><td>No carga: <code>NotImplementedError: Pendiente: lector JSON</code></td><td>No carga. Con la importación arreglada: <b>1 registro</b> leído, 0 / 1 / 0</td><td>595 / 107 / 6</td><td>595 / 107 / 6 ✓</td></tr>
+      <tr><td><code>humedad.xlsx</code></td><td>573</td><td>No carga: <code>NotImplementedError: Pendiente: lector Excel</code></td><td>No carga. Con la importación arreglada: 433 / 131 / 9, pero sin origen ni fila</td><td>433 / 131 / 9</td><td>433 / 131 / 9 ✓</td></tr>
+      <tr><td>Demostración en memoria</td><td>12</td><td>Falla: <code>NotImplementedError: Pendiente: integración del procesamiento</code></td><td>Falla: <code>ModuleNotFoundError: No module named 'lectores'</code></td><td>12 / 0 / 0</td><td>—</td></tr>
     </tbody>
   </table></div>
   <p>También coinciden con el README los motivos de rechazo por tipo (faltante, no numérico, fuera de rango, unidad y tipo) y la distribución BAJO / NORMAL / ALTO de los válidos (por ejemplo, temperatura: 151 / 225 / 152). Cada fila queda en <b>una sola</b> bandeja: válidos + inválidos + errores = filas del archivo.</p>
@@ -150,19 +154,19 @@ footer{text-align:center;color:var(--muted);padding:20px;font-size:.88rem}
       <tr><td><b>S10 · v1.0</b><br><span class="files">Normalización y validación</span></td>
         <td><span class="badge mid">Parcial</span><br>Normaliza y valida campos, tipos, unidades y formato numérico. No estandariza unidades ni id.</td>
         <td><span class="badge crit">No iniciado</span><br><code>procesar_registros</code> sin implementar: no hay estados válido/inválido.</td>
-        <td><span class="badge crit">No iniciado</span><br><code>preparar_registros_prueba</code> sin implementar.</td></tr>
+        <td><span class="badge crit">No iniciado</span><br><code>preparar_registros_prueba</code> sin implementar.<br><span class="badge mid">17-nov: borrador</span><br><code>revision/plan-c</code> trae fixtures (<code>FIXTURES_SEMANA_10</code>, <code>AdaptadorMemoria</code>), pero en un archivo de texto sin extensión, fuera de <code>src/</code> y sin integrar.</td></tr>
       <tr><td><b>S11 · v1.1</b><br><span class="files">Excepciones y errores</span></td>
         <td><span class="badge mid">Parcial</span><br>Acumula motivos, pero son genéricos («El valor debe ser numérico.») y no muestran el dato recibido.</td>
         <td><span class="badge crit">No iniciado</span><br><code>crear_reporte_error</code> sin implementar; sin continuidad por registro.</td>
-        <td><span class="badge crit">No iniciado</span><br>No existen escenarios de fuentes defectuosas.</td></tr>
+        <td><span class="badge crit">No iniciado</span><br>No existen escenarios de fuentes defectuosas.<br><span class="badge mid">17-nov: borrador</span><br><code>ESCENARIOS_DEFECTUOSOS</code> en <code>plan-c</code>: bien pensados (vacío, sin id, valor dict, nulos), pero con un error de sangría que impide ejecutarlos y sin integrar.</td></tr>
       <tr><td><b>S12 · v1.2</b><br><span class="files">Lectura de archivos</span></td>
         <td><span class="badge crit">No iniciado</span><br>Sin rangos plausibles (exigidos por el README) ni manejo de NaN de Excel.</td>
         <td><span class="badge crit">No iniciado</span><br>Sin control de errores de lectura, conversión ni estructura.</td>
-        <td><span class="badge crit">No iniciado</span><br>Los tres lectores lanzan <code>NotImplementedError</code>.</td></tr>
+        <td><span class="badge crit">No iniciado</span><br>Los tres lectores lanzan <code>NotImplementedError</code>.<br><span class="badge high">17-nov: parcial, no funcional</span><br>Diseño con clases (<code>LectorBase</code> abstracta + 3 subclases + <code>CargaDatosUnificada</code>). Rompe la importación y el contrato con el servicio, no lee <code>presion.json</code> ni el CSV con BOM y no acepta archivos de Streamlit (C-7 a C-14).</td></tr>
       <tr><td><b>Git</b></td>
         <td><span class="badge mid">Parcial</span><br>1 commit (<code>feat(rol-a): ...</code>) en <code>s12-calidad-datos</code>, desde la cuenta compartida «Campus Sala 101».</td>
         <td><span class="badge crit">Sin evidencia</span><br>Ninguna rama ni commit.</td>
-        <td><span class="badge crit">Sin evidencia</span><br>Ninguna rama ni commit.</td></tr>
+        <td><span class="badge mid">17-nov: parcial</span><br>3 commits (<code>567615f</code>, <code>c2466ec</code>, <code>75ebe15</code>) <b>directamente en <code>main</code></b>, sin rama <code>s12-fuentes</code> ni PR, desde la cuenta compartida «Campus Sala 202». Mensajes sin convención (<code>plan-c</code>, «actualizacion archivos lectura»).</td></tr>
     </tbody>
   </table></div>
   <div class="note"><b>Consecuencia para la entrega integrada:</b> la regla de contribución de la guía dice que <i>«la integración de A + B + C debe completar el 100 % de la funcionalidad»</i>. Sin los aportes de B y C, el criterio de aceptación de la semana 12 (<i>«los tres datasets se cargan y procesan con el contrato común»</i>) no se cumplía, y tampoco el de la semana 10 (<i>«los inválidos quedan separados con motivos»</i>), porque no existía el procesamiento que los separa.</div>
@@ -416,7 +420,7 @@ EVENTOS_TECNICOS = {
     <div class="body">
       <ul>
         <li><b>Conversión:</b> después de validar, el valor se convierte con <code>float()</code>. Si falla, se lanza <code>ErrorConversion(...) from exc</code>, que conserva el error original como causa (<code>__cause__</code>) y tiene su propia categoría (<code>CONVERSION</code>).</li>
-        <li><b>Entrada que no es lista:</b> se devuelve el contrato con un error <code>FORMATO_FUENTE</code> en lugar de fallar.</li>
+        <li><b>Entrada que no es lista:</b> se devuelve el contrato con un error de categoría <code>FORMATO</code> (antes <code>FORMATO_FUENTE</code>; ver la nota del 18-nov en la sección 6) en lugar de fallar.</li>
         <li><b>Resumen vacío:</b> se usa <code>generar_resumen([])</code> (total 0, promedio 0.0) en lugar de <code>{}</code>, de modo que quien consume el resultado siempre encuentra las mismas claves.</li>
       </ul>
       <div class="learn"><b>Para aprender:</b> un contrato no es solo «qué claves hay», sino «qué claves hay <i>siempre</i>». Un consumidor que tiene que preguntar <code>if "total" in resumen</code> es señal de un contrato débil.</div>
@@ -535,7 +539,181 @@ registro["_fila"] = indice + 2 # la fila 1 es el encabezado</code></pre></div>
   </details>
 
   <h3>Trazabilidad Git del rol</h3>
-  <p>No hay ramas (<code>s10-fuentes</code>, <code>s11-fuentes</code>, <code>s12-fuentes</code>) ni commits del rol.</p>
+  <p>Hasta el 13-nov no había ramas (<code>s10-fuentes</code>, <code>s11-fuentes</code>, <code>s12-fuentes</code>) ni commits del rol. Para la segunda entrega, ver la <a href="#rol-c-v2">sección 5b</a>.</p>
+</section>
+
+<!-- ================================================================ -->
+<section id="rol-c-v2">
+  <h2>5b. Rol C — Segunda entrega (17 de noviembre)</h2>
+  <p class="files">Archivos: <code>src/data/lectores.py</code>, <code>src/data/carga_datos.py</code>, <code>revision/plan-c</code> · Commits del estudiante: <code>567615f</code>, <code>c2466ec</code>, <code>75ebe15</code> · Corrección: cambios locales del 18-nov (ver sección 8)</p>
+
+  <div class="note"><b>Lo que estaba bien (y se conservó):</b>
+    <ul class="pos">
+      <li>Pensar los lectores como una <b>jerarquía de clases</b>: una clase abstracta <code>LectorBase</code> con <code>@abstractmethod leer()</code> y una subclase por formato. Es un diseño más extensible que tres funciones sueltas y prepara bien la refactorización de la semana 13.</li>
+      <li>Centralizar en <code>CargaDatosUnificada</code> la elección del lector según la extensión, y normalizar la extensión con <code>.lower()</code>.</li>
+      <li>Convertir los <code>NaN</code> de pandas en <code>None</code> en el lector de Excel (<code>df.where(pd.notnull(df), None)</code>).</li>
+      <li>Importar pandas dentro de <code>try/except ImportError</code> para dar un mensaje claro si falta la librería.</li>
+      <li>En <code>plan-c</code>, escenarios defectuosos bien elegidos (estructura vacía, sin <code>id</code>, <code>valor</code> como diccionario, todo <code>None</code>) y la idea de separar <b>fixtures de calidad</b> de <b>escenarios defectuosos</b>.</li>
+    </ul>
+  </div>
+
+  <div class="note warn"><b>Problema principal:</b> se <b>reemplazó</b> una implementación que funcionaba, y que cumplía el contrato con los roles A y B, por otra que no se ejecutó antes de subirla a <code>main</code>. El primer <code>import</code> falla, así que la interfaz completa queda caída. Regla del proyecto: <i>«la aceptación de cada entrega exige integrar las tres ramas, ejecutar pruebas conjuntas y <u>conservar la funcionalidad anterior</u>»</i>.</div>
+
+  <details class="finding" open>
+    <summary><span class="fid">C-11</span><span class="ftitle">Importación relativa rota: <code>from lectores import ...</code></span><span class="badge crit">Crítico</span><span class="badge wk">S12</span></summary>
+    <div class="body">
+      <div class="ba">
+        <div class="before"><span class="lbl">Antes (carga_datos.py)</span><pre><code>import os
+from lectores import LectorCSV, LectorJSON, LectorExcel
+# ModuleNotFoundError: No module named 'lectores'</code></pre></div>
+        <div class="after"><span class="lbl">Después</span><pre><code>from src.data.fuentes_memoria import cargar_desde_memoria
+from src.data.lectores import LectorCSV, LectorExcel, LectorJSON
+from src.exceptions.errores import ErrorFormatoFuente</code></pre></div>
+      </div>
+      <p>Streamlit importa <code>datalab_service</code>, que importa <code>carga_datos</code>: el error ocurría <b>antes</b> de mostrar la página, y por eso fallaba incluso el modo demostración.</p>
+      <div class="learn"><b>Para aprender:</b> <code>from lectores import ...</code> solo funciona si se ejecuta Python <b>desde la carpeta</b> <code>src/data/</code>. En un paquete, todos los módulos se importan con la ruta completa desde la raíz del proyecto (<code>src.data.lectores</code>), como lo hacen los demás archivos. Antes de cada commit hay que ejecutar la aplicación.</div>
+    </div>
+  </details>
+
+  <details class="finding" open>
+    <summary><span class="fid">C-12</span><span class="ftitle">Se eliminó <code>cargar_datos(archivo, nombre)</code>, el contrato que usa el servicio</span><span class="badge crit">Crítico</span><span class="badge wk">S12</span></summary>
+    <div class="body">
+      <p><code>src/services/datalab_service.py</code> llama a <code>cargar_datos()</code> (demostración) y a <code>cargar_datos(archivo, nombre_archivo)</code> (archivos). Al cambiar la función por una clase, el servicio quedó llamando a algo que ya no existe. También desapareció la carga en memoria cuando no hay archivo (<b>C-13</b>).</p>
+      <div class="after"><span class="lbl">Después: la clase se conserva y la función vuelve como contrato público</span><pre><code>def cargar_datos(archivo=None, nombre_archivo=""):
+    if archivo is None:
+        return cargar_desde_memoria()          # C-13
+    return CargaDatosUnificada(archivo, nombre_archivo).cargar()</code></pre></div>
+      <div class="learn"><b>Para aprender:</b> una función que otros módulos usan es un <b>contrato</b> (<code>docs/contratos_modulos.md</code>). Se puede cambiar <i>cómo</i> está hecha por dentro, pero no <i>su firma</i> sin acordarlo con los demás roles. Es la idea de <b>fachada</b>: por fuera, una función simple y estable; por dentro, las clases.</div>
+    </div>
+  </details>
+
+  <details class="finding" open>
+    <summary><span class="fid">C-7</span><span class="ftitle">Los lectores solo aceptan rutas; Streamlit entrega un objeto <code>UploadedFile</code></span><span class="badge crit">Crítico</span><span class="badge wk">S12</span></summary>
+    <div class="body">
+      <div class="ba">
+        <div class="before"><span class="lbl">Antes</span><pre><code>def __init__(self, ruta_archivo: str):
+    self.ruta_archivo = ruta_archivo
+    self._validar_existencia()   # os.path.exists(...)
+...
+with open(self.ruta_archivo, ...) as archivo:
+# TypeError: stat: path should be string, bytes,
+#   os.PathLike or integer, not BytesIO</code></pre></div>
+        <div class="after"><span class="lbl">Después</span><pre><code>def __init__(self, archivo, nombre_origen=None):
+    self.archivo = archivo
+    self.origen = nombre_origen or _nombre_origen(archivo)
+
+def _obtener_texto(self):
+    # _obtener_bytes: ruta, bytes, .getvalue() o .read()
+    return self._obtener_bytes().decode("utf-8-sig")</code></pre></div>
+      </div>
+      <p>Se recupera el <b>adaptador</b> <code>_obtener_bytes</code> de C-1, ahora como método heredado por todas las subclases. Además, la comprobación de existencia pasa del constructor al momento de leer: crear un lector nunca falla y todos los errores de lectura salen por el mismo camino.</p>
+      <div class="learn"><b>Para aprender:</b> <i>duck typing</i>: «si tiene <code>.read()</code>, lo trato como archivo». No hace falta saber la clase del objeto que manda Streamlit.</div>
+    </div>
+  </details>
+
+  <details class="finding" open>
+    <summary><span class="fid">C-8</span><span class="ftitle">Salida incompleta: sin origen/fila, sin filas marcadas, sin BOM, sin <code>{"registros": [...]}</code></span><span class="badge high">Alto</span><span class="badge wk">S12</span></summary>
+    <div class="body">
+      <div class="tablewrap"><table>
+        <thead><tr><th>Detalle perdido</th><th>Efecto con los datasets reales</th></tr></thead>
+        <tbody>
+          <tr><td><code>encoding='utf-8'</code> en lugar de <code>'utf-8-sig'</code></td><td><code>temperatura.csv</code> tiene BOM: la primera columna se llama <code>"﻿id"</code>. Las 619 filas sin evento técnico quedan <b>inválidas</b> con «Falta el campo obligatorio: id» (0 válidos).</td></tr>
+          <tr><td><code>return datos if isinstance(datos, list) else [datos]</code></td><td><code>presion.json</code> es <code>{"registros": [...]}</code>: se devuelve <b>un solo registro</b> con la clave <code>registros</code> y se pierden 707 sin ningún aviso.</td></tr>
+          <tr><td><code>_origen</code> y <code>_fila</code></td><td>Los errores técnicos dicen <code>lote</code> en lugar de <code>presion.json (fila 137)</code>, y la interfaz ya no muestra las columnas «origen» y «fila».</td></tr>
+          <tr><td><code>csv.DictReader</code> en lugar de <code>csv.reader</code></td><td>Una fila con columnas de más o de menos ya no se marca con <code>_error_tecnico</code>: queda como un registro con claves <code>None</code>.</td></tr>
+          <tr><td>Verificación de columnas obligatorias</td><td>Un archivo sin <code>valor</code> o <code>unidad</code> se procesa y todas sus filas salen inválidas, en lugar de dar un solo mensaje claro.</td></tr>
+        </tbody>
+      </table></div>
+      <p>Se recuperan todos estos detalles <b>dentro de la jerarquía de clases</b>, con un <b>método plantilla</b>:</p>
+      <div class="after"><span class="lbl">Después (LectorBase)</span><pre><code>def leer(self):                       # escrito UNA vez, en la base
+    registros = []
+    for numero_fila, registro in self._leer_filas():
+        registro["_origen"] = self.origen
+        registro["_fila"] = numero_fila
+        registros.append(registro)
+    return registros
+
+@abstractmethod
+def _leer_filas(self):                # cada formato implementa solo esto
+    """Devuelve una lista de (numero_fila, dict)."""</code></pre></div>
+      <div class="learn"><b>Para aprender:</b> con el método plantilla, la salida es homogénea <b>por construcción</b>: ninguna subclase puede olvidar <code>_origen</code> o <code>_fila</code>, porque no son responsabilidad suya. La clase abstracta impide instanciar <code>LectorBase</code> y obliga a cada subclase a implementar <code>_leer_filas</code>. Probar <b>siempre con los datasets reales</b>: un CSV de prueba escrito a mano no tiene BOM, y un JSON de prueba con una lista no se parece a <code>presion.json</code>.</div>
+    </div>
+  </details>
+
+  <details class="finding">
+    <summary><span class="fid">C-9</span><span class="ftitle">Excepciones de Python en lugar de las del contrato</span><span class="badge mid">Medio</span><span class="badge wk">S12</span></summary>
+    <div class="body">
+      <p><b>Contrato:</b> «los lectores reportan errores de lectura mediante el contrato de excepciones». La entrega lanzaba <code>FileNotFoundError</code>, <code>ImportError</code> y <code>ValueError</code>, y un JSON mal formado dejaba escapar <code>json.JSONDecodeError</code>. Ahora: archivo inexistente, no UTF-8, JSON mal formado o Excel dañado → <code>ErrorLecturaFuente</code>; extensión no soportada, archivo vacío, faltan columnas o JSON con forma incorrecta → <code>ErrorFormatoFuente</code>. Ambas heredan de <code>DataLabError</code> y traen su <code>CATEGORIA</code>.</p>
+      <div class="learn"><b>Para aprender:</b> <code>raise ErrorLecturaFuente(...) from exc</code> traduce el error técnico al lenguaje del proyecto <b>sin perder</b> la causa original (<code>__cause__</code>).</div>
+    </div>
+  </details>
+
+  <details class="finding">
+    <summary><span class="fid">C-10</span><span class="ftitle">Se eliminaron <code>leer_csv</code>, <code>leer_json</code> y <code>leer_excel</code></span><span class="badge mid">Medio</span><span class="badge wk">S12</span></summary>
+    <div class="body">
+      <p>Vuelven como funciones de una línea sobre las clases (<code>return LectorCSV(archivo).leer()</code>). Quien solo necesita «leer un CSV» no tiene que conocer la jerarquía, y los TODO <code>C-S12-01</code> a <code>C-S12-03</code> de la plantilla siguen teniendo dónde cumplirse.</p>
+    </div>
+  </details>
+
+  <details class="finding">
+    <summary><span class="fid">C-14</span><span class="ftitle">Cadena <code>if/elif</code>, <code>ValueError</code> genérico y «.xls» sin soporte</span><span class="badge low">Bajo</span><span class="badge wk">S12</span></summary>
+    <div class="body">
+      <div class="ba">
+        <div class="before"><span class="lbl">Antes</span><pre><code>if extension == '.csv':
+    lector = LectorCSV(self.ruta_archivo)
+elif extension == '.json': ...
+elif extension in ['.xls', '.xlsx']: ...
+else:
+    raise ValueError(...)</code></pre></div>
+        <div class="after"><span class="lbl">Después</span><pre><code>LECTORES_POR_EXTENSION = {
+    "csv": LectorCSV,
+    "json": LectorJSON,
+    "xlsx": LectorExcel,
+}
+clase_lector = LECTORES_POR_EXTENSION.get(extension)
+if clase_lector is None:
+    raise ErrorFormatoFuente(...)
+return clase_lector(self.archivo, nombre)</code></pre></div>
+      </div>
+      <p>Este punto ya se había corregido en C-5 y la entrega lo reintrodujo: <code>openpyxl</code> no lee <code>.xls</code>.</p>
+      <div class="learn"><b>Para aprender:</b> las <b>clases</b> también son objetos y se pueden guardar en un diccionario. Para agregar un formato nuevo basta con una subclase y una línea en la tabla: el principio <b>abierto/cerrado</b>.</div>
+    </div>
+  </details>
+
+  <details class="finding">
+    <summary><span class="fid">C-15</span><span class="ftitle"><code>revision/plan-c</code>: borradores de S10 y S11 sin integrar</span><span class="badge low">Bajo</span><span class="badge wk">S10–S11</span></summary>
+    <div class="body">
+      <p>El archivo mezcla texto («Python», «#SEMANA 11») con el código de cuatro módulos (<code>fixtures_semana10.py</code>, <code>fuentes_memoria.py</code>, <code>escenarios_fuente.py</code> y otro <code>lectores.py</code>). No tiene extensión, está fuera de <code>src/</code> y <code>ESCENARIOS_DEFECTUOSOS</code> empieza con un espacio (<code>IndentationError</code>). <b>No se modificó</b>, porque es un borrador del estudiante. Lo que propone ya está cubierto por <code>preparar_registros_prueba()</code> y <code>preparar_escenarios_defectuosos()</code> en <code>src/data/fuentes_memoria.py</code> (C-2 y C-3).</p>
+      <div class="ba">
+        <div class="before"><span class="lbl">Trampa en el borrador</span><pre><code>def __init__(self, datos=None):
+    self.datos = datos if datos is not None \
+                 else FIXTURES_SEMANA_10
+def agregar_registro(self, registro):
+    self.datos.append(registro)
+# ¡modifica la lista global FIXTURES_SEMANA_10!</code></pre></div>
+        <div class="after"><span class="lbl">Alternativa segura</span><pre><code>self.datos = list(datos if datos is not None
+                  else FIXTURES_SEMANA_10)
+# copia: los fixtures base no se alteran
+# (TODO C-S10-03)</code></pre></div>
+      </div>
+      <div class="learn"><b>Para aprender:</b> en Python, asignar una lista <b>no la copia</b>: las dos variables apuntan al mismo objeto (aliasing). Es el mismo problema que evita el Rol A cuando <code>normalizar_registro</code> trabaja sobre una copia. Si quieren conservar estas ideas, deben llevarlas a <code>fuentes_memoria.py</code> como funciones nuevas, no como un archivo aparte.</div>
+    </div>
+  </details>
+
+  <h3>Resultado de la corrección</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Escenario</th><th>Entrega 17-nov</th><th>Después de la corrección</th></tr></thead>
+    <tbody>
+      <tr><td>Abrir Streamlit (cualquier modo)</td><td><code>ModuleNotFoundError</code></td><td>Sin excepciones</td></tr>
+      <tr><td>Cargar un archivo desde Streamlit (<code>UploadedFile</code>)</td><td><code>TypeError</code> en <code>os.path.exists</code></td><td>Igual que por ruta</td></tr>
+      <tr><td><code>temperatura.csv</code> / <code>presion.json</code> / <code>humedad.xlsx</code></td><td>0/619/4 · 0/1/0 · 433/131/9</td><td>528/91/4 · 595/107/6 · 433/131/9 (= README)</td></tr>
+      <tr><td>Origen de un error técnico</td><td><code>lote</code></td><td><code>presion.json (fila 137)</code></td></tr>
+      <tr><td><code>CargaDatosUnificada("data/raw/presion.json").cargar()</code></td><td>1 registro</td><td>708 registros</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>Trazabilidad Git del rol</h3>
+  <p>Tres commits del 17-nov, todos <b>directamente en <code>main</code></b> y desde la cuenta compartida «Campus Sala 202»: <code>567615f</code> («plan-c», crea un archivo vacío), <code>c2466ec</code> («Correción comentarios», agrega 341 líneas a <code>plan-c</code>, aunque el mensaje no describe eso) y <code>75ebe15</code> («actualizacion archivos lectura», reemplaza los lectores y recorta <code>plan-c</code>). La rama remota <code>plan-c</code> no tiene commits propios. Según la guía, lo correcto era: rama <code>s12-fuentes</code> → commits <code>feat(fuentes): ...</code> → PR hacia <code>semana-12</code> con la evidencia de ejecución.</p>
 </section>
 
 <!-- ================================================================ -->
@@ -549,8 +727,21 @@ registro["_fila"] = indice + 2 # la fila 1 es el encabezado</code></pre></div>
     <li>El commit <code>1c1e4d6</code> aparece directamente en la historia lineal de <code>main</code>, sin commit de fusión ni Pull Request visible. La guía exige PR hacia <code>semana-XX</code> y luego hacia <code>main</code>.</li>
     <li>El único commit de estudiante tiene como autor «Campus Sala 101», una cuenta genérica del laboratorio, y se pierde la trazabilidad individual. Cada estudiante debe configurar su identidad en el equipo que use:<br>
     <code>git config user.name "Nombre Apellido"</code> y <code>git config user.email "correo@..."</code>.</li>
-    <li>Los roles B y C no tienen ninguna evidencia en Git.</li>
+    <li>Hasta el 13-nov, los roles B y C no tenían ninguna evidencia en Git. <b>18-nov:</b> el Rol C subió 3 commits, pero directamente a <code>main</code> y desde otra cuenta genérica («Campus Sala 202»). Subir sin rama ni PR fue justamente lo que permitió que <code>main</code> quedara sin funcionar: un PR con revisión de un compañero habría detectado el <code>ModuleNotFoundError</code>.</li>
   </ul>
+
+  <h3>Cambio local en <code>src/exceptions/errores.py</code> (Rol B, 18-nov)</h3>
+  <p>El repositorio tenía un cambio <b>sin commit</b> en <code>errores.py</code> que reescribe los comentarios, renombra categorías (<code>FORMATO_FUENTE</code> → <code>FORMATO</code>, <code>LECTURA_FUENTE</code> → <code>LECTURA</code>, categoría base <code>PROCESAMIENTO</code> → <code>DATALAB</code>) y simplifica <code>crear_reporte_error</code>. Los nombres nuevos son válidos y se conservaron, pero la simplificación <b>retrocedía en dos puntos de B-2</b>, que se restauraron con comentario <code># REVISIÓN (B-2, 18-nov)</code>:</p>
+  <div class="ba">
+    <div class="before"><span class="lbl">Cambio local</span><pre><code>"fecha_hora": datetime.now().isoformat(...),   # hora local
+"origen": origen,                # puede ser None
+"identificador": identificador,  # puede ser None</code></pre></div>
+    <div class="after"><span class="lbl">Restaurado</span><pre><code>"fecha_hora": datetime.now(timezone.utc).isoformat(...),
+"origen": "N/A" if origen in (None, "") else str(origen),
+"identificador": "N/A" if identificador in (None, "")
+                 else str(identificador),</code></pre></div>
+  </div>
+  <p>El README pide «fecha/hora <b>UTC</b>». Además, <code>crear_reporte_error</code> se ejecuta dentro del <code>except</code> del procesamiento: debe ser imposible que falle. Ese cambio local no tiene autor registrado; quien lo hizo debe hacer commit con su propia identidad.</p>
 
   <h3>Archivos del docente o de la línea base</h3>
   <div class="tablewrap"><table>
@@ -582,6 +773,22 @@ registro["_fila"] = indice + 2 # la fila 1 es el encabezado</code></pre></div>
       <tr><td>Interfaz Streamlit (ejecutada sin navegador con <code>streamlit.testing</code>): modo demostración y «Usar datasets de ejemplo»</td><td>Sin excepciones; pestañas Panorama, una por archivo y Reporte; indicadores 1904 recibidos, 1556 válidos, 329 inválidos y 19 errores técnicos</td></tr>
     </tbody>
   </table></div>
+
+  <h3>Re-verificación del 18-nov (segunda entrega del Rol C)</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Escenario</th><th>Resultado</th></tr></thead>
+    <tbody>
+      <tr><td>Código entregado: <code>import src.services.datalab_service</code></td><td><code>ModuleNotFoundError: No module named 'lectores'</code></td></tr>
+      <tr><td>Código entregado con solo la importación arreglada (para medir el efecto de C-7 y C-8)</td><td>CSV 0/619/4 (BOM), JSON 1 registro, Excel 433/131/9 sin origen; <code>UploadedFile</code> → <code>TypeError</code></td></tr>
+      <tr><td>Después: tres datasets por ruta y como <code>UploadedFile</code> simulado</td><td>528/91/4 · 595/107/6 · 433/131/9, iguales en ambos modos y al README; BAJO/NORMAL/ALTO de temperatura 151/225/152</td></tr>
+      <tr><td><code>CargaDatosUnificada(ruta).cargar()</code> (API de los estudiantes)</td><td>Funciona: 708 registros de <code>presion.json</code></td></tr>
+      <tr><td>Demostración · <code>preparar_registros_prueba()</code> · <code>preparar_escenarios_defectuosos()</code></td><td>12/0/0 · 16/6/0 · 2/0/4 (sin cambios)</td></tr>
+      <tr><td>Archivo inexistente, <code>.txt</code>, sin extensión, CSV vacío, CSV sin columnas, JSON mal formado, JSON escalar, Excel dañado, CSV no UTF-8</td><td><code>ErrorLecturaFuente</code> / <code>ErrorFormatoFuente</code> con mensaje claro en los 9 casos</td></tr>
+      <tr><td>CSV con filas irregulares y JSON con un elemento que no es objeto</td><td>Filas marcadas → <code>ESTRUCTURA_REGISTRO</code> con <code>x.csv (fila 3)</code>; la lectura continúa</td></tr>
+      <tr><td>Reporte de error (B-2 restaurado)</td><td><code>fecha_hora</code> con <code>+00:00</code>; identificador <code>N/A</code> para registros <code>None</code> o texto</td></tr>
+      <tr><td>Streamlit con <code>streamlit.testing.AppTest</code></td><td>Sin excepciones</td></tr>
+    </tbody>
+  </table></div>
 </section>
 
 <!-- ================================================================ -->
@@ -598,6 +805,12 @@ git show 79f28de   # Rol C</code></pre></li>
     <li>Buscar los comentarios <code># REVISIÓN</code> en cada archivo: explican el porqué de cada cambio en el mismo lugar del código. El código entre paréntesis (por ejemplo <code>A-4</code>) remite a la observación de este informe.</li>
     <li>Ejecutar la interfaz y cargar los tres archivos de <code>data/raw/</code> (o activar «Usar datasets de ejemplo»):
       <pre><code>python -m streamlit run src/interface/streamlit_app.py</code></pre></li>
+    <li><b>18-nov · segunda entrega del Rol C:</b> comparar lo que subieron con la corrección (cambios locales sobre <code>75ebe15</code>):
+      <pre><code>git diff 75ebe15 -- src/data/lectores.py src/data/carga_datos.py src/exceptions/errores.py
+git show 79f28de:src/data/lectores.py   # versión funcional anterior (C-1 a C-6)</code></pre>
+      Busquen <code>REVISIÓN (C-7)</code> a <code>REVISIÓN (C-14)</code> en <code>lectores.py</code> y <code>carga_datos.py</code>.</li>
+    <li>Probar la API de clases del Rol C:
+      <pre><code>python -c "from src.data.carga_datos import CargaDatosUnificada as C; r=C('data/raw/presion.json').cargar(); print(len(r), r[0])"</code></pre></li>
     <li>Probar a mano los escenarios del Rol C:
       <pre><code>python -c "from src.data.fuentes_memoria import preparar_escenarios_defectuosos as e; from src.processing.procesamiento import procesar_registros as p; print(p(e())['errores'])"</code></pre></li>
   </ol>
@@ -608,13 +821,13 @@ git show 79f28de   # Rol C</code></pre></li>
     <tbody>
       <tr><td>A</td><td>¿Por qué validar un rango plausible no es lo mismo que clasificar? · ¿Qué pasaría si la normalización modificara el diccionario original? · ¿Por qué <code>x != x</code> detecta un NaN? · ¿Por qué <code>"1.013,2"</code> no se convierte?</td></tr>
       <tr><td>B</td><td>¿Cuál es la diferencia entre un registro inválido y un error técnico? · ¿Por qué el <code>try</code> está dentro del <code>for</code>? · ¿Por qué hay dos bloques <code>except</code> y en ese orden? · ¿Qué ventaja tiene el atributo <code>CATEGORIA</code> frente a una cadena de <code>if</code>?</td></tr>
-      <tr><td>C</td><td>¿Por qué una fila irregular se marca en lugar de lanzar una excepción? · ¿Qué hace <code>_obtener_bytes</code> y por qué <code>open(archivo)</code> no funciona con Streamlit? · ¿Para qué sirven <code>_origen</code> y <code>_fila</code>?</td></tr>
+      <tr><td>C</td><td>¿Por qué una fila irregular se marca en lugar de lanzar una excepción? · ¿Qué hace <code>_obtener_bytes</code> y por qué <code>open(archivo)</code> no funciona con Streamlit? · ¿Para qué sirven <code>_origen</code> y <code>_fila</code>? · <b>(2.ª entrega)</b> ¿Por qué <code>from lectores import ...</code> funcionaba en su equipo y no en la aplicación? · ¿Qué es un método plantilla y por qué <code>leer()</code> está en <code>LectorBase</code> y no en cada subclase? · ¿Qué pasa si se intenta crear <code>LectorBase(...)</code> directamente? · ¿Por qué con <code>encoding='utf-8'</code> ninguna fila de <code>temperatura.csv</code> era válida? · ¿Por qué <code>[datos]</code> perdía 707 registros de <code>presion.json</code>? · ¿Por qué no se puede cambiar la firma de <code>cargar_datos</code> sin avisar a los otros roles?</td></tr>
       <tr><td>Todos</td><td>Recorran el viaje de la fila <code>PRE-0705</code> (evento <code>SIMULACION_PAQUETE_INCOMPLETO</code>, fila 137) desde <code>presion.json</code> hasta la pestaña «Errores técnicos». ¿Qué rol interviene en cada paso? ¿Y el de <code>HUM-0467</code> (valor −5 %)?</td></tr>
     </tbody>
   </table></div>
 </section>
 </main>
 
-<footer>DataLab · Revisión docente de las semanas 10 a 12 · Rama <code>revision-docente</code></footer>
+<footer>DataLab · Revisión docente de las semanas 10 a 12 · Rama <code>revision-docente</code> · Actualizado el 18-nov-2026 (2.ª entrega del Rol C)</footer>
 </body>
 </html>

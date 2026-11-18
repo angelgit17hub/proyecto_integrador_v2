@@ -1,30 +1,21 @@
 """Rol B: excepciones y registro de incidencias.
 
-Los tipos de excepción y el contrato de reporte están definidos.
-El estudiante implementa la estrategia de captura, clasificación y reporte
-durante las semanas 11 y 12.
-
-REVISIÓN (semanas 11–12): este módulo estaba sin implementar
-(NotImplementedError). Se completó para que el procesamiento funcione.
-Ideas clave para estudiar:
-
-1. JERARQUÍA DE EXCEPCIONES: todas heredan de DataLabError. Con un solo
-   `except DataLabError` se capturan todos los errores PREVISTOS del proyecto,
-   y `except Exception` queda como red de seguridad para lo imprevisto.
-2. CADA EXCEPCIÓN SABE SU CATEGORÍA: el atributo de clase CATEGORIA evita
-   cadenas de if/elif del tipo «si es X, la categoría es Y». Las subclases
-   heredan el atributo o lo redefinen.
-3. DATO DE MALA CALIDAD ≠ FALLA TÉCNICA: un valor "N/A" es un problema de
-   calidad (Rol A, va a registros_invalidos con motivos). Un timeout del
-   sensor o una fila CSV rota es una falla técnica (Rol B, va a errores).
+REVISIÓN (semanas 11-12):
+  - Cada excepción tiene ahora un atributo de clase CATEGORIA. Así el
+    procesamiento no necesita una cadena de if/elif para saber la categoría:
+    basta con leer error.CATEGORIA (las subclases la heredan o la cambian).
+  - Se agregan ErrorConversion, ErrorEstructuraRegistro y la familia
+    ErrorEventoSensor (timeout, paquete incompleto, lectura intermitente),
+    que los datasets, la interfaz y las pruebas del docente esperan.
+  - El reporte usa la clave "fecha_hora" (contrato de la interfaz docente),
+    no "timestamp".
 """
 from datetime import datetime, timezone
 
 
 class DataLabError(Exception):
     """Excepción base de la aplicación."""
-    # REVISIÓN: categoría por defecto; las subclases la redefinen.
-    CATEGORIA = "PROCESAMIENTO"
+    CATEGORIA = "DATALAB"
 
 
 class ErrorValidacion(DataLabError):
@@ -33,57 +24,54 @@ class ErrorValidacion(DataLabError):
 
 
 class ErrorFormatoFuente(DataLabError):
-    """La estructura de entrada no corresponde al contrato esperado."""
-    CATEGORIA = "FORMATO_FUENTE"
+    """La estructura de entrada no corresponde al contrato esperado
+    (extensión no soportada, columnas faltantes, JSON que no es una lista...)."""
+    CATEGORIA = "FORMATO"
 
 
 class ErrorLecturaFuente(DataLabError):
-    """No fue posible leer una fuente de datos."""
-    CATEGORIA = "LECTURA_FUENTE"
+    """No fue posible leer una fuente de datos (archivo dañado, codificación...)."""
+    CATEGORIA = "LECTURA"
 
 
-# REVISIÓN (B-3, semana 12): excepciones nuevas para los problemas que traen
-# los datasets. Heredan de las clases anteriores para conservar la jerarquía.
+# --- REVISIÓN: excepciones nuevas -------------------------------------------
 
 class ErrorConversion(DataLabError):
-    """REVISIÓN: el valor validado no pudo convertirse a número."""
+    """Un valor que pasó la validación no se pudo convertir a número (semana 12)."""
     CATEGORIA = "CONVERSION"
 
 
 class ErrorEstructuraRegistro(ErrorFormatoFuente):
-    """REVISIÓN: UN registro tiene estructura incorrecta.
-
-    Ejemplos: no es un diccionario, es None, o el lector lo marcó con
-    `_error_tecnico` (fila CSV con columnas de más o de menos). Es un
-    ErrorFormatoFuente que afecta a un solo registro, no a todo el archivo.
-    """
+    """Un registro individual llegó roto: no es diccionario o el lector lo
+    marcó con la clave "_error_tecnico" (por ejemplo, una fila irregular del CSV).
+    Hereda de ErrorFormatoFuente porque es un problema de estructura."""
     CATEGORIA = "ESTRUCTURA_REGISTRO"
 
 
 class ErrorEventoSensor(DataLabError):
-    """REVISIÓN: el sensor reportó un evento técnico (columna observacion_tecnica)."""
+    """Falla técnica reportada por el propio sensor en la columna
+    "observacion_tecnica" (valores que empiezan con "SIMULACION_")."""
     CATEGORIA = "EVENTO_SENSOR"
 
 
 class ErrorTimeoutSensor(ErrorEventoSensor):
-    """REVISIÓN: el sensor no respondió a tiempo."""
+    """El sensor no respondió a tiempo (SIMULACION_TIMEOUT_SENSOR)."""
     CATEGORIA = "TIMEOUT_SENSOR"
 
 
 class ErrorPaqueteIncompleto(ErrorEventoSensor):
-    """REVISIÓN: el paquete de datos llegó incompleto."""
+    """El paquete de datos llegó incompleto (SIMULACION_PAQUETE_INCOMPLETO)."""
     CATEGORIA = "PAQUETE_INCOMPLETO"
 
 
 class ErrorLecturaIntermitente(ErrorEventoSensor):
-    """REVISIÓN: la lectura del sensor fue intermitente (no confiable)."""
+    """La lectura del sensor fue intermitente (SIMULACION_LECTURA_INTERMITENTE)."""
     CATEGORIA = "LECTURA_INTERMITENTE"
 
 
-# REVISIÓN (B-3): tabla que relaciona cada evento simulado con su excepción.
-# Para soportar un evento nuevo basta con agregar una línea: el ciclo de
-# procesamiento no cambia. Un evento SIMULACION_* que no esté en la tabla
-# usa la clase general ErrorEventoSensor.
+# Tabla evento -> excepción. Agregar un evento nuevo = agregar una línea aquí,
+# sin tocar procesamiento.py. Un "SIMULACION_..." que no esté en la tabla se
+# reporta con la clase general ErrorEventoSensor.
 EVENTOS_TECNICOS = {
     "SIMULACION_TIMEOUT_SENSOR": ErrorTimeoutSensor,
     "SIMULACION_PAQUETE_INCOMPLETO": ErrorPaqueteIncompleto,
@@ -92,25 +80,26 @@ EVENTOS_TECNICOS = {
 
 
 def crear_reporte_error(origen, identificador, mensaje, categoria="PROCESAMIENTO"):
-    # TODO B-S11-01: construir un diccionario de error normalizado.
-    # TODO B-S11-02: incluir fecha/hora y categoría sin ocultar el mensaje original.
-    # TODO B-S11-03: evitar que el error de un registro interrumpa el lote completo.
-    """REVISIÓN (B-2): devuelve un diccionario de error normalizado.
+    """Crea un diccionario normalizado con los datos del error.
 
-    Las claves coinciden con las que muestra la pestaña «Errores técnicos»:
+    Claves (contrato con la interfaz docente, pestaña "Errores técnicos"):
     identificador, categoria, origen, mensaje, fecha_hora.
 
-    - `mensaje` puede ser texto o una excepción: str(excepcion) conserva el
-      mensaje original (TODO B-S11-02: «sin ocultar el mensaje original»).
-    - `fecha_hora` en UTC y sin microsegundos (timespec="seconds"), legible en
-      la tabla y en el CSV que se descarga.
-    - Esta función NUNCA lanza excepciones: si fallara, el error de un registro
-      sí podría interrumpir el lote (TODO B-S11-03). Por eso convierte todo a str.
+    REVISIÓN (B-2, 18-nov): el cambio local más reciente quitó dos detalles
+    que se restauran:
+      - El README pide «fecha/hora UTC». `datetime.now()` da la hora LOCAL
+        del equipo: dos equipos en zonas distintas darían horas distintas
+        para el mismo instante. `datetime.now(timezone.utc)` es inequívoca.
+      - Un registro `None` o sin id llegaba con identificador None. Se
+        reemplaza por "N/A" y todo se convierte a str: esta función NUNCA
+        debe lanzar una excepción, porque se llama DENTRO del `except` del
+        procesamiento; si fallara ahí, el error de un registro sí detendría
+        el lote (TODO B-S11-03).
     """
     return {
+        "fecha_hora": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "origen": "N/A" if origen in (None, "") else str(origen),
         "identificador": "N/A" if identificador in (None, "") else str(identificador),
         "categoria": str(categoria),
-        "origen": "N/A" if origen in (None, "") else str(origen),
         "mensaje": str(mensaje),
-        "fecha_hora": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     }
